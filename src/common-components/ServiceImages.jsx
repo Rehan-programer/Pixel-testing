@@ -72,6 +72,7 @@ const ServiceImages = ({ data, subservice, photographer, lang }) => {
               fill
               placeholder="blur"
               blurDataURL="/blur-placeholder.png"
+                loading="lazy"
               quality={70}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
               decoding="async"

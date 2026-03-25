@@ -23,7 +23,6 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
     img1.onload = checkLoaded;
     img2.onload = checkLoaded;
 
-    // agar image already cached ho toh onload fire nahi hota
     if (img1.complete) checkLoaded();
     if (img2.complete) checkLoaded();
   }, [beforeImage, afterImage]);
@@ -31,51 +30,40 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
   return (
     <div className="no-swipe cursor-e-resize rounded-[10px] w-full h-full">
 
-      {/* JS disable hone par shimmer aur slider dono hide */}
       <noscript>
         <style>{`.js-compare-widget { display: none !important; }`}</style>
       </noscript>
 
-      {/* ── JS ON: shimmer → slider ── */}
       <div className="js-compare-widget">
-      {!loaded ? (
-        <div className="w-full h-[500px] skeleton-shimmer rounded-lg" />
-      ) : (
-        <ReactCompareImage
-          leftImage={afterImage}
-          rightImage={beforeImage}
-          leftImageLabel={
-            <span className="text-white text-[clamp(0.8rem,1vw,1rem)]">
-              {leftLabel}
-            </span>
-          }
-          rightImageLabel={
-            <span className="text-white text-[clamp(0.8rem,1vw,1rem)]">
-              {rightLabel}
-            </span>
-          }
-          aspectRatio="wider"
-          handleSize={40}
-          style={{ height: "100%", width: "100%" }}
-          leftImageCss={{ objectFit: "cover", height: "100%", width: "100%" }}
-          rightImageCss={{ objectFit: "cover", height: "100%", width: "100%" }}
-          leftImageAlt={`${afterImageTag}-Pixel Perfects Solution-LLC`}
-          rightImageAlt={`${beforeImageTag}-Pixel Perfects Solution-LLC`}
-        />
-      )}
-      </div>{/* end js-compare-widget */}
+        {!loaded ? (
+          <div className="w-full h-[500px] skeleton-shimmer rounded-lg" />
+        ) : (
+          <ReactCompareImage
+            leftImage={afterImage}
+            rightImage={beforeImage}
+            leftImageLabel={
+              <span className="text-white text-[clamp(0.8rem,1vw,1rem)]">
+                {leftLabel}
+              </span>
+            }
+            rightImageLabel={
+              <span className="text-white text-[clamp(0.8rem,1vw,1rem)]">
+                {rightLabel}
+              </span>
+            }
+            aspectRatio="wider"
+            handleSize={40}
+            style={{ height: "100%", width: "100%" }}
+            leftImageCss={{ objectFit: "cover", height: "100%", width: "100%" }}
+            rightImageCss={{ objectFit: "cover", height: "100%", width: "100%" }}
+            leftImageAlt={`${afterImageTag}-Pixel Perfects Solution-LLC`}
+            rightImageAlt={`${beforeImageTag}-Pixel Perfects Solution-LLC`}
+          />
+        )}
+      </div>
 
-      {/*
-        ── JS OFF: pure HTML noscript fallback ──
-        • class  (HTML attr, not className)
-        • src    mein actual image URL (beforeImage / afterImage)
-        • React component (ChevronsLeftRight) nahi — plain SVG use kiya
-        • inline style kyunki Tailwind JS-disabled pe process nahi hoti
-      */}
       <noscript>
         <div style={{ position: "relative", width: "100%", display: "flex", overflow: "hidden", borderRadius: "10px" }}>
-
-          {/* After image — left half */}
           <img
             src={afterImage}
             alt={`${afterImageTag}-Pixel Perfects Solution-LLC`}
@@ -83,24 +71,18 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
             style={{ width: "50%", objectFit: "cover", display: "block" }}
             className="h-[20rem] md:h-[26rem] lg:h-[37vh] xl:h-[60vh]"
           />
-
-          {/* Before image — right half */}
           <img
             src={beforeImage}
             alt={`${beforeImageTag}-Pixel Perfects Solution-LLC`}
             title={`${beforeImageTag}-Pixel Perfects Solution-LLC`}
             style={{ width: "50%", objectFit: "cover", display: "block" }}
-              className="h-[20rem] md:h-[26rem] lg:h-[37vh] xl:h-[60vh]"
+            className="h-[20rem] md:h-[26rem] lg:h-[37vh] xl:h-[60vh]"
           />
-
-          {/* Center divider line */}
           <div style={{
             position: "absolute", left: "50%", top: 0,
             width: "2px", height: "100%", background: "white",
             transform: "translateX(-50%)"
           }} />
-
-          {/* Center handle — plain SVG instead of React component */}
           <div style={{
             position: "absolute", left: "50%", top: "50%",
             transform: "translate(-50%, -50%)",
@@ -110,23 +92,12 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
             background: "rgba(0,0,0,0.4)",
             boxShadow: "0 2px 8px rgba(0,0,0,0.4)"
           }}>
-            {/* ChevronsLeftRight ka plain SVG equivalent */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="22" height="22"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="white"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+              fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="m9 7-5 5 5 5" />
               <path d="m15 7 5 5-5 5" />
             </svg>
           </div>
-
-          {/* After label */}
           <span style={{
             position: "absolute", left: "1rem", top: "50%",
             transform: "translateY(-50%)",
@@ -135,8 +106,6 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
           }}>
             {lang === "es" ? "Después 24 horas" : "After 24 hours"}
           </span>
-
-          {/* Before label */}
           <span style={{
             position: "absolute", right: "1rem", top: "50%",
             transform: "translateY(-50%)",
@@ -145,7 +114,6 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
           }}>
             {lang === "es" ? "Antes" : "Before"}
           </span>
-
         </div>
       </noscript>
 
