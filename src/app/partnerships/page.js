@@ -27,7 +27,7 @@ export default async function PartnerShip() {
   return (
     <>
      <SchemaInjector page={"partnerships"} />
-      <Banner lang={lang} data={partnerPageData.BannerData} />
+      {/* <Banner lang={lang} data={partnerPageData.BannerData} />
       <Benefits lang={lang} data={partnerPageData.Benefitsdata} />
       <Partner lang={lang} data={partnerPageData.PartnerData} />
       <TestimonialsClients
@@ -37,7 +37,7 @@ export default async function PartnerShip() {
       <DataDetails lang={lang} data={partnerPageData.PartnerFillData} />
 
       <ServiceGrid lang={lang} data={partnershipsData?.fields || []} />
-      <ContactUsFormCard id="signin-component" lang={lang}  />
+      <ContactUsFormCard id="signin-component" lang={lang}  /> */}
       <ContactCards lang={lang} />
     </>
   );
