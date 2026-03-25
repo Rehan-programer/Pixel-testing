@@ -14,8 +14,6 @@ import ServicePricing from "@/components/home-page/ServicePricing/ServicePricing
 import Testimonials from "@/common-components/Testimonials/Testimonials";
 import ContactUsFormCard from "@/common-components/ContactForms/ContactUsFormCard";
 import ContactCards from "@/common-components/ContactForms/ContactCards";
-import { findAllService } from "@/_api/mainservice";
-import { findAllSubServices } from "@/_api/subServices";
 import SchemaInjector from "@/lib/Schema/SchemaInjector";
 import { generateSEOMetadata } from "@/lib/SeoConfig/GenerateSeoMetadata";
 
@@ -28,16 +26,7 @@ export default async function Home() {
   const cookieStore = await cookies();
   const lang = cookieStore.get("lang")?.value || "en";
   const homePageData = getTranslations(lang, "homePageBanner");
-//   const mainServices = await findAllService(lang);
-// const subServices = await findAllSubServices(lang);
 
-// const initialMainServices = mainServices?.slice(0, 4);
-
-// const firstMainId = initialMainServices?.[0]?.id;
-
-// const initialSubServices = subServices
-//   ?.filter((item) => item.mainServiceId === firstMainId)
-//   .slice(0, 4);
   return (
     <>
       <SchemaInjector page={"mainhome"} />
@@ -50,13 +39,11 @@ export default async function Home() {
       <OurServices
   data={homePageData?.OurServices}
   lang={lang}
-  // initialMainServices={initialMainServices}
-  // initialSubServices={initialSubServices}
+
 />
       <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
       <WhyNeed data={homePageData.WhyNeed} />
       <Industries lang={lang}
-      //  mainServices={initialMainServices} subServices={initialSubServices}
         />
       <Vision data={homePageData.visionData} />
       <ServicePricing lang={lang} data={homePageData.ServicePricingData} />

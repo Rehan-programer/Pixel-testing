@@ -2,29 +2,61 @@
 import React from "react";
 import ReactCompareImage from "react-compare-image";
 
+// ✅ Canvas se Firebase image compress karta hai — 13MB → ~150KB WebP
+async function compressImage(src, maxWidth = 900, quality = 0.75) {
+  return new Promise((resolve) => {
+    const img = new window.Image();
+    img.crossOrigin = "anonymous";
+    img.onload = () => {
+      const scale = Math.min(1, maxWidth / img.naturalWidth);
+      const w = Math.round(img.naturalWidth * scale);
+      const h = Math.round(img.naturalHeight * scale);
+      const canvas = document.createElement("canvas");
+      canvas.width = w;
+      canvas.height = h;
+      canvas.getContext("2d").drawImage(img, 0, 0, w, h);
+      canvas.toBlob(
+        (blob) => resolve(blob ? URL.createObjectURL(blob) : src),
+        "image/webp",
+        quality
+      );
+    };
+    img.onerror = () => resolve(src); // CORS fail ho toh original use karo
+    img.src = src;
+  });
+}
+
 const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage, subName, lang }) => {
   const leftLabel = lang === "es" ? "Después 24 horas" : "After 24 hours";
   const rightLabel = lang === "es" ? "Antes" : "Before";
+
   const [loaded, setLoaded] = React.useState(false);
+  const [compressedAfter, setCompressedAfter] = React.useState(null);
+  const [compressedBefore, setCompressedBefore] = React.useState(null);
+  const blobRefs = React.useRef({ after: null, before: null });
 
   React.useEffect(() => {
-    const img1 = new window.Image();
-    const img2 = new window.Image();
+    setLoaded(false);
+    setCompressedAfter(null);
+    setCompressedBefore(null);
 
-    img1.src = afterImage;
-    img2.src = beforeImage;
+    Promise.all([
+      compressImage(afterImage, 900, 0.75),
+      compressImage(beforeImage, 900, 0.75),
+    ]).then(([after, before]) => {
+      // Purane blob URLs memory free karo
+      if (blobRefs.current.after?.startsWith("blob:")) URL.revokeObjectURL(blobRefs.current.after);
+      if (blobRefs.current.before?.startsWith("blob:")) URL.revokeObjectURL(blobRefs.current.before);
+      blobRefs.current = { after, before };
+      setCompressedAfter(after);
+      setCompressedBefore(before);
+      setLoaded(true);
+    });
 
-    let count = 0;
-    const checkLoaded = () => {
-      count++;
-      if (count === 2) setLoaded(true);
+    return () => {
+      if (blobRefs.current.after?.startsWith("blob:")) URL.revokeObjectURL(blobRefs.current.after);
+      if (blobRefs.current.before?.startsWith("blob:")) URL.revokeObjectURL(blobRefs.current.before);
     };
-
-    img1.onload = checkLoaded;
-    img2.onload = checkLoaded;
-
-    if (img1.complete) checkLoaded();
-    if (img2.complete) checkLoaded();
   }, [beforeImage, afterImage]);
 
   return (
@@ -39,8 +71,8 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
           <div className="w-full h-[500px] skeleton-shimmer rounded-lg" />
         ) : (
           <ReactCompareImage
-            leftImage={afterImage}
-            rightImage={beforeImage}
+            leftImage={compressedAfter}
+            rightImage={compressedBefore}
             leftImageLabel={
               <span className="text-white text-[clamp(0.8rem,1vw,1rem)]">
                 {leftLabel}
