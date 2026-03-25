@@ -1,0 +1,147 @@
+{
+  "BannerData": {
+    "head": "INTERIOR DESIGNERS",
+    "para": "Interior designers do much more than simply plan spaces—they transform environments into visually captivating experiences. By conceptualizing designs that resonate with the audience, they breathe life into any space. Styldod helps you elevate your design presentations by creating stunning visuals that reflect even the finest details. With our services, you can impress your clients or prospective firms by showcasing work that truly demonstrates your full creative potential and expertise.",
+    "btn": "Get In Touch",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Commercial%20Virtual%20Staging%2FAfter%2FCommercial%20Staging%201%20After.webp?alt=media&token=01f0a17d-1b93-4fe6-af65-177583f7b445"
+  },
+  "PropertyService": {
+    "title": "Services For Interior Designers",
+    "ServiceData": [
+      {
+        "label": "3D 360° Render",
+        "para": "Provide an immersive virtual experience with our 3D 360° Render service. Create detailed, interactive models to help clients visualize the property from every angle.",
+        "link": "/services/360-renders",
+        "shortpara": "Create interactive 3D models for immersive virtual experiences from every angle.",
+        "price": "$100",
+        "pricetitle": "per render",
+        "img": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20360%20Renders%2F3D%20360%20Renders%20S4%20-%20Pixel%20Perfects%20Solution.webp?alt=media&token=37a4cf5a-9347-4626-9c3c-a5da0163615b",
+        "points": [
+          "Creates detailed and interactive property models",
+          "Enhances client engagement with virtual walkthroughs",
+          "Showcases properties in high-quality 3D"
+        ]
+      },
+      {
+        "label": "360° Virtual Tour",
+        "link": "/services/360-walkthrough",
+        "shortpara": "Offer an engaging virtual walkthrough of properties, highlighting key features",
+        "para": "Immerse clients in a comprehensive virtual experience with our 360° Virtual Tour service. Highlight key points and provide an engaging view of the property.",
+        "price": "$1",
+        "pricetitle": "per tour",
+        "video": "/Real estate Video.mp4",
+        "points": [
+          "Provides an engaging virtual walkthrough",
+          "Highlights property points dynamically",
+          "High-quality video editing for a professional finish"
+        ]
+      },
+      {
+        "label": "Commercial Virtual Staging",
+        "para": "Transform commercial spaces with our Virtual Staging service. Visualize potential layouts and designs to enhance appeal and functionality without physical alterations.",
+        "link": "/services/commercial-virtual-staging",
+        "shortpara": "Enhance commercial spaces with virtual staging, visualizing layouts without physical changes.",
+        "price": "$27",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Commercial%20Virtual%20Staging%2FAfter%2FCommercial%20Staging%201%20After.webp?alt=media&token=01f0a17d-1b93-4fe6-af65-177583f7b445",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Commercial%20Virtual%20Staging%2FBefore%2FCommercial%20Staging%201%20Before.webp?alt=media&token=c3df6c53-716d-4e0e-8605-0b2e3901e521",
+        "points": [
+          "Enables visualization of space transformations",
+          "Tailored to specific client requirements",
+          "Cost-effective solution for space enhancements"
+        ]
+      },
+      {
+        "label": "Floor Plan Creation",
+        "para": "Enhance your property presentations with our 3D Floor Plan service. Offer a detailed, three-dimensional view of the layout to better illustrate spatial relationships.",
+        "price": "$35",
+        "shortpara": "Create precise 3D floor plans to better illustrate layouts for client understanding",
+        "link": "/services/3d-floor-plan",
+        "pricetitle": "per plan",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FAfter%2F3d%20Floor%20Plan%205%20After.webp?alt=media&token=27bdc9b7-b728-43f3-af49-4daee41fdd25",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FBefore%2F3d%20Floor%20Plan%205%20Before.webp?alt=media&token=45e7ed62-08e2-4841-b076-f061cc3c28b9",
+        "points": [
+          "Precise spatial representation",
+          "Enhances client understanding of the layout",
+          "Customizable for various property types"
+        ]
+      },
+      {
+        "label": "Virtual Staging",
+        "para": "Enhance vacant or cluttered spaces with our Virtual Staging service. Transform properties into elegantly staged environments, showcasing their potential with modern, stylish designs. Ideal for attracting prospective buyers and elevating property appeal.",
+        "link": "/services/virtual-staging",
+        "price": "$14",
+        "shortpara": "Transform vacant or cluttered spaces into stylish, staged environments to attract buyers.",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%206%20after.webp?alt=media&token=ddb30cbb-a672-45c2-ab73-ab979fc10461",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fbefore%2Fvirtual%20staging%206%20before.webp?alt=media&token=3b558274-4007-40ff-859d-7a0f99cca57f",
+        "points": [
+          "Elevate property appeal with contemporary designs",
+          "Tailor staging to meet client preferences",
+          "Cost-efficient alternative to physical staging"
+        ]
+      },
+      {
+        "label": "Image Enhancement",
+        "shortpara": "Enhance images to showcase potential renovations or improvements with high-quality results.",
+        "para": "Envision potential transformations without the expense of actual renovations. Our Virtual Renovation service enables the redesign of structural elements such as walls and floors, allowing clients to explore future possibilities with ease.",
+        "price": "$27",
+        "link": "/services/image-enhancement",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%202%20after.webp?alt=media&token=4090e530-2e69-4029-9a2d-f826b24530ec",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%202%20before.webp?alt=media&token=e4fcc6f7-bcc6-4083-93fa-e0e2a3ebe967",
+        "points": [
+          "Visualize potential renovations without physical alterations",
+          "Customize renovations to align with client needs",
+          "Reduce costs associated with actual renovations"
+        ]
+      },
+      {
+        "label": "Aerial Property Photography",
+        "shortpara": "Capture unique aerial views of properties, enhancing marketing materials with dynamic visuals.",
+        "para": "Showcase properties from breathtaking angles with our aerial drone photography service. Capture unique perspectives that highlight the property and its surroundings, enhancing its marketing appeal.",
+        "price": "$2",
+        "link": "/other-edits",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Ariel%20editing%2FAfter%2FAerial%20editing%2011%20After.webp?alt=media&token=aa3dbc11-581c-4a7f-add8-ed481279a85d",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Ariel%20editing%2FBefore%2FAerial%20editing%2011%20Before.webp?alt=media&token=0da7099b-e3a1-41db-90b8-881a9d8091f4",
+        "points": [
+          "Capture distinctive angles and views",
+          "Highlight property points and surroundings",
+          "Enhance marketing materials with dynamic visuals"
+        ]
+      }
+    ]
+  },
+  "ChooseBenfits": {
+    "head": "Why Choose Pixel Perfects Solution?",
+    "para": "At Pixel Perfects Solution, we empower interior designers to present their creative visions with unmatched clarity and impact. Our services, including image enhancement, virtual staging, and photo editing, help you showcase your designs in the best possible way. Whether it's highlighting design concepts, model spaces, or completed interiors, we deliver visuals that impress and inspire. With a dedication to quality, creativity, and timely delivery, we help you turn your design ideas into stunning presentations that resonate with clients and stakeholders. Trust us to bring your interiors to life and elevate your portfolio to the next level. In today's competitive real estate market, first impressions matter more than ever. A high-quality image can make or break a buyer's interest in a property. When it comes to professional real estate image editing, two names often stand out: Pixel Perfect Solutions and BoxBrownie. But which one is the right partner for your real estate needs? Let's dive into a detailed comparison and see why Pixel Perfect Solutions might be the perfect choice for you.",
+    "detail": [
+      {
+        "img": "/Interior Deisgners/Benefits/High-Impact Visuals.webp",
+        "label": "High-Impact Visuals",
+        "para": "Showcase your designs with visually stunning enhancements that captivate clients and set you apart from competitors."
+      },
+      {
+        "img": "/Interior Deisgners/Benefits/Creative Portfolio Building.webp",
+        "label": "Creative Portfolio Building",
+        "para": "Enhance your portfolio with professional editing and virtual staging that highlights the unique aspects of your designs."
+      },
+      {
+        "img": "/Interior Deisgners/Benefits/Tailored Solutions.webp",
+        "label": "Tailored Solutions",
+        "para": "Our solutions are designed to fit your creative process and meet the specific needs of your projects."
+      },
+      {
+        "img": "/Interior Deisgners/Benefits/Enhanced Client Approval.webp",
+        "label": "Enhanced Client Approval",
+        "para": "Help your clients visualize your concepts with detailed visuals and revisions until they are fully satisfied."
+      }
+    ]
+  },
+  "FirstTime": {
+    "head": "Book Your Free Consultation",
+    "para1": "Enhance your real estate listings with expertly edited photos by Pixel Perfects Solution. Elevate your property presentation and boost sales with our professional editing services.",
+    "buttontext": "Book Now"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "BannerData": {
+    "head": "DOMINA EL ARTE DE LA FOTOGRAFÍA INMOBILIARIA",
+    "para": "Lleva tus listados de propiedades a nuevas alturas con nuestra completa gama de herramientas de edición virtual. Desde planos detallados hasta imágenes en alta resolución, nuestras soluciones están diseñadas para mostrar tus propiedades de la mejor manera posible. Estas imágenes de alta calidad no solo aumentan la comercialización de tus listados, sino que también ayudan a generar confianza y credibilidad con los clientes, asegurando que tu trabajo destaque en un mercado inmobiliario competitivo.",
+    "btn": "CONTÁCTANOS",
+    "img": "/assets/img/Photographers/realestateimage.webp"
+  },
+  "Benefitsdata": {
+    "head": "Beneficios clave de nuestros servicios",
+    "detail": [
+      {
+        "img": "/assets/img/Photographers/photgrapherbenefitsimages/world.webp",
+        "label": "Calidad de clase mundial",
+        "para": "Nuestro compromiso con la entrega de una calidad excepcional asegura que tu fotografía inmobiliaria destaque en el mercado competitivo."
+      },
+      {
+        "img": "/assets/img/Photographers/photgrapherbenefitsimages/grow.webp",
+        "label": "Aumenta tus márgenes de beneficio",
+        "para": "Aprovecha nuestros precios exclusivos con descuento en todos los servicios, diseñados para ayudarte a aumentar tu rentabilidad y hacer crecer tu negocio."
+      },
+      {
+        "img": "/assets/img/Photographers/photgrapherbenefitsimages/free delivery.webp",
+        "label": "Proceso de entrega sin inconvenientes",
+        "para": "Como socio preferido, disfruta de un manejo prioritario de pedidos con una entrega más rápida y sin complicaciones para garantizar una finalización fluida de los proyectos."
+      }
+    ]
+  },
+  "PhotoHelp": {
+    "subtitle": "ESTAMOS AQUÍ PARA AYUDAR",
+    "title": "¡Tú fotografías, nosotros hacemos el resto!",
+    "detail": "Con la industria de la fotografía inmobiliaria cada vez más competitiva, asociarte con Pixel Perfects Solution es uno de los movimientos más inteligentes que puedes hacer para ampliar tu oferta de servicios. Nuestras soluciones de Tours Virtuales y Puesta en Escena Virtual son muy solicitadas por los agentes inmobiliarios. Nunca ha habido un mejor momento para elevar tu negocio con estos servicios de vanguardia.",
+     "btn": "CONTÁCTANOS"
+      },
+  "BeforeAfterData": [
+    {
+      "title": "Puesta en Escena Virtual",
+      "para": "La Puesta en Escena Virtual es una solución ideal en una era de distanciamiento social, que ofrece beneficios comparables a una fracción del costo. Simplemente toma tus fotos y nosotros nos encargamos de la puesta en escena virtual.",
+      "price": "El precio comienza en $14/imagen",
+      "link": "/services/virtual-staging",
+      "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%202%20after.webp?alt=media&token=438dfcae-b82f-4947-8ff4-e61f87389a1c",
+      "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fbefore%2Fvirtual%20staging%202%20before.webp?alt=media&token=c79b2277-fd56-469f-a802-a4cee25fd63e",
+      "points": [
+        "La solución de Puesta en Escena Virtual más económica y sin complicaciones disponible.",
+        "Accede a cientos de estilos de tendencia a través de nuestra completa Guía de Estilos.",
+        "Entrega rápida con opción disponible en 24 horas."
+      ]
+    },
+    {
+      "title": "Mejora de Imágenes",
+      "para": "Las fotos de calidad profesional pueden acelerar la venta de listados hasta en un 50%. Nuestros servicios expertos de edición de fotos están diseñados para mejorar tus imágenes inmobiliarias, asegurando que destaquen en el mercado.",
+      "price": "El precio comienza en $1.60/imagen",
+      "link": "/services/image-enhancement",
+      "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%206%20after.webp?alt=media&token=d7f7e0a7-6b70-4740-b3aa-b1cdd2c4c57b",
+      "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%206%20before.webp?alt=media&token=3d3bd1cd-f0af-49da-bcef-ba180729ecb6",
+      "points": [
+        "Refina céspedes, endereza imágenes, corrige distorsiones y elimina reflejos.",
+        "Optimiza el balance de color, ajusta brillo y contraste, mejora detalles, y más.",
+        "Disponible como complemento a nuestro servicio de Puesta en Escena Virtual para un paquete integral de mejora."
+      ]
+    },
+    {
+      "title": "Despeje Virtual",
+      "price": "El precio comienza en $8/imagen",
+      "link": "/services/virtual-declutter",
+      "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Declutter%2Fafter%2FVirtual%20Declutter%202%20after.webp?alt=media&token=da0e7228-09cc-4986-b939-4a54ce12a1dc",
+      "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Declutter%2Fbefore%2FVirtual%20Declutter%202%20before.webp?alt=media&token=b04ef259-129c-4f5f-880d-662c774d2b0d",
+      "para": "¿Fotografiando una propiedad ocupada? Nuestros artistas fotográficos pueden eliminar virtualmente muebles u objetos para crear una apariencia vacía, mejorando el atractivo visual de tu propiedad.",
+      "points": [
+        "Elimina el desorden para presentar habitaciones limpias, ordenadas y espaciosas.",
+        "Elimina selectivamente muebles viejos, objetos o personas de tus fotos.",
+        "Actualiza muebles poco atractivos con piezas modernas y elegantes mediante nuestro servicio de Puesta en Escena Virtual."
+      ]
+    },
+    {
+      "title": "Plano de Piso 3D",
+      "price": "El precio comienza en $70/imagen",
+      "link": "/services/3d-floor-plan",
+      "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FAfter%2F3d%20Floor%20Plan%203%20After.webp?alt=media&token=5665633a-d26b-481d-a867-fbd85f71f1d9",
+      "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FBefore%2F3d%20Floor%20Plan%203%20Before.webp?alt=media&token=a082b83d-1947-4f4c-9505-9b0d60930a24",
+      "para": "Mejora la presentación de tu propiedad con planos detallados y estéticamente atractivos. Simplemente sube tus dibujos, planos o bocetos a mano y los transformaremos en visuales profesionales y pulidos.",
+      "points": [
+        "Muestra la dirección de la propiedad, nombres de habitaciones, dimensiones, área total y un descargo de responsabilidad.",
+        "Exhibe cada detalle del diseño del hogar, incluidos los muebles, con nuestra opción de plano de piso en color 3D.",
+        "Utiliza el complemento del plano del sitio para resaltar toda la propiedad, incluidas características exteriores clave."
+      ]
+    }
+  ]
+}

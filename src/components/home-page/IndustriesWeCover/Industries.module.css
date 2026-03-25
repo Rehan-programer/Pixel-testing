@@ -1,0 +1,34 @@
+.activeTab {
+  background: #cde5ff;
+  width: 100%;
+  color: #00cfaa;
+  display: flex;
+  justify-content: space-between;
+  padding: clamp(0.5rem, 0.7vw, 1rem);
+  font-size: clamp(0.8rem, 1vw, 1.2rem);
+
+  border: none;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 2px;
+}
+
+.btnTab {
+  width: 100%;
+  font-size: clamp(0.8rem, 1vw, 1.2rem);
+  background: no-repeat;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  padding: clamp(0.5rem, 0.7vw, 1rem);
+  align-items: center;
+  font-weight: 600;
+  color: #292a76;
+}
+
+.btnTab:hover {
+  color: #00cfaa;
+}
+.btnTab:hover svg {
+  color: #00cfaa;border-color: #00cfaa;
+}

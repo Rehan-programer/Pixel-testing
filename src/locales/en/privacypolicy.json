@@ -1,0 +1,184 @@
+{
+  "BannerLabel": "Privacy Policy",
+  "paragraph": "If you have any questions or complaints about this Privacy Policy, or you wish to exercise your opt-out rights hereunder or access or correct data applicable to you, please contact us",
+  "date": "Effective Date: [06-Nov-2024]",
+  "para1": "Pixel Perfects Solutions (“we,” “us,” or “our”) is committed to protecting the privacy of our customers (“you” or “your”) and ensuring that your personal data is handled responsibly. This Privacy Policy outlines what information we collect, how we use it, and your rights regarding your data. By using our services, you agree to the terms of this Privacy Policy.",
+  "Policydata": [
+    {
+      "id": 1,
+      "heading": " Information You Provide",
+      "detail": [
+        {
+          "para": "We collect information directly from you when you engage with our services, complete forms, submit files, or communicate with our team."
+        },
+        {
+          "subheading": "a) Personal Information",
+          "list": [
+            "Full Name",
+            "Email Address",
+            "Contact Number",
+            "Country, State, and City of Residence"
+          ],
+          "purpose": "To identify you, communicate service updates, send order confirmations, and provide ongoing customer support."
+        },
+        {
+          "subheading": "b) Service-Related Files",
+          "list": [
+            "Uploaded images and videos",
+            "File links",
+            "Project materials or references provided by you"
+          ],
+          "purpose": "To execute services like product design, app development, UI/UX, and digital consulting."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": " How We Use Your Information",
+      "detail": [
+        { "para": "We use the collected information for the following purposes:" },
+        {
+          "list": [
+            "Service Provision: To fulfill and deliver the requested services, such as image editing and staging.",
+            "Customer Support: To communicate with you about your orders and respond to inquiries.",
+            "Order History: To maintain an order history that allows us to retrieve and provide previous files upon request.",
+            "Improvement of Services: To analyze usage trends and improve our services."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "heading": " Data Retention and Deletion",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Retention Period",
+              "desc": "We retain personal data and files as long as necessary to fulfill the purpose for which it was collected, or as required by law."
+            },
+            {
+              "title": "User-Controlled Deletion",
+              "desc": "You have the right to delete your orders at any time. Even after deletion, we securely retain an archive of your files in our database to allow retrieval if requested in the future."
+            },
+            {
+              "title": "Profile Deletion",
+              "desc": "If you delete your profile, we will securely store your files and associated data for future reference, should you need to retrieve it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "heading": " Sharing of Information",
+      "detail": [
+        {
+          "para": "We do not share, sell, or otherwise distribute your personal information or files to third parties. Your data is accessible only to authorized personnel within our company who require it to complete your requested services."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "heading": " Security of Your Information",
+      "detail": [
+        { "para": "We implement a range of security measures to protect your information, including:" },
+        {
+          "table": [
+            {
+              "title": "Encryption",
+              "desc": "All data transferred between you and our website is encrypted through SSL (Secure Sockets Layer)."
+            },
+            {
+              "title": "Access Control",
+              "desc": "Only essential personnel have access to your data, with secure authentication processes in place."
+            },
+            {
+              "title": "Data Storage Security",
+              "desc": "Files and personal data are stored in secure databases with restricted access."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "heading": " Users Rights Over Their Data",
+      "detail": [
+        { "para": "We respect your rights over your data and provide the following options:" },
+        {
+          "subheading": "a) Right to Access and Modify",
+          "para": "You can contact us to update or correct your personal information. We'll make the necessary updates in our records to ensure accuracy."
+        },
+        {
+          "subheading": "b) Right to Delete",
+          "para": "You have the right to delete your orders or profile at any time. While your profile or order data will be removed from active access, we securely retain a backup of these files to allow retrieval if requested in the future."
+        },
+        {
+          "subheading": "c) Right to Data Retrieval",
+          "para": "Even after deleting your profile or orders, you may contact us to retrieve your data. We will verify your identity before providing access to archived files."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "heading": " Cookie Policy",
+      "detail": [
+        {
+          "para": "Our website may use cookies to enhance user experience and analyze usage patterns. Cookies are small files stored on your device that help us improve our website functionality. You can disable cookies in your browser settings, though this may impact your user experience."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "heading": " International Transfers",
+      "detail": [
+        {
+          "para": "As an international service provider, your data may be accessed from different locations to fulfill your order. However, we ensure that all processing complies with applicable privacy regulations, regardless of geographic location."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "heading": " Compliance with Legal Obligations",
+      "detail": [
+        {
+          "para": "We may disclose your information if required to do so by law, in response to lawful requests from public authorities, or to comply with applicable legal obligations."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "heading": " Changes to This Privacy Policy",
+      "detail": [
+        {
+          "para": "We may update this Privacy Policy occasionally to reflect changes in our practices or applicable laws. When we update the policy, we will post the revised version with an updated effective date."
+        }
+      ]
+    },
+ {
+  "id": 11,
+  "heading": " Contact Us",
+  "detail": [
+    {
+      "para": "For any questions or requests regarding this policy, please reach out to us:"
+    },
+    {
+      "contacts": [
+        { "type": "email", "label": "Email", "value": "orders@pxlperfects.com" },
+        { "type": "phone", "label": "US Contact Number", "value": "+1 307 243 2920" },
+        { "type": "phone", "label": "PK Contact Number", "value": "+92 303 408 7599" }
+      ]
+    },
+    {
+      "para": "Mailing Addresses:",
+      "list": [
+        "Pixel Perfects Solutions, 30 N Gould ST STE N, Sheridan, WY 82801, United States",
+        "Office No. 117, Gosha-e-Ahbab, Phase 3, Multan Road, Lahore, Pakistan"
+      ]
+    }
+  ]
+}
+
+  ]
+}

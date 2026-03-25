@@ -1,0 +1,334 @@
+{
+    "label": "Enhance Your Listings with Pixel's Services",
+    "para": "Hey there, home-selling heroes! At Pixel Perfects, we totally get that stellar listing pics are THE game-changer in the house hustle. That's why we're here to jazz up your snaps, clear the clutter, and stage those rooms like a boss! And guess what? We do it fast, easy, and without breaking the bank! Let's make magic happen – one pic at a time, free of cost!",
+    "button": "Explore Services",
+    "contacttext": "Or, book a free trial",
+    "contactlink": "/free-trial",
+    "credittext": "Quick, Easy And No Strings Attached. No Credit Card Required.",
+    "BannerData": [
+        {
+            "id": 2,
+            "project_title": "Visualization",
+            "img": "/assets/img/HomeBanner/Visualization S10.webp",
+            "price":"100"
+        },
+        {
+            "id": 3,
+            "project_title": "Front Elevation",
+            "img": "/assets/img/HomeBanner/Front Elevation S1 - Pixel Perfects Solutions.webp",
+            "price": " 300"
+        },
+        {
+            "id": 1,
+            "project_title": "3D 360 Renders",
+            "img": "/assets/img/HomeBanner/3D 360 Renders S1 - Pixel Perfects Solution.webp",
+            "price": " 100"
+        },
+        {
+            "id": 4,
+            "project_title": "3D Colored Floor Plan",
+            "beforeafter": "/assets/img/Photography guide/Real Estate Photo editing Services/3d fllor plan.webp",
+            "beforeafterMobile": "/assets/img/Photography guide/Real Estate Photo editing Services/For mobile/3d floor mobile.webp",
+            "Afterimg": "/assets/img/HomeBanner/3d Floor Plan2 After.webp",
+            "Beforeimg": "/assets/img/HomeBanner/3d Floor Plan 2 Before.webp",
+            "AfterimgAlt":"3d Floor Plan 2 After",
+            "BeforeimgAlt":"3d Floor Plan 2 Before",
+            "price": "70"
+        },
+        {
+            "id": 5,
+            "project_title": "Virtual Staging",
+            "beforeafter": "/assets/img/Photography guide/Real Estate Photo editing Services/virtual stagin.webp",
+            "beforeafterMobile": "/assets/img/Photography guide/Real Estate Photo editing Services/For mobile/Virtual staging mobile.webp",
+            "Afterimg": "/assets/img/HomeBanner/virtual staging 5 after.webp",
+            "Beforeimg": "/assets/img/HomeBanner/virtual staging 5 before.webp",
+            "AfterimgAlt":"virtual staging 5 after",
+            "BeforeimgAlt":"virtual staging 5 before",
+            "price": " 14"
+        },
+        {
+            "id": 7,
+            "project_title": "Virtual Renovation",
+            "beforeafter": "/assets/img/Photography guide/Real Estate Photo editing Services/virtual renovation.webp",
+            "beforeafterMobile": "/assets/img/Photography guide/Real Estate Photo editing Services/For mobile/Virtual Renovation mobile.webp",
+            "Afterimg": "/assets/img/HomeBanner/Virtual Renovation 1 after.webp",
+            "Beforeimg": "/assets/img/HomeBanner/Virtual Renovation 1 before.webp",
+              "AfterimgAlt":"Virtual Renovation 1 after",
+            "BeforeimgAlt":"Virtual Renovation 1 before",
+            "price": " 27"
+        },
+        {
+            "id": 6,
+            "project_title": "Image Enhancement",
+            "beforeafter": "/assets/img/Photography guide/Real Estate Photo editing Services/Image enhancement.webp",
+            "beforeafterMobile": "/assets/img/Photography guide/Real Estate Photo editing Services/For mobile/Image Enhancement mobile.webp",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%202%20after.webp?alt=media&token=4090e530-2e69-4029-9a2d-f826b24530ec",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%202%20before.webp?alt=media&token=e4fcc6f7-bcc6-4083-93fa-e0e2a3ebe967",
+             "AfterimgAlt":"Image Enhancement 1 after",
+            "BeforeimgAlt":"Image Enhancement before",  "price": " 1.60"
+        },
+        {
+            "id": 7,
+            "project_title": "Day to Dusk",
+            "beforeafter": "/assets/img/Photography guide/Real Estate Photo editing Services/day to dusk.webp",
+            "beforeafterMobile": "/assets/img/Photography guide/Real Estate Photo editing Services/For mobile/Day to Dusk mobile.webp",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Day%20to%20Dusk%2FAfter%2Fday%20to%20dusk%201%20after.webp?alt=media&token=71439ef4-db37-40d6-993d-b818f3c41287",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Day%20to%20Dusk%2FBefore%2Fday%20to%20dusk%201%20before.webp?alt=media&token=77a06f04-1cf3-4dc7-862c-8ff82e358cd6",
+            "AfterimgAlt":"Day to Dusk 1 after",
+            "BeforeimgAlt":"Day to Dusk 1 before",
+            "price": " 4"
+        },
+        {
+            "id": 1,
+            "project_title": "2D Colored Floor Plan",
+            "beforeafter": "/assets/img/Photography guide/Real Estate Photo editing Services/2d floor plan.webp",
+            "beforeafterMobile": "/assets/img/Photography guide/Real Estate Photo editing Services/For mobile/2d floor mobile.webp",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/2D%20Floor%20Plan%2FAfter%2F2D%20Floor%20Plan%203%20After.webp?alt=media&token=0354ca93-772d-447a-9536-cde9245a425c",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/2D%20Floor%20Plan%2FBefore%2F2D%20Floor%20Plan%203%20Before.webp?alt=media&token=b0b072b4-6b9f-4a9e-8b10-79809bf349e4",
+              "AfterimgAlt":"2D Colored Floor Plan 1 after",
+            "BeforeimgAlt":"2D Colored Floor Plan 1 before",
+             "price": " 20"
+        },
+        {
+            "id": 4,
+            "project_title": "Virtual Declutter",
+            "beforeafter": "/assets/img/Photography guide/Real Estate Photo editing Services/virtual decluuter.webp",
+            "beforeafterMobile": "/assets/img/Photography guide/Real Estate Photo editing Services/For mobile/Virtual decluuter mobile.webp",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Declutter%2Fafter%2FVirtual%20Declutter%202%20after.webp?alt=media&token=da0e7228-09cc-4986-b939-4a54ce12a1dc",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Declutter%2Fbefore%2FVirtual%20Declutter%202%20before.webp?alt=media&token=b04ef259-129c-4f5f-880d-662c774d2b0d",
+              "AfterimgAlt":"Virtual Declutter after",
+            "BeforeimgAlt":"Virtual Declutter before",
+             "price": " 8"
+        }
+    ],
+    "PortalData":[
+  {  "id":"01",
+    "title": "Select Your Service",
+    "description": "Browse through our tailored range of real estate marketing services — from virtual staging to photo enhancement. Pick the service that best suits your listing’s needs and start transforming your property visuals instantly.",
+    "image": "/assets/img/selectService.jpg"
+  },
+  {
+     "id":"02",
+    "title": "Add Project Details",
+    "description": "Easily upload your property images and provide specific instructions. Whether it’s adding furniture style preferences, room types, or selecting add-on services — our smart project form makes it simple and intuitive.",
+    "image": "/assets/img/addprojectdetails.jpg"
+  },
+  { "id":"03",
+    "title": "Get It Delivered",
+    "description": "Once submitted, our expert design team begins work on your request. You’ll receive professionally enhanced visuals within your selected delivery timeline — ready to attract more buyers and close deals faster.",
+    "image": "/assets/img/getitdelivered.jpg"
+  }
+],
+ "OurClients": {
+    "title": "Trusted by<br/>Industry Experts",
+    "detail": "At our company, we pride ourselves on creating the world's premier virtual staging designs. With over a decade of experience and a portfolio of more than 100,000 properties successfully staged, you can be confident in the quality and expertise we bring to every project.",
+    "ClientLogo": [
+      { "id": 1, "logoUrl": "Better_Homes_and_Gardens_Real_Estate_logo" },
+      { "id": 2, "logoUrl": "CBRE" },
+      { "id": 3, "logoUrl": "Century_21_Real_Estate_logo" },
+      { "id": 4, "logoUrl": "Chicago_title" },
+      { "id": 5, "logoUrl": "coldwell_banker_real_estate_llc" },
+      { "id": 6, "logoUrl": "Colliers" },
+      { "id": 7, "logoUrl": "cushman-wakefield" },
+      { "id": 8, "logoUrl": "Excel_Realty_Fine_Homes" },
+      { "id": 9, "logoUrl": "First_American_Title" },
+      { "id": 10, "logoUrl": "Home_Smart" },
+      { "id": 11, "logoUrl": "Intero_Real_Estate_Services" },
+      { "id": 12, "logoUrl": "Keller_Williams" },
+      { "id": 13, "logoUrl": "loopnet" },
+      { "id": 14, "logoUrl": "Lyon_Real_Estate" },
+      { "id": 15, "logoUrl": "MAE_Capital_Mortage" },
+      { "id": 16, "logoUrl": "MarcusMillichap" },
+      { "id": 17, "logoUrl": "Meritage_Homes" },
+      { "id": 18, "logoUrl": "Realty_World" },
+      { "id": 19, "logoUrl": "ReMax" },
+      { "id": 20, "logoUrl": "SJB_Real_Estate" },
+      { "id": 21, "logoUrl": "Sothbey's_International_Realty" },
+      { "id": 22, "logoUrl": "Transwestern" },
+      { "id": 23, "logoUrl": "TRI_Commercial" },
+      { "id": 24, "logoUrl": "ZipRealty" }
+    ]
+  },
+ "LaunchingData": [
+    {
+      "icon": "SettingsSuggestIcon",
+      "title": "UNLIMITED CHANGES",
+      "text": "We stand by our commitment to 100% satisfaction through our Unlimited Changes."
+    },
+    {
+      "icon": "AutoFixHighIcon",
+      "title": "FREE TRIAL",
+      "text": "Received 3 image enhancements and 1 day to dusk edit on signup."
+    },
+    {
+      "icon": "SubscriptionsIcon",
+      "title": "NO SUBSCRIPTIONS",
+      "text": "Say goodbye to subscriptions – with us, you pay only for what you use."
+    },
+    {
+      "icon": "DesignServicesIcon",
+      "title": "REAL SERVICE",
+      "text": "Our customer service is available 24/7 on live chat or phone."
+    },
+    {
+      "icon": "24Hours",
+      "title": "FAST",
+      "text": "Experience a rapid 24-hour turnaround for all your image editing needs."
+    },
+    {
+      "icon": "Copyright",
+      "title": "NO COPYRIGHT",
+      "text": "We handle the editing of your images and return them to you, retaining no ownership rights."
+    }
+  ],
+  "OurServices":{
+    "title":"Our Services",
+    "detail":"At Pixel Perfects Solutions, we specialize in transforming the real estate properties through our innovative services. From virtual staging that breathes life into properties to virtual renovation that unveils untapped potential, and enhancement of property pictures for captivating visuals—we redefine how you showcase spaces."
+  },
+   "Benefits": {
+    "head": "What are the benefits?",
+    "detail": [
+      {
+        "img": "/assets/img/partnerships/benefits/brand.webp",
+        "label": "Brand Boost",
+        "para": "White-label services to enhance your brand with premium virtual staging and photo editing."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/customer.webp",
+        "label": "Customer Delight",
+        "para": "Impress clients with a custom design catalog and unlimited free revisions."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/profit.webp",
+        "label": "Profit Growth",
+        "para": "Increase profits with exclusive discounted pricing on all services."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/complimentaru.webp",
+        "label": "Marketing Support",
+        "para": "Get sample images and materials to promote our services easily."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/userfriedndly.webp",
+        "label": "Easy Ordering",
+        "para": "Simplified order forms for a faster, more efficient workflow."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/seasmless.webp",
+        "label": "Fast Delivery",
+        "para": "Enjoy priority processing for quicker and smoother delivery."
+      }
+    ]
+  },
+  "WhyNeed": {
+    "Heading": "Why You Need Pixel Perfects Solution",
+    "Descriptions": "Pixel Perfects Solutions transforms ordinary property listings into captivating, market-ready showcases. Our services—virtual staging, image enhancement, and 2D/3D floor plans—help realtors, brokers, MLS sites, and photographers attract more buyers, close sales faster, and stand out in a competitive market. Whether you need to visualize renovations, restyle interiors, or simply present a property in the best light, Pixel Perfects Solutions provides the professional edge you need to succeed.",
+    "CardData": [
+      {
+        "id": 1,
+        "name": "Real Estate Agent",
+        "description": "A Real Estate Agent helps clients buy, sell, or rent properties, offering expertise and guidance through every step of the process.",
+        "Img": "/assets/img/home/how it work/Real Estate Agent.webp"
+      },
+      {
+        "id": 2,
+        "name": "Broker/Brokerage firm",
+        "description": "A Broker/Brokerage Firm facilitates real estate transactions, connecting buyers and sellers while providing expert negotiation and market guidance.",
+        "Img": "/assets/img/home/how it work/Broker.webp"
+      },
+      {
+        "id": 3,
+        "name": "Real Estate Photographer",
+        "description": "A Real Estate Photographer specializes in capturing high-quality images of properties to enhance listings and attract potential buyers.",
+        "Img": "/assets/img/home/how it work/Real Estate Photographer.webp"
+      },
+      {
+        "id": 4,
+        "name": "Association or MLS",
+        "description": "An MLS (Multiple Listing Service) is a database that allows real estate professionals to share and access property listings.",
+        "Img": "/assets/img/home/how it work/Association or MLS.webp"
+      }
+    ]
+  },
+   "visionData": {
+    "heading": "Our Vision & Values",
+    "subHeading": "Vision",
+    "values":"Values",
+    "description": "At Pixel Perfects Solutions, our vision is to redefine industry standards through innovative solutions that transcend expectations. We aspire to be the catalyst for transformative experiences, shaping the future of real estate and digital landscapes. By seamlessly integrating creativity and technology, we envision a world where every visual tells a compelling story, every website is an immersive journey, and every client achieves unparalleled success.",
+    "visiondetails": [
+      {
+        "id": 1,
+        "imgUrl": "integrity.webp",
+        "heading": "Integrity",
+        "desc": "Integrity forms the cornerstone of our operations. We conduct business with honesty, transparency, and ethical practices. We believe in delivering on our promises, maintaining the highest standards of professionalism, and earning the trust of our clients, partners, and team members."
+      },
+      {
+        "id": 2,
+        "imgUrl": "innovation.webp",
+        "heading": "Innovation",
+        "desc": "We embrace innovation as the heartbeat of our company. It fuels our creativity, drives our solutions, and propels us to continually push boundaries. We believe in staying ahead, anticipating trends, and pioneering groundbreaking approaches to set new benchmarks in our industries."
+      },
+      {
+        "id": 3,
+        "imgUrl": "excellence.webp",
+        "heading": "Excellence",
+        "desc": "Excellence is not just a standard; it's our commitment. From virtual staging to web development, we pursue perfection in every pixel and every line of code. We strive for excellence in service delivery, client satisfaction, and the impact our work creates in reshaping real estate and digital realms."
+      },
+      {
+        "id": 4,
+        "imgUrl": "client_centricity.webp",
+        "heading": "Client-Centricity",
+        "desc": "Our clients are at the heart of everything we do. We prioritize understanding their unique needs, challenges, and aspirations. By forging strong partnerships, we ensure that our solutions align seamlessly with their goals, fostering trust and enduring relationships."
+      },
+      {
+        "id": 5,
+        "imgUrl": "adaptability.webp",
+        "heading": "Adaptability",
+        "desc": "At Pixel Perfects Solutions, adaptability is our strength. We thrive in change, using it as a catalyst for growth. Our team's agility allows us to stay ahead of industry trends, fostering innovation and overcoming challenges with ease. It's not just a skill; it's our mindset for navigating the evolving landscape."
+      },
+      {
+        "id": 6,
+        "imgUrl": "growth.webp",
+        "heading": "Growth",
+        "desc": "At Pixel Perfects Solutions, growth is our driving force. It's not just about achieving milestones but fostering the continuous development of our team. We value a culture of learning and innovation, ensuring that as we pioneer new solutions, our people evolve and unlock new possibilities. Growth, for us, is both quantitative and qualitative, propelling us forward with a commitment to progress and excellence."
+      }
+    ]
+  },
+"ServicePricingData": [
+  {
+    "label": "Basic Package",
+    "price": "150",
+    "description": [
+      "15–20 HDR Edited Photos",
+      "Complete Image Decluttering",
+      "5 Virtual Stage Interiors",
+      "1 Virtual Stage Exterior",
+      "Reels Video (Photo Slideshow)"
+    ]
+  },
+  {
+    "label": "Standard Package",
+    "price": "200",
+    "description": [
+      "25–30 HDR Edited Photos",
+      "Complete Image Decluttering",
+      "6 Virtual Stage Interiors",
+      "2 Virtual Stage Exteriors",
+      "Reels Video (Photo Slideshow)"
+    ]
+  },
+  {
+    "label": "Premium Package",
+    "price": "250",
+    "description": [
+      "35–40 HDR Edited Photos",
+      "Complete Image Decluttering",
+      "8 Virtual Stage Interiors",
+      "3 Virtual Stage Exteriors",
+      "Reels Video (Photo Slideshow)"
+    ]
+  }
+]
+
+
+}

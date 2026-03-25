@@ -1,0 +1,204 @@
+{
+  "BannerLabel": "Terms and Conditions",
+  "date": "Effective Date: [06-Nov-2024]",
+  "para1": "Welcome to Pixel Perfects Solutions! By accessing and using our services, you agree to comply with and be bound by the following Terms and Conditions. Please read them carefully. If you do not agree with any part of these terms, you should not use our services.",
+  "Policydata": [
+    {
+      "id": 1,
+      "heading": " Overview",
+      "detail": [
+        {
+          "para": "Pixel Perfects Solutions (“we,” “us,” or “our”) provides a range of real estate marketing services, including photo editing, virtual staging, and image enhancements. These Terms and Conditions govern your use of our website, services, and any content provided by Pixel Perfects Solutions."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": " Services Provided",
+      "detail": [
+        { "para": "We offer a variety of digital image services, including but not limited to:" },
+        {
+          "list": [
+            "Photo Editing",
+            "Virtual Staging",
+            "Image Enhancements",
+            "Floor Plan Design",
+            "Custom Visual Modifications for Real Estate Marketing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "heading": " User Responsibilities",
+      "detail": [
+        { "para": "By using our services, you agree to the following:" },
+        {
+          "table": [
+            {
+              "title": "Accurate Information",
+              "desc": "You are responsible for providing accurate information, including any special instructions for your service requests. Any errors in the submission process, including incorrect or incomplete information, are solely your responsibility."
+            },
+            {
+              "title": "Use of Content",
+              "desc": "You warrant that you own or have permission to use all files you submit for editing. We are not liable for any copyright or intellectual property disputes arising from submitted content."
+            },
+            {
+              "title": "Lawful Use",
+              "desc": "You agree to use our services lawfully and will not engage in any activity that violates any applicable local, state, national, or international law."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "heading": " Order Process",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Order Submission",
+              "desc": "Orders are submitted through our website or by contacting our support team. When you submit an order, you agree to provide all required information and materials necessary for completing the service."
+            },
+            {
+              "title": "Order Confirmation",
+              "desc": "Once we receive your order and all required information, we will review and confirm the order. We reserve the right to reject any order that does not comply with our standards or policies."
+            },
+            {
+              "title": "Payment Terms",
+              "desc": "Full payment must be received before we start processing your order. All payments are final, as outlined in our Refund Policy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "heading": " Delivery and Revisions",
+      "detail": [
+        { "para": "We implement a range of security measures to protect your information, including:" },
+        {
+          "table": [
+            {
+              "title": "Delivery Time",
+              "desc": "We aim to complete and deliver each service within the specified timeline. Delays may occur due to unforeseen circumstances, but we will communicate any changes in the timeline with you."
+            },
+            {
+              "title": "Revisions",
+              "desc": "We offer a specified number of revisions on each service. All revision requests must be made within the designated revision period after delivery. Additional revisions beyond what is included may incur extra charges."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "heading": " Refund Policy",
+      "detail": [
+        {
+          "para": "As outlined in our Refund Policy, we do not offer refunds due to the customized nature of our services. Please review our Refund Policy for full details."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "heading": " Privacy and Data Collection",
+      "detail": [
+        {
+          "para": "Your privacy is important to us. Please refer to our Privacy Policy for detailed information on how we collect, use, and protect your personal data."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "heading": " Intellectual Property",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Ownership of Edited Content",
+              "desc": "Upon payment and completion of the service, you retain ownership of the edited files. However, we may use non-identifiable samples of edited work for promotional purposes unless you explicitly request otherwise."
+            },
+            {
+              "title": "Our Content",
+              "desc": "All content on our website, including text, graphics, and logos, is owned by Pixel Perfects Solutions and protected by copyright and other intellectual property laws."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "heading": " Limitation of Liability",
+      "detail": [
+        { "para": "We strive to provide high-quality services, but you acknowledge that:" },
+        {
+          "table": [
+            {
+              "title": "No Warranty",
+              "desc": "Upon payment and completion of the service, you retain ownership of the edited files. However, we may use non-identifiable samples of edited work for promotional purposes unless you explicitly request otherwise."
+            },
+            {
+              "title": "Limited Liability",
+              "desc": "All content on our website, including text, graphics, and logos, is owned by Pixel Perfects Solutions and protected by copyright and other intellectual property laws."
+            },
+            {
+              "title": "Service Outcome",
+              "desc": "We are not liable for any dissatisfaction or financial loss incurred as a result of using our services. You agree to use our services at your own risk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "heading": " Indemnification",
+      "detail": [
+        {
+          "para": "You agree to indemnify and hold Pixel Perfects Solutions harmless from any claims, damages, liabilities, or expenses arising from your use of our services, including any legal fees resulting from any violation of these Terms and Conditions or misuse of our services."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "heading": " Modification of Terms",
+      "detail": [
+        {
+          "para": "We reserve the right to modify these Terms and Conditions at any time. Changes will be posted on this page, with an updated effective date. By continuing to use our services, you agree to be bound by any such modifications."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "heading": " Governing Law",
+      "detail": [
+        {
+          "para": "These Terms and Conditions are governed by and construed in accordance with the laws of the United States, without regard to its conflict of law principles."
+        }
+      ]
+    },
+{
+  "id": 13,
+  "heading": " Contact Information",
+  "detail": [
+    { "para": "For any questions or requests regarding this policy, please reach out to us:" },
+    {
+      "contacts": [
+        { "type": "email", "label": "Email", "value": "orders@pxlperfects.com" },
+        { "type": "phone", "label": "US Contact Number", "value": "+1 307 243 2920" },
+        { "type": "phone", "label": "PK Contact Number", "value": "+92 303 408 7599" }
+      ]
+    },
+    {
+      "para": "Mailing Addresses:",
+      "list": [
+        "Pixel Perfects Solutions, 30 N Gould ST STE N, Sheridan, WY 82801, United States",
+        "Office No. 117, Gosha-e-Ahbab, Phase 3, Multan Road, Lahore, Pakistan"
+      ]
+    }
+  ]
+}
+
+  ]
+}

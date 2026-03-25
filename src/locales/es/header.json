@@ -1,0 +1,281 @@
+[
+{
+  "id": 1,
+  "labelName": "Servicios",
+  "homeDetails": "En el ámbito del sector inmobiliario residencial, nos especializamos en capturar la esencia de los hogares mediante Virtual Staging, renovación y mejoras visuales de propiedades. Transformamos casas en espacios acogedores, redefiniendo la forma en que los compradores potenciales experimentan los espacios residenciales.",
+  "subPages":[
+    {
+      "labelName": "Edición de Imágenes",
+      "homeDetails": "En el ámbito del sector inmobiliario residencial, nos especializamos en capturar la esencia de los hogares mediante Virtual Staging, renovación y mejoras visuales de propiedades. Transformamos casas en espacios acogedores, redefiniendo la forma en que los compradores potenciales experimentan los espacios residenciales.",
+      "fields": [
+        {
+          "fieldName": "Mejora de Imagen / Edición HDR",
+          "hoverDetail": "Mejora la claridad y la intensidad del color para obtener imágenes más nítidas y vibrantes.",
+          "fieldRoute": "/services/image-enhancement",
+          "icon": "/assets/img/menuicons/HDR.webp"
+        },
+        {
+          "fieldName": "De Día a Atardecer",
+          "fieldRoute": "/services/day-to-dusk",
+          "hoverDetail": "Transforma imágenes diurnas en impresionantes escenas al atardecer con iluminación mejorada.",
+          "icon": "/assets/img/menuicons/day to dusk.webp"
+        },
+        {
+          "fieldName": "Desorden Virtual",
+          "fieldRoute": "/services/virtual-declutter",
+          "icon": "/assets/img/menuicons/declutter.webp",
+          "hoverDetail": "Elimina objetos y muebles no deseados para crear visuales limpias y espaciosas."
+        },
+        {
+          "fieldName": "Eliminación de Objetos",
+          "fieldRoute": "/services/item-removal",
+          "icon": "/assets/img/menuicons/Item Removal.webp",
+          "hoverDetail": "Elimina objetos no deseados para simplificar y limpiar las imágenes."
+        },
+        {
+          "fieldName": "Otras Ediciones",
+          "fieldRoute": "/other-edits",
+          "icon": "/assets/img/menuicons/Image enhacment.webp",
+          "hoverDetail": "Refina y ajusta fotos para mejorar la calidad y el atractivo visual."
+        }
+      ]
+    },
+    {
+      "labelName": "Virtual Staging y Renovación",
+      "homeDetails": "Ofrecemos servicios de virtual staging y renovación de alta calidad que transforman fotos de propiedades vacías u obsoletas en espacios modernos y bellamente amueblados, ayudando a los compradores a visualizar el verdadero potencial de la propiedad.",
+      "fields": [
+        {
+          "fieldName": "Virtual Staging",
+          "hoverDetail": "Amuebla y estiliza digitalmente habitaciones vacías para mostrar su potencial.",
+          "fieldRoute": "/services/virtual-staging",
+          "icon": "/assets/img/menuicons/virtual staging.webp"
+        },
+        {
+          "fieldName": "Renovación Virtual",
+          "hoverDetail": "Muestra ideas futuras de renovación mediante mejoras digitales de interiores y exteriores.",
+          "fieldRoute": "/services/virtual-renovation",
+          "icon": "/assets/img/menuicons/virtual renovation.webp"
+        },
+        {
+          "fieldName": "Restyling",
+          "hoverDetail": "Rediseña espacios con nuevos estilos, distribuciones y decoración para inspirar a los compradores.",
+          "fieldRoute": "/services/restyling",
+          "icon": "/assets/img/menuicons/Restyling.webp"
+        },
+        {
+          "fieldName": "Virtual Staging Comercial",
+          "hoverDetail": "Escenifica propiedades comerciales digitalmente para destacar espacios profesionales.",
+          "fieldRoute": "/services/commercial-virtual-staging",
+          "icon": "/assets/img/menuicons/Commercial Virtual Staging.webp"
+        },
+        {
+          "fieldName": "Remodelación / Ediciones Estructurales",
+          "hoverDetail": "Presenta planes futuros de remodelación con ediciones visuales estructurales avanzadas.",
+          "fieldRoute": "/services/remodel",
+          "icon": "/assets/img/menuicons/Remodel Structural Edits.webp"
+        }
+      ]
+    },
+    {
+      "labelName": "Renders",
+      "homeDetails": "Nuestros servicios de renderizado aportan realismo a las visiones arquitectónicas. Desde renders interiores detallados hasta vistas exteriores cautivadoras, creamos visualizaciones que dan vida a los conceptos.",
+      "fields": [
+        {
+          "fieldName": "Visualización",
+          "fieldRoute": "/services/visualization",
+          "icon": "/assets/img/menuicons/Front Elevation.webp",
+          "hoverDetail": "Crea visuales detalladas y realistas para mostrar diseños y espacios."
+        },
+        {
+          "fieldName": "Elevación Frontal",
+          "fieldRoute": "/services/front-elevation",
+          "icon": "/assets/img/menuicons/Front Elevation.webp",
+          "hoverDetail": "Muestra el exterior frontal del edificio para mayor claridad de diseño."
+        },
+        {
+          "fieldName": "Renders 3D 360°",
+          "fieldRoute": "/services/360-renders",
+          "icon": "/assets/img/menuicons/3D 360 Renders.webp",
+          "hoverDetail": "Crea vistas interactivas en 360 grados de los espacios."
+        },
+        {
+          "fieldName": "Recorrido 360°",
+          "fieldRoute": "/services/360-walkthrough",
+          "icon": "/assets/img/menuicons/3D 360 Walkthrough.webp",
+          "hoverDetail": "Explora espacios de forma interactiva con vistas inmersivas en 360 grados."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "labelName": "Plano de Planta",
+      "homeDetails": "Nos especializamos en mejorar la presentación visual de propiedades residenciales mediante soluciones creativas.",
+      "fields": [
+        {
+          "fieldName": "Plano 2D",
+          "fieldRoute": "/services/2d-floor-plan",
+          "hoverDetail": "Proporciona una vista superior plana del diseño y dimensiones del espacio.",
+          "icon": "/assets/img/menuicons/Floor Plan.webp"
+        },
+        {
+          "fieldName": "Plano 3D",
+          "fieldRoute": "/services/3d-floor-plan",
+          "hoverDetail": "Ofrece una vista tridimensional detallada del diseño y distribución del espacio.",
+          "icon": "/assets/img/menuicons/3D Floor plan.webp"
+        }
+      ]
+    },
+    {
+      "labelName": "Edición de Video",
+      "homeDetails": "Creamos videos visualmente atractivos que mejoran la experiencia digital y aumentan la interacción.",
+      "fields": [
+        {
+          "fieldName": "Video Inmobiliario",
+          "fieldRoute": "/services/real-estate-video",
+          "hoverDetail": "Muestra propiedades con recorridos en video atractivos y de alta calidad.",
+          "icon": "/assets/img/menuicons/Video Editing.webp"
+        },
+        {
+          "fieldName": "Subtítulos de Video",
+          "fieldRoute": "/services/video-captions",
+          "hoverDetail": "Añade texto a los videos para mejorar la accesibilidad y el engagement.",
+          "icon": "/assets/img/menuicons/Video Captions.webp"
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": 2,
+  "labelName": "Explorar",
+  "subPages":[
+    {
+      "labelName": "Explorar",
+      "homeDetails": "En el ámbito del sector inmobiliario residencial, nos especializamos en capturar la esencia de los hogares mediante Virtual Staging, renovación y mejoras visuales de propiedades. Transformamos casas en espacios acogedores, redefiniendo la forma en que los compradores potenciales experimentan los espacios residenciales.",
+      "fields": [
+        {
+          "fieldName": "Servicios",
+          "fieldRoute": "/services",
+          "hoverDetail": "Explora nuestra amplia gama de servicios de mejora de propiedades.",
+          "icon": "/assets/img/menuicons/Services.webp"
+        },
+        {
+          "fieldName": "Testimonios",
+          "fieldRoute": "/testimonials",
+          "hoverDetail": "Descubre lo que nuestros clientes dicen sobre nuestros servicios.",
+          "icon": "/assets/img/menuicons/Testimonials.webp"
+        },
+        {
+          "fieldName": "Asociaciones",
+          "fieldRoute": "/partnerships",
+          "hoverDetail": "Colabora con nosotros para mejorar tus servicios empresariales.",
+          "icon": "/assets/img/menuicons/Partnerships.webp"
+        },
+        {
+          "fieldName": "Fotógrafos",
+          "fieldRoute": "/photographers",
+          "hoverDetail": "Descubre fotógrafos profesionales para capturar tus propiedades.",
+          "icon": "/assets/img/menuicons/photographers.webp"
+        },
+        {
+          "fieldName": "Prueba Gratis",
+          "fieldRoute": "/free-trial",
+          "hoverDetail": "Prueba nuestros servicios con una prueba gratuita y nota la diferencia.",
+          "icon": "/assets/img/menuicons/Trial.webp"
+        },
+        {
+          "fieldName": "Guía de Fotografía",
+          "fieldRoute": "/photography-guide",
+          "hoverDetail": "Aprende consejos y técnicas esenciales para la fotografía inmobiliaria.",
+          "icon": "/assets/img/menuicons/Photography Guide.webp"
+        }
+      ]
+    }
+  ] 
+},
+{
+  "id": 2,
+  "labelName": "Recursos",
+  "subPages":[
+    {
+      "labelName": "Recursos",
+      "homeDetails": "En el ámbito del sector inmobiliario residencial, nos especializamos en capturar la esencia de los hogares mediante Virtual Staging, renovación y mejoras visuales de propiedades. Transformamos casas en espacios acogedores, redefiniendo la forma en que los compradores potenciales experimentan los espacios residenciales.",
+      "fields": [
+        {
+          "fieldName": "Galería",
+          "fieldRoute": "/gallery",
+          "hoverDetail": "Explora nuestra galería de proyectos anteriores y casos de éxito.",
+          "icon": "/assets/img/menuicons/Gallery.webp"
+        },
+        {
+          "fieldName": "Blog",
+          "fieldRoute": "/blogs",
+          "hoverDetail": "Lee nuestro blog para obtener ideas, consejos y tendencias del sector.",
+          "icon": "/assets/img/menuicons/Blog.webp"
+        },
+        {
+          "fieldName": "Listado de Propiedades",
+          "fieldRoute": "/property-listings",
+          "hoverDetail": "Explora todas las propiedades disponibles con información detallada e imágenes.",
+          "icon": "/assets/img/menuicons/Realtors.webp"
+        },
+        {
+          "fieldName": "Administrador de Propiedades",
+          "fieldRoute": "/property-manager",
+          "hoverDetail": "Descubre soluciones diseñadas para necesidades de gestión inmobiliaria.",
+          "icon": "/assets/img/menuicons/Property Manager.webp"
+        },
+        {
+          "fieldName": "Arquitectos",
+          "fieldRoute": "/architects",
+          "hoverDetail": "Soluciones visuales innovadoras para proyectos arquitectónicos.",
+          "icon": "/assets/img/menuicons/Architects.webp"
+        },
+        {
+          "fieldName": "Constructores",
+          "fieldRoute": "/builders",
+          "hoverDetail": "Servicios diseñados para ayudar a los constructores a presentar propiedades.",
+          "icon": "/assets/img/menuicons/Builders.webp"
+        },
+        {
+          "fieldName": "Agentes Inmobiliarios",
+          "fieldRoute": "/realtors",
+          "hoverDetail": "Mejora tus anuncios y atrae compradores con nuestros servicios para agentes inmobiliarios.",
+          "icon": "/assets/img/menuicons/Realtors.webp"
+        },
+        {
+          "fieldName": "Diseñadores de Interiores",
+          "fieldRoute": "/interior-designers",
+          "hoverDetail": "Herramientas visuales para dar vida a tus diseños de interiores.",
+          "icon": "/assets/img/menuicons/Interior Designers.webp"
+        }
+      ]
+    }
+  ] 
+},
+{
+  "id": 8,
+  "labelName": "Info y Contacto",
+  "fields": [
+    {
+      "fieldName": "Sobre Nosotros",
+      "fieldRoute": "/about-us",
+      "hoverDetail": "Tu visión, soluciones pixel-perfect.",
+      "icon": "/assets/img/menuicons/about-us.webp"
+    },
+    {
+      "fieldName": "Contáctanos",
+      "fieldRoute": "/contact-us",
+      "hoverDetail": "¿Tienes preguntas? Contáctanos para obtener ayuda.",
+      "icon": "/assets/img/menuicons/Contact Us.webp"
+    },
+    {
+      "fieldName": "Solicitar Cotización",
+      "fieldRoute": "/get-a-quote",
+      "hoverDetail": "¿Necesitas un presupuesto para tu proyecto? Obtén precios claros y tiempos estimados.",
+      "icon": "/assets/img/menuicons/Contact Us.webp"
+    }
+  ]
+}
+]

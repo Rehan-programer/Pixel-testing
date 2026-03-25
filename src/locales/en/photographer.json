@@ -1,0 +1,88 @@
+{
+  "BannerData": {
+    "head": "MASTER THE ART OF REAL ESTATE PHOTOGRAPHY",
+    "para": "Take your property listings to new heights with our comprehensive suite of virtual editing tools. From detailed floor plans to high-resolution visuals, our solutions are designed to showcase your properties in the best possible light. These high-quality images not only enhance the marketability of your listings but also help build trust and credibility with clients, ensuring your work stands out in a competitive real estate market.",
+    "btn": "GET IN TOUCH",
+    "img": "/assets/img/Photographers/realestateimage.webp"
+  },
+  "Benefitsdata": {
+    "head": "Key Benefits of Our Services",
+    "detail": [
+      {
+        "img": "/assets/img/Photographers/photgrapherbenefitsimages/world.webp",
+        "label": "World-Class Quality",
+        "para": "Our commitment to delivering exceptional quality ensures that your real estate photography stands out in the competitive market."
+      },
+      {
+        "img": "/assets/img/Photographers/photgrapherbenefitsimages/grow.webp",
+        "label": "Boost Your Profit Margins",
+        "para": "Take advantage of our exclusive discounted pricing on all services, designed to help you increase your profitability and grow your business."
+      },
+      {
+        "img": "/assets/img/Photographers/photgrapherbenefitsimages/free delivery.webp",
+        "label": "Seamless Delivery Process",
+        "para": "As a preferred partner, enjoy priority order handling with faster and hassle-free delivery to ensure smooth project completion."
+      }
+    ]
+  },
+  "PhotoHelp": {
+    "subtitle": "WE ARE HERE TO HELP",
+    "title": "You photograph, we do the rest !",
+    "detail": "With the real estate photography industry becoming increasingly competitive, partnering with Pixel Perfects Solution is one of the smartest moves you can make to expand your service offerings. Our Virtual Tours and Virtual Staging solutions are highly sought after by realtors. There's never been a better time to elevate your business with these cutting-edge services."
+   , "btn": "GET IN TOUCH"
+  },
+  "BeforeAfterData": [
+    {
+      "title": "Virtual Staging",
+      "para": "Virtual Staging is an ideal solution in an era of social distancing, providing comparable benefits at a fraction of the cost. Simply take your photos, and we'll handle the virtual staging for you.",
+      "price": "Price starts at $14/image",
+      "link": "/services/virtual-staging",
+      "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%202%20after.webp?alt=media&token=438dfcae-b82f-4947-8ff4-e61f87389a1c",
+      "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fbefore%2Fvirtual%20staging%202%20before.webp?alt=media&token=c79b2277-fd56-469f-a802-a4cee25fd63e",
+      "points": [
+        "The most hassle-free and cost-effective Virtual Staging solution available.",
+        "Access hundreds of trending style themes through our comprehensive Style Guide.",
+        "Fast turnaround with a 24-hour delivery option available."
+      ]
+    },
+    {
+      "title": "Image Enhancement",
+      "para": "Professional-quality photos can accelerate the sale of listings by up to 50%. Our expert photo editing services are designed to enhance your real estate images, ensuring they stand out in the market.",
+      "price": "Price starts at $1.60/image",
+      "link": "/services/image-enhancement",
+      "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%206%20after.webp?alt=media&token=d7f7e0a7-6b70-4740-b3aa-b1cdd2c4c57b",
+      "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%206%20before.webp?alt=media&token=3d3bd1cd-f0af-49da-bcef-ba180729ecb6",
+      "points": [
+        "Refine lawns, straighten images, correct distortions, and eliminate reflections.",
+        "Optimize color balance, adjust brightness and contrast, sharpen details, and more.",
+        "Available as an add-on to our Virtual Staging service for a comprehensive enhancement package."
+      ]
+    },
+    {
+      "title": "Virtual Declutter",
+      "price": "Price starts at $8/image",
+      "link": "/services/virtual-declutter",
+      "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Declutter%2Fafter%2FVirtual%20Declutter%202%20after.webp?alt=media&token=da0e7228-09cc-4986-b939-4a54ce12a1dc",
+      "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Declutter%2Fbefore%2FVirtual%20Declutter%202%20before.webp?alt=media&token=b04ef259-129c-4f5f-880d-662c774d2b0d",
+      "para": "Photographing an occupied property? Our photo artists can virtually remove furniture or items to create a vacant appearance, enhancing the visual appeal of your property.",
+      "points": [
+        "Eliminate clutter to present rooms as clean, orderly, and spacious.",
+        "Selectively remove old furniture, objects, or people from your photos.",
+        "Upgrade unappealing furniture with stylish, contemporary pieces using our Virtual Staging service."
+      ]
+    },
+    {
+      "title": "3D Floor Plan",
+      "price": "Price starts at $70/image",
+      "link": "/services/3d-floor-plan",
+      "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FAfter%2F3d%20Floor%20Plan%203%20After.webp?alt=media&token=5665633a-d26b-481d-a867-fbd85f71f1d9",
+      "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FBefore%2F3d%20Floor%20Plan%203%20Before.webp?alt=media&token=a082b83d-1947-4f4c-9505-9b0d60930a24",
+      "para": "Enhance your property presentation with detailed and aesthetically pleasing floor plans. Simply upload your drawings, blueprints, or hand sketches, and we will transform them into polished, professional visuals.",
+      "points": [
+        "Display property address, room names, dimensions, total area, and a disclaimer.",
+        "Showcase every detail of the home layout, including furniture, with our 3D color floor plan option.",
+        "Utilize the site plan add-on to highlight the entire property, including key outdoor features."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "BannerData": {
+    "head": "GET PIXELS EXPERIENCE",
+    "para": "Take your property listings to the next level with our all-encompassing suite of virtual editing tools. From accurate floor plans to high-quality visuals, our solutions enable you to present your properties in the best possible light. This not only boosts their marketability but also helps you build trust and credibility with prospective clients.",
+    "btn": "START FREE TRIAL",
+    "img": "/assets/img/Freetrial/freetrial.webp"
+  },
+  "PartnerData": {
+    "head": "What do you get in our free trial?",
+    "detail": [
+      {
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%204%20after.webp?alt=media&token=175fe239-9cce-4f62-81b4-58ca2bde784d",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fbefore%2Fvirtual%20staging%204%20%20before.webp?alt=media&token=f1be0866-6855-472e-b4fe-ad5eef9de6dc",
+        "label": "Virtual Staging",
+        "para": "Digitally furnish and decorate vacant spaces with stunning designs to help buyers visualize the potential of a property and increase its appeal.",
+        "points": [
+          { "label": "Maximum images", "detail": "1 image" },
+          { "label": "Turnaround Time", "detail": "24-48 Hours" },
+          { "label": "Unlimited Revisions", "detail": "" }
+        ]
+      },
+      {
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/item%20removal%2Fafter%2Fitem%20removal%201%20after.webp?alt=media&token=45a7d281-327e-485a-bee0-bf0a613df452",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/item%20removal%2Fbefore%2Fitem%20removal%201%20before.webp?alt=media&token=3c93f000-0b2a-4e34-8bef-639a9e035ff4",
+        "label": "Item Removal",
+        "para": "Easily remove unwanted objects or clutter from your images, making them clean, attractive, and more professional.",
+        "points": [
+          { "label": "Maximum images", "detail": "Up to 1 image" },
+          { "label": "Turnaround Time", "detail": "24-48 Hours" },
+          { "label": "Unlimited Revisions", "detail": "" }
+        ]
+      },
+      {
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%2012%20after.webp?alt=media&token=1fe7d11c-fcd8-41d1-85e4-9326e7ad9035",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%2012%20before.webp?alt=media&token=65f85ecb-aec3-48d5-a9db-f5cfdda82b68",
+        "label": "Image Enhancement",
+        "para": "Improve image quality by enhancing colors, brightness, and details, making them more vibrant and eye-catching.",
+        "points": [
+          { "label": "Maximum images", "detail": "Up to 2 images" },
+          { "label": "Turnaround Time", "detail": "12-24 Hours" },
+          { "label": "Unlimited Revisions", "detail": "" }
+        ]
+      }
+    ]
+  },
+  "ChooseBenfits": {
+    "head": "Experience the Difference with a Free Trial",
+    "para": "At <strong>Pixel Perfects Solution</strong>, we believe in showcasing the value of our services before you commit. Our free trial allows you to experience our expertise in <strong>image enhancement</strong>, <strong>virtual staging</strong>, and <strong>photo editing</strong> firsthand. See how we transform your property visuals into captivating marketing assets that attract buyers and drive success.<br /><br />With no hidden charges or obligations, our free trial is a risk-free way to explore the exceptional quality, quick turnaround times, and personalized solutions we offer. Partner with us and discover why we are the preferred choice for property professionals worldwide.",
+    "detail": [
+      {
+        "img": "/assets/img/Freetrial/acheive.webp",
+        "label": "Achieve Higher Sales Prices",
+        "para": "Our professional Virtual Staging and Image Enhancement services are crafted to attract more buyers to your listings, enabling you to secure higher sales prices."
+      },
+      {
+        "img": "/assets/img/Freetrial/efforts.webp",
+        "label": "Effortless Perfection",
+        "para": "Entrust your photo editing and virtual staging needs to our experts. Simply share your images with us, and we’ll take care of everything."
+      },
+      {
+        "img": "/assets/img/Freetrial/fair price.webp",
+        "label": "Transparent Pricing",
+        "para": "Our services come with clear and straightforward pricing. You pay only for what is listed on our site, with no hidden charges."
+      },
+      {
+        "img": "/assets/img/Freetrial/unlimited.webp",
+        "label": "Unlimited Revisions",
+        "para": "We work tirelessly to ensure that your potential buyers can visualize your listing as their dream home, offering unlimited revisions until you are fully satisfied."
+      }
+    ]
+  },
+   "testimonialsClientsInformation": {
+        "STATISTICS": "STATISTICS",
+        "detail": "Interesting Facts",
+        "items": [
+            {
+                "head": "25,000+",
+                "para": "Trusted customers globally"
+            },
+            {
+                "head": "750,000+",
+                "para": "Images delivered"
+            },
+            {
+                "head": "12+",
+                "para": "Countries served"
+            }
+        ]
+    }
+}

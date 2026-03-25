@@ -1,0 +1,226 @@
+{
+  "BannerData": {
+    "head": "Virtual Interior Design Ideas",
+    "img": "/assets/img/architects/architects.webp"
+  },
+  "Categories": [
+    {
+      "name": "Living Room",
+      "subcategories": [
+        {
+          "name": "Modern",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Classic",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Scandinavian",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Industrial",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Bohemian",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt73d88cd-be57-4d9d-a101-a0fa04d69a3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bedroom",
+      "subcategories": [
+        {
+          "name": "Minimalist",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Luxury",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Contemporary",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Rustic",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Art Deco",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kitchen",
+      "subcategories": [
+       
+        {
+          "name": "Traditional",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Minimalist",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Industrial",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Scandinavian",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bathroom",
+      "subcategories": [
+        {
+          "name": "Modern",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Luxury",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Minimalist",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Rustic",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Contemporary",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office",
+      "subcategories": [
+        {
+          "name": "Minimalist",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Modern",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Industrial",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Classic",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        },
+        {
+          "name": "Scandinavian",
+          "images": [
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-1.jpg?alt=media&token=9a916d34-6aad-4767-8d22-ef5b933f70b8",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fafter%2Fcar-removing-after-1.jpg?alt=media&token=064008bd-7b59-40ea-b4a1-c00485e9cd7d",
+            "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Car%20Removing%2Fbefore%2Fcar-removing-before-2.jpg?alt=media&token=373d88cd-be57-4d9d-a101-a0fa04d69a33"
+          ]
+        }
+      ]
+    }
+  ]
+}

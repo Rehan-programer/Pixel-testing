@@ -1,0 +1,154 @@
+{
+  "BannerLabel": "Política de Servicios",
+  "date": "Fecha de vigencia: [06-Nov-2024]",
+  "para1": "Pixel Perfects Solutions (“nosotros”) se compromete a ofrecer servicios de marketing inmobiliario de alta calidad, incluyendo, entre otros, edición de fotos, puesta en escena virtual y mejoras de imágenes. Esta Política de Servicios describe los términos, procesos y condiciones bajo los cuales se brindan nuestros servicios.",
+  "Policydata": [
+    {
+      "id": 1,
+      "heading": "1. Descripción general de los servicios",
+      "detail": [
+        { "para": "Pixel Perfects Solutions ofrece una variedad de servicios profesionales de mejora de imágenes, incluyendo:" },
+        {
+          "list": [
+            "Edición de fotos: Mejoras, retoques y modificaciones de fotografías de propiedades.",
+            "Puesta en escena virtual: Amueblamiento digital de habitaciones vacías o áreas exteriores.",
+            "Mejora de imágenes: Conversiones de día a atardecer, ajustes HDR y balance de color.",
+            "Diseño de planos: Creación de planos 2D y 3D.",
+            "Modificaciones personalizadas: Rediseño de propiedades, eliminación de objetos y otras ediciones personalizadas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "2. Entrega de servicios",
+      "detail": [
+        {
+          "table": [
+            { "title": "Proceso de pedido", "desc": "Los pedidos se pueden realizar a través de nuestro sitio web o contactándonos directamente. Debe proporcionar todos los archivos, instrucciones e información necesarios relacionados con el servicio solicitado." },
+            { "title": "Confirmación del pedido", "desc": "Una vez recibido el pedido, lo confirmaremos tras revisar los detalles. Si se requiere información adicional, nos pondremos en contacto para aclarar todo antes de comenzar." },
+            { "title": "Tiempo de entrega", "desc": "Nos esforzamos por entregar el trabajo completado dentro del plazo estimado especificado durante la confirmación del pedido. El tiempo de entrega puede variar según la complejidad del proyecto, el volumen de pedidos y las revisiones." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "heading": "3. Precios y condiciones de pago",
+      "detail": [
+        { "para": "Al utilizar nuestros servicios, usted acepta lo siguiente:" },
+        {
+          "table": [
+            { "title": "Precios", "desc": "Nuestros precios varían según el servicio, la complejidad y el volumen de trabajo. Para pedidos personalizados, proporcionamos un presupuesto bajo solicitud." },
+            { "title": "Pago", "desc": "Se requiere el pago completo antes de que comience el trabajo. Aceptamos pagos a través de métodos en línea seguros. Al realizar un pago, usted acepta los términos de nuestra Política de Reembolsos." },
+            { "title": "Política de no reembolso", "desc": "Debido a la naturaleza personalizada de nuestros servicios, todas las ventas son finales y no ofrecemos reembolsos." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "heading": "4. Política de revisiones",
+      "detail": [
+        {
+          "table": [
+            { "title": "Revisiones estándar", "desc": "Ofrecemos un número limitado de revisiones según lo especificado en el pedido. Las solicitudes de revisión deben realizarse dentro de los [7 días] posteriores a la entrega del trabajo completado." },
+            { "title": "Revisiones adicionales", "desc": "Si se solicitan más modificaciones además de las revisiones incluidas, pueden aplicarse cargos adicionales. Le informaremos sobre cualquier cargo extra antes de continuar." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "heading": "5. Privacidad y seguridad de los datos",
+      "detail": [
+        { "para": "Su privacidad es importante para nosotros. Para obtener información detallada sobre el manejo de datos, consulte nuestra Política de Privacidad. Aspectos destacados:" },
+        {
+          "list": [
+            "Recopilación de datos: Recopilamos únicamente la información necesaria para completar los pedidos, como su nombre completo, datos de contacto y cualquier archivo que envíe.",
+            "Seguridad de datos: Todos los archivos y datos personales se almacenan de forma segura, empleando prácticas estándar de la industria para proteger su información.",
+            "Retención de datos: Sus archivos de proyecto se conservan durante un período razonable para facilitar solicitudes futuras. Si desea eliminar su cuenta o datos, contáctenos y le asistiremos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "heading": "6. Responsabilidades del cliente",
+      "detail": [
+        {
+          "table": [
+            { "title": "Envío exacto", "desc": "Los clientes son responsables de enviar información precisa y completa para cada pedido. Cualquier discrepancia en los detalles de envío puede afectar la calidad y el tiempo de entrega del servicio." },
+            { "title": "Derechos de uso", "desc": "Usted declara y garantiza que tiene derecho a proporcionarnos las imágenes, videos y otros archivos enviados para procesamiento. No somos responsables de problemas de derechos de autor o legales relacionados con su contenido enviado." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "heading": "7. Propiedad intelectual",
+      "detail": [
+        {
+          "table": [
+            { "title": "Propiedad", "desc": "Tras la finalización y entrega del servicio, el trabajo editado le pertenece. Sin embargo, conservamos el derecho de usar ejemplos no identificables en nuestro portafolio, a menos que nos indique lo contrario." },
+            { "title": "Nuestros derechos", "desc": "Todas las herramientas, métodos y materiales utilizados para proporcionar el servicio siguen siendo propiedad intelectual de Pixel Perfects Solutions." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "heading": "8. Limitaciones y exenciones de responsabilidad",
+      "detail": [
+        { "para": "Si bien nos esforzamos por brindar servicios de alta calidad, tenga en cuenta lo siguiente:" },
+        {
+          "table": [
+            { "title": "Sin garantías", "desc": "No garantizamos resultados específicos y no somos responsables de ninguna insatisfacción o pérdida financiera debido a nuestros servicios." },
+            { "title": "Limitación de responsabilidad", "desc": "En la máxima medida permitida por la ley, Pixel Perfects Solutions no será responsable de ningún daño indirecto, incidental o consecuente relacionado con el uso de nuestros servicios." },
+            { "title": "Resultado del servicio", "desc": "Usted reconoce que la calidad y el resultado de nuestros servicios dependen de la información y materiales que proporcione. Nos reservamos el derecho de rechazar pedidos que no cumplan con nuestros estándares o que violen estos términos." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "heading": "9. Política de cancelación",
+      "detail": [
+        {
+          "table": [
+            { "title": "Cancelación antes del inicio del servicio", "desc": "Los pedidos pueden cancelarse antes de que comience el servicio. Sin embargo, si ya se ha iniciado algún trabajo, el pedido no podrá cancelarse." },
+            { "title": "Después del inicio del servicio", "desc": "Una vez que hayamos comenzado el servicio, no se permiten cancelaciones y los pagos no son reembolsables." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "heading": "10. Modificaciones a la política de servicios",
+      "detail": [
+        { "para": "Pixel Perfects Solutions se reserva el derecho de modificar esta Política de Servicios en cualquier momento. Cualquier actualización se publicará en esta página con una fecha de vigencia. El uso continuado de nuestros servicios después de cualquier actualización constituye la aceptación de la política revisada." }
+      ]
+    },
+    {
+      "id": 11,
+      "heading": "11. Información de contacto",
+      "detail": [
+        { "para": "Para cualquier pregunta o solicitud relacionada con esta política, comuníquese con nosotros:" },
+        {
+          "contacts": [
+            { "label": "Correo electrónico", "type": "email", "value": "orders@pxlperfects.com" },
+            { "label": "Número de contacto EE.UU.", "type": "phone", "value": "+1 307 243 2920" },
+            { "label": "Número de contacto PK", "type": "phone", "value": "+92 303 408 7599" }
+          ]
+        },
+        {
+          "para": "Direcciones postales:",
+          "list": [
+            "Pixel Perfects Solutions, 30 N Gould ST STE N, Sheridan, WY 82801, Estados Unidos",
+            "Oficina No. 117, Gosha-e-Ahbab, Fase 3, Multan Road, Lahore, Pakistán"
+          ]
+        }
+      ]
+    }
+  ]
+}

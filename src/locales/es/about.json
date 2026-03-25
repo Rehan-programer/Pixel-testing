@@ -1,0 +1,196 @@
+{
+  "BannerData": {
+    "head": "Sobre Nosotros",
+    "img": "/assets/img/about/AboutBanner/banner.webp",
+    "para": "Bienvenido a Pixel Perfects Solutions, donde la creatividad se une con la tecnología para redefinir el marketing inmobiliario. Nos especializamos en transformar imágenes de propiedades en impactantes visuales que resaltan el verdadero potencial de un espacio y aumentan las ventas. Nuestro equipo combina experiencia artística y precisión técnica para ofrecer soluciones personalizadas a agentes inmobiliarios, corredores, fotógrafos y plataformas MLS. Desde la puesta en escena virtual hasta las transformaciones de día a noche, creamos imágenes que atraen a la audiencia correcta y maximizan el valor de la propiedad. En Pixel Perfects Solutions, no solo editamos: contamos historias que conectan con los compradores y convierten prospectos en propietarios."
+  },
+  "Aboutexcellence": [
+    { "head": "Sobre Nosotros" },
+    { "head": "7+", "para": "Años en el Negocio" },
+    { "head": "9000+", "para": "Proyectos Entregados" },
+    { "head": "50+", "para": "Número de Profesionales" },
+    { "head": "12+", "para": "Industrias Atendidas" }
+  ],
+  "OurStoryData": {
+    "title": "Nuestra Historia",
+    "detail": "Durante más de siete años, Pixel Perfects Solution ha ayudado a las empresas a mantenerse a la vanguardia a través de soluciones digitales innovadoras. Nuestro equipo dedicado de más de 50 profesionales, con presencia en múltiples ubicaciones, atiende a clientes en más de 15 países. Nos especializamos en ofrecer estrategias transformadoras impulsadas por IA, servicios de nube empresarial, desarrollo de software y subcontratación técnica. Nuestra misión es acelerar tu crecimiento y mejorar tu ventaja competitiva aprovechando el potencial de la IA y las tecnologías digitales, dando forma a un futuro donde la innovación sea accesible para todos."
+  },
+  "OurCeoData": {
+    "label": "Nuestra Visión",
+    "para": "Nuestra visión es forjar un futuro equitativo en el intercambio tecnológico, catalizando la innovación para abordar algunos de los desafíos más complejos en los mercados globales. Juntos, esperamos construir un mundo más inclusivo e interconectado desafiando el statu quo y actuando como resistencia a la desigualdad y al tribalismo global.",
+    "img": "/assets/img/Photography guide/profile photo.webp",
+    "designation": "CEO y Fundador de Pixels Perfects Solutions",
+    "name": "Muhammad Faizan Islam",
+    "imgname": "guía definitiva",
+    "socialdetails": [
+      {
+        "name": "Correo electrónico:",
+        "link1": "orders@pxlperfects.com",
+        "link2": "developers@pxlperfects.com",
+        "icon": "email"
+      },
+      {
+        "name": "Números de contacto PK:",
+        "link1": "+92 3098809943",
+        "link2": "+92 3034087599",
+        "icon": "phone"
+      },
+      {
+        "name": "Números de contacto USA:",
+        "link1": "+1 3072432920",
+        "link2": "",
+        "icon": "phone"
+      }
+    ]
+  },
+  "WhoWeAreData": {
+    "head": "Quiénes Somos",
+    "detail": [
+      "Fundada con la visión de revolucionar la presentación inmobiliaria, Pixel Perfects Solutions es un equipo dinámico de editores fotográficos expertos, especialistas en puesta en escena virtual y profesionales del diseño comprometidos a ofrecer resultados excepcionales.",
+      "Nos apasiona convertir imágenes inmobiliarias ordinarias en activos extraordinarios que cautiven audiencias y generen compromiso. Nuestra experiencia abarca una amplia gama de servicios de marketing inmobiliario, asegurando soluciones adaptadas a las necesidades únicas de cada cliente.",
+      "En Pixel Perfects Solutions, colaboramos con agentes inmobiliarios, corredores, fotógrafos de bienes raíces y plataformas MLS para crear contenido visualmente atractivo que destaque en el competitivo mercado actual.",
+      "Con un profundo conocimiento de las tendencias de la industria y las preferencias de los compradores, nuestro equipo se enfoca en perfeccionar cada detalle, desde simples retoques hasta complejas ediciones estructurales, creando imágenes que dejan una impresión duradera.",
+      "Nos enorgullece ser un nombre de confianza en la industria del marketing inmobiliario, reconocidos por nuestra fiabilidad, creatividad y compromiso inquebrantable con la calidad.",
+      "Nuestra misión es empoderar a nuestros clientes con herramientas y soluciones que no solo eleven sus listados de propiedades, sino que también inspiren confianza entre los compradores potenciales."
+    ]
+  },
+  "WhatWeDoData": [
+    {
+      "fieldRoute": "/services/virtual-staging",
+      "icon": "/assets/img/menuicons/virtual staging.webp",
+      "title": "Puesta en Escena Virtual",
+      "description": "Transforma tus espacios vacíos en hogares completamente amueblados y acogedores."
+    },
+    {
+      "fieldRoute": "/services/360-walkthrough",
+      "icon": "/assets/img/menuicons/3D 360 Walkthrough.webp",
+      "title": "Recorridos 360 Grados",
+      "description": "Ofrece visitas virtuales inmersivas para cautivar a compradores potenciales."
+    },
+    {
+      "icon": "/assets/img/menuicons/3D Floor plan.webp",
+      "title": "Planos de Piso",
+      "fieldRoute": "/services/3d-floor-plan",
+      "description": "Planos detallados para ofrecer a los compradores un diseño preciso."
+    },
+    {
+      "fieldRoute": "/services/day-to-dusk",
+      "icon": "/assets/img/menuicons/day to dusk.webp",
+      "title": "Transformaciones de Día a Noche",
+      "description": "Mejora las imágenes inmobiliarias con impresionantes ediciones de día a noche."
+    }
+  ],
+  "WhyChooseUsData": [
+    {
+      "head": "Disponibilidad 24/7",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Visualization%2FVisualization%20S1.webp?alt=media&token=dbafcc3c-52f7-4b2e-907e-b2120dfed03b",
+      "icon": "/assets/img/about/Why CHoose/24 support.webp",
+      "para": "Entendiendo la naturaleza acelerada de la industria inmobiliaria, trabajamos las 24 horas para garantizar que tus proyectos se completen a tiempo, sin importar la zona horaria. Nuestro soporte siempre disponible asegura que puedas contar con nosotros cuando más lo necesites."
+    },
+    {
+      "head": "Resultados de Alta Calidad",
+      "icon": "/assets/img/about/Why CHoose/high quality.webp",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%203%20after.webp?alt=media&token=1d65088e-fa43-4962-8f59-b5a21599fb0d",
+      "para": "La calidad está en el corazón de todo lo que hacemos. Nuestro equipo capacitado utiliza herramientas avanzadas y experiencia en la industria para ofrecer resultados con precisión y creatividad incomparables. Desde impresionantes puestas en escena virtuales hasta mejoras fotográficas impecables, cada proyecto se ejecuta a la perfección."
+    },
+    {
+      "head": "Soluciones Personalizadas",
+      "icon": "/assets/img/about/Why CHoose/customized.webp",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fafter%2FVirtual%20Renovation%202%20after.webp?alt=media&token=39314882-5364-4edb-aa7c-c5e7a4d189d1",
+      "para": "Reconocemos que cada cliente y proyecto es único. Por eso ofrecemos soluciones totalmente adaptadas diseñadas para alinearse con tu visión y requisitos específicos. Ya sea que necesites ediciones simples o transformaciones de marketing completas, nos adaptamos para hacer realidad tus ideas."
+    },
+    {
+      "head": "Historial Comprobado",
+      "icon": "/assets/img/about/Why CHoose/proven edge.webp",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fafter%2FVirtual%20Renovation%206%20after.webp?alt=media&token=2394063c-4e34-4fea-99f8-1a14b233b2d2",
+      "para": "A lo largo de los años, hemos construido una reputación de excelencia, ganándonos la confianza de clientes en todo el mundo. Nuestras alianzas con destacados profesionales y agencias inmobiliarias son testimonio de nuestro compromiso con la fiabilidad, la calidad y un servicio sobresaliente."
+    },
+    {
+      "head": "¿POR QUÉ ELEGIRNOS?",
+      "para": "Confiaste en nosotros para dar vida a tus ideas, y nosotros entregamos con dedicación y experiencia. Nuestro enfoque está en la calidad y la satisfacción del cliente, asegurando que obtengas los mejores resultados cada vez."
+    },
+    {
+      "head": "Tecnología de Vanguardia",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/360%20virtual%20staging%2FAfter%2F360%20Virtual%20stage%20A-3.webp?alt=media&token=57212524-890b-4b76-8d78-bf2dcb1f29c4",
+      "icon": "/assets/img/about/Why CHoose/cutting edge.webp",
+      "para": "Manteniéndonos a la vanguardia, utilizamos la última tecnología y herramientas para garantizar que tus visuales inmobiliarios sean innovadores e impactantes, manteniéndote un paso adelante de tus competidores."
+    },
+    {
+      "head": "Servicios Rentables",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Fire%20Replace%2FAfter%2Ffireplace%201%20after.webp?alt=media&token=996ed6d7-09c6-4287-be15-01a491532341",
+      "icon": "/assets/img/about/Why CHoose/cost effective.webp",
+      "para": "Alta calidad no tiene que significar alto costo. Ofrecemos precios competitivos sin comprometer la calidad, brindando un valor excepcional por tu inversión."
+    },
+    {
+      "head": "Atención al Detalle",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+      "icon": "/assets/img/about/Why CHoose/attention to detail.webp",
+      "para": "Tratamos cada proyecto con atención meticulosa, asegurando que cada imagen y edición sea impecable. Nuestra dedicación a la perfección garantiza que tus propiedades luzcan lo mejor posible."
+    },
+    {
+      "head": "Enfoque Centrado en el Cliente",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Visualization%2FVisualization%20S10.webp?alt=media&token=b0c6f538-e2e7-45b1-a59b-aeed8005db5e",
+      "icon": "/assets/img/about/Why CHoose/client centric.webp",
+      "para": "Tu satisfacción es nuestra prioridad. Desde la consulta inicial hasta la entrega final, nos enfocamos en la comunicación abierta, entendiendo tus objetivos y superando tus expectativas."
+    }
+  ],
+  "OurMissionData": {
+    "title": "Nuestra Misión",
+    "img": "/assets/img/Photography guide/profile photo.webp",
+    "detail": "Nuestra misión en Pixel Perfects Solutions es revolucionar la industria inmobiliaria ofreciendo soluciones de marketing innovadoras y visualmente impactantes que transformen la manera en que se presentan y perciben las propiedades. Buscamos empoderar a agentes inmobiliarios, corredores, fotógrafos y plataformas MLS con herramientas de vanguardia y diseños creativos que resalten el verdadero potencial de cada propiedad, haciéndolas irresistibles para los compradores. Nos esforzamos por cerrar la brecha entre imaginación y realidad, ayudando a los compradores potenciales a visualizar su hogar soñado con claridad y confianza. Aprovechando la tecnología avanzada, la experiencia artística y un profundo conocimiento de las tendencias del mercado, creamos visuales convincentes que no solo muestran las propiedades en su mejor versión, sino que también generan conexiones emocionales que inspiran confianza y acción. A través de nuestro compromiso con la calidad, la creatividad y el servicio personalizado, ayudamos a nuestros clientes a lograr sus objetivos, cerrar ventas más rápido y establecer nuevos estándares en el marketing inmobiliario. En Pixel Perfects Solutions, no solo mejoramos imágenes; creamos oportunidades, convirtiendo a los compradores potenciales en propietarios seguros, un píxel a la vez."
+  },
+  "OurCoreValuesData": [
+    {
+      "head": "Excelencia",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Visualization%2FVisualization%20S1.webp?alt=media&token=dbafcc3c-52f7-4b2e-907e-b2120dfed03b",
+      "icon": "/assets/img/about/Our core values/Excellence.webp",
+      "para": "Estamos comprometidos a ofrecer calidad y precisión excepcionales en cada proyecto, garantizando que nuestros clientes reciban los mejores resultados con una experiencia fluida."
+    },
+    {
+      "head": "Innovación",
+      "icon": "/assets/img/about/Our core values/innovation.webp",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%201%20after.webp?alt=media&token=8cefd3cd-cbd6-4ef2-b884-2b2b78e12927",
+      "para": "Adoptamos continuamente tecnología de vanguardia y soluciones creativas para ofrecer servicios de marketing inmobiliario incomparables que establecen nuevos estándares en la industria."
+    },
+    {
+      "head": "Colaboración",
+      "icon": "/assets/img/about/Our core values/collaboration.webp",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Restyling%2FAfter%2FRestyling%202%20after.webp?alt=media&token=2283c283-7e39-408c-95b2-bfcd9a4af5f9",
+      "para": "Creemos en fomentar relaciones sólidas y trabajar de cerca con nuestros clientes para crear soluciones personalizadas que se alineen con su visión y objetivos."
+    },
+    {
+      "head": "Integridad",
+      "icon": "/assets/img/about/Our core values/integrity.webp",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%203%20after.webp?alt=media&token=1d65088e-fa43-4962-8f59-b5a21599fb0d",
+      "para": "Nuestra reputación se construye sobre la confianza, la transparencia y un compromiso inquebrantable con la calidad, lo que nos convierte en un socio confiable para todas tus necesidades de marketing inmobiliario."
+    },
+    {
+      "head": "NUESTROS VALORES FUNDAMENTALES",
+      "para": "En Pixel Perfects Solutions, nuestros valores impulsan la excelencia y definen nuestro compromiso con un marketing inmobiliario sobresaliente."
+    },
+    {
+      "head": "Creatividad",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Single%20Exposure%2Fafter%2Fsingle%20exposure%202%20after.webp?alt=media&token=3d3d0adf-3771-446c-a866-16733632b539",
+      "icon": "/assets/img/about/Our core values/creativity.webp",
+      "para": "Impulsamos los límites de la creatividad para crear visuales atractivos que cautivan a la audiencia y elevan la presentación de propiedades a nuevas alturas."
+    },
+    {
+      "head": "Enfoque Centrado en el Cliente",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Commercial%20Virtual%20Staging%2FAfter%2FCommercial%20Staging%202%20After.webp?alt=media&token=de441f23-1cfa-450d-b644-5e8b84fc4c1f",
+      "icon": "/assets/img/about/Our core values/customer centric.webp",
+      "para": "Nuestros clientes están en el centro de todo lo que hacemos, y priorizamos sus necesidades entregando soluciones de alta calidad con un servicio y soporte excepcionales."
+    },
+    {
+      "head": "Sostenibilidad",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Ariel%20editing%2FAfter%2FAerial%20editing%2012%20After.webp?alt=media&token=862943c6-3e0a-46dd-b24a-0d9916f57261",
+      "icon": "/assets/img/about/Our core values/sustainbility.webp",
+      "para": "Estamos comprometidos con prácticas sostenibles, asegurando que nuestros procesos sean responsables con el medio ambiente mientras mantenemos los más altos estándares de calidad."
+    },
+    {
+      "head": "Atención al Detalle",
+      "bgimage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%203%20after.webp?alt=media&token=1d65088e-fa43-4962-8f59-b5a21599fb0d",
+      "icon": "/assets/img/about/Our core values/atention to detail.webp",
+      "para": "La precisión y la perfección definen nuestro enfoque, ya que elaboramos cada detalle meticulosamente para garantizar resultados impecables que superen las expectativas."
+    }
+  ]
+}

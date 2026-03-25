@@ -1,0 +1,98 @@
+{
+  "BannerData": {
+    "head": "EXPERIMENTA LA VENTAJA PIXELS",
+    "para": "Eleva tus anuncios de propiedades con nuestra completa gama de herramientas de edición virtual. Desde planos precisos hasta imágenes impactantes, nuestras soluciones garantizan que tus propiedades destaquen. Mejora la comercialización, genera confianza y atrae a posibles clientes con contenido de alta calidad que deja una impresión duradera.",
+    "btn": "Ponte en contacto",
+    "img": "/assets/img/partnerships/partnerships.webp"
+  },
+  "Benefitsdata": {
+    "head": "¿Cuáles son los beneficios?",
+    "detail": [
+      {
+        "img": "/assets/img/partnerships/benefits/brand.webp",
+        "label": "Impulso de Marca",
+        "para": "Servicios de marca blanca para mejorar tu marca con puesta en escena virtual premium y edición de fotos."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/customer.webp",
+        "label": "Satisfacción del Cliente",
+        "para": "Impresiona a tus clientes con un catálogo de diseño personalizado y revisiones ilimitadas gratuitas."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/profit.webp",
+        "label": "Crecimiento de Beneficios",
+        "para": "Aumenta las ganancias con precios exclusivos con descuento en todos los servicios."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/complimentaru.webp",
+        "label": "Soporte de Marketing",
+        "para": "Obtén imágenes de muestra y materiales para promocionar fácilmente nuestros servicios."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/userfriedndly.webp",
+        "label": "Pedidos Fáciles",
+        "para": "Formularios de pedido simplificados para un flujo de trabajo más rápido y eficiente."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/seasmless.webp",
+        "label": "Entrega Rápida",
+        "para": "Disfruta de un procesamiento prioritario para una entrega más rápida y fluida."
+      }
+    ]
+  },
+  "PartnerData": {
+    "head": "¿Quién debería convertirse en socio?",
+    "detail": [
+      {
+        "img": "/assets/img/partnerships/partner/homestaging.webp",
+        "label": "Empresas de Home Staging",
+        "para": "En una era en la que la puesta en escena física de viviendas puede ser un desafío, una asociación con Styldod te brinda acceso a una completa gama de soluciones virtuales. Ofrece a tus clientes servicios avanzados y sin contacto para mejorar la presentación de sus propiedades."
+      },
+      {
+        "img": "/assets/img/partnerships/partner/photography.webp",
+        "label": "Empresas de Fotografía",
+        "para": "Agiliza el proceso de edición de tus fotos de anuncios con Styldod. Ofrecemos servicios expertos de mejora de fotos y recomendaciones de ajustes, asegurando que tus imágenes cumplan con los más altos estándares."
+      },
+      {
+        "img": "/assets/img/partnerships/partner/broker.webp",
+        "label": "Empresas de Corretaje",
+        "para": "Mantén un estándar fotográfico consistente en todos tus anuncios con Styldod. Nuestras soluciones automatizadas de mejora de imágenes ofrecen resultados rápidos, rentables y de alta calidad, ayudándote a brindar presentaciones de propiedades excepcionales."
+      }
+    ]
+  },
+  "PartnerFillData": [
+    {
+      "img": "/assets/img/partnerships/partner/fillthedetail.webp",
+      "head": "Completa los detalles",
+      "para": "Llena un formulario sencillo y sube tu logotipo y fotos profesionales. Esto nos ayudará a personalizar tu página de manera efectiva."
+    },
+    {
+      "img": "/assets/img/partnerships/partner/scheduleacall.webp",
+      "head": "Programa una llamada",
+      "para": "Simplemente ingresa los precios que deseas que tus clientes vean en tu página de servicios."
+    },
+    {
+      "img": "/assets/img/partnerships/partner/finalise.webp",
+      "head": "Finaliza la Asociación",
+      "para": "Creamos una página web para tus nuevos servicios, desde donde tus clientes pueden hacer pedidos. Los pedidos llegan directamente a nuestro sistema para su entrega."
+    }
+  ],
+       "testimonialsClientsInformation": {
+    "STATISTICS": "ESTADÍSTICAS",
+    "detail": "Datos interesantes",
+    "items": [
+      {
+        "head": "25,000+",
+        "para": "Clientes de confianza en todo el mundo"
+      },
+      {
+        "head": "750,000+",
+        "para": "Imágenes entregadas"
+      },
+      {
+        "head": "12+",
+        "para": "Países atendidos"
+      }
+    ]
+  }
+}

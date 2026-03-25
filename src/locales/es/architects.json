@@ -1,0 +1,146 @@
+{
+  "BannerData": {
+    "head": "ARQUITECTOS",
+    "para": "Eleva tu portafolio arquitectónico y deja una impresión duradera en clientes potenciales con presentaciones visuales excepcionales. Ya sea que busques actualizar tu portafolio o atraer a firmas y clientes prestigiosos, nuestros servicios personalizados para arquitectos ofrecen la solución ideal. Desde recorridos virtuales inmersivos y renderizados realistas hasta planos precisos, proporcionamos recursos visuales de alta calidad que muestran tu experiencia, creatividad e innovación. Permítenos ayudarte a aumentar tu impacto y presentar tu visión arquitectónica con la confianza que merece.",
+    "img": "/assets/img/architects/architects.webp",
+    "btn": "Contáctanos"
+  },
+  "PropertyService": {
+    "title": "Servicios para Soluciones de Gestión de Propiedades",
+    "ServiceData": [
+      {
+        "label": "Plano 2D",
+        "shortpara": "Mejora las presentaciones con planos 2D claros que ayudan a los clientes a visualizar los espacios de manera efectiva.",
+        "para": "Mejora las presentaciones de propiedades con nuestros planos 2D elaborados por expertos. Estos diseños detallados ofrecen representaciones espaciales claras y precisas, ayudando a clientes y compradores a visualizar el espacio de manera efectiva.",
+        "price": "$15",
+        "link": "/services/2d-floor-plan",
+        "pricetitle": "por plano",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/2D%20Floor%20Plan%2FAfter%2F2D%20Floor%20Plan%202%20After.webp?alt=media&token=dbdc4a57-7991-4a5b-94c4-c7b219ff8d7b",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/2D%20Floor%20Plan%2FBefore%2F2D%20Floor%20Plan%202%20Before.webp?alt=media&token=1298703e-97ee-4402-9a56-e1807eee3212",
+        "points": [
+          "Proporciona una representación clara y precisa del espacio",
+          "Facilita la comprensión para clientes y compradores",
+          "Personalizable para varios tipos de propiedades"
+        ]
+      },
+      {
+        "label": "Renderizado 3D 360°",
+        "para": "Ofrece una experiencia virtual inmersiva con nuestro servicio de Renderizado 3D 360°. Crea modelos detallados e interactivos para ayudar a los clientes a visualizar la propiedad desde todos los ángulos.",
+        "link": "/services/360-renders",
+        "shortpara": "Crea modelos 3D interactivos para experiencias virtuales inmersivas desde todos los ángulos.",
+        "price": "$100",
+        "pricetitle": "por render",
+        "img": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20360%20Renders%2F3D%20360%20Renders%20S4%20-%20Pixel%20Perfects%20Solution.webp?alt=media&token=37a4cf5a-9347-4626-9c3c-a5da0163615b",
+        "points": [
+          "Crea modelos de propiedades detallados e interactivos",
+          "Mejora la interacción del cliente con recorridos virtuales",
+          "Muestra propiedades en 3D de alta calidad"
+        ]
+      },
+      {
+        "label": "Plano 3D",
+        "para": "Mejora tus presentaciones de propiedades con nuestro servicio de Planos 3D. Ofrece una vista tridimensional detallada del diseño para ilustrar mejor las relaciones espaciales.",
+        "shortpara": "Proporciona una vista 3D detallada para ilustrar relaciones espaciales y mejorar la comprensión del cliente.",
+        "link": "/services/3d-floor-plan",
+        "price": "$35",
+        "pricetitle": "por plano",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FAfter%2F3d%20Floor%20Plan%203%20After.webp?alt=media&token=5665633a-d26b-481d-a867-fbd85f71f1d9",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FBefore%2F3d%20Floor%20Plan%203%20Before.webp?alt=media&token=a082b83d-1947-4f4c-9505-9b0d60930a24",
+        "points": [
+          "Representación espacial precisa",
+          "Mejora la comprensión del cliente sobre el diseño",
+          "Personalizable para varios tipos de propiedades"
+        ]
+      },
+      {
+        "label": "Fachada",
+        "shortpara": "Muestra propiedades en diferentes condiciones de iluminación para una mayor atracción visual.",
+        "link": "/services/front-elevation",
+        "para": "Captura las propiedades en su mejor luz con nuestro servicio de Conversión de Día a Atardecer. Muestra contrastes visuales impresionantes para resaltar los puntos clave de la propiedad.",
+        "fieldRoute": "/services/front-elevation",
+        "price": "$5",
+        "pricetitle": "por imagen",
+        "img": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Front%20Elevation%20Renders%2FFront%20Elevation%20S1%20-%20Pixel%20Perfects%20Solutions.webp?alt=media&token=118d4695-ea46-43f1-8d6f-26c4c777e671",
+        "points": [
+          "Muestra propiedades en distintas condiciones de iluminación",
+          "Mejora la atracción visual con contrastes dinámicos",
+          "Ideal para marketing y promociones"
+        ]
+      },
+      {
+        "label": "Recorrido Virtual 360°",
+        "link": "/services/360-walkthrough",
+        "shortpara": "Ofrece un recorrido virtual atractivo de las propiedades, resaltando características clave.",
+        "para": "Sumerge a los clientes en una experiencia virtual completa con nuestro servicio de Recorrido Virtual 360°. Destaca los puntos clave y ofrece una vista envolvente de la propiedad.",
+        "price": "$1",
+        "pricetitle": "por recorrido",
+        "video": "/Real estate Video.mp4",
+        "points": [
+          "Proporciona un recorrido virtual atractivo",
+          "Resalta dinámicamente las características de la propiedad",
+          "Edición de video de alta calidad para un acabado profesional"
+        ]
+      },
+      {
+        "label": "Renovación Virtual",
+        "para": "Visualiza posibles transformaciones sin el gasto de renovaciones reales. Nuestro servicio de Renovación Virtual permite rediseñar elementos estructurales como paredes y suelos, facilitando a los clientes explorar futuras posibilidades con facilidad.",
+        "price": "$27",
+        "pricetitle": "por imagen",
+        "shortpara": "Visualiza transformaciones potenciales de propiedades sin alteraciones físicas.",
+        "link": "/services/virtual-renovation",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fafter%2FVirtual%20Renovation%202%20after.webp?alt=media&token=39314882-5364-4edb-aa7c-c5e7a4d189d1",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fbefore%2FVirtual%20Renovation%202%20before.webp?alt=media&token=14d97591-6153-49c0-8043-a098f75d1e3d",
+        "points": [
+          "Visualiza renovaciones sin alteraciones físicas",
+          "Personaliza renovaciones según las necesidades del cliente",
+          "Reduce costos asociados a renovaciones reales"
+        ]
+      },
+      {
+        "label": "Visualización Arquitectónica",
+        "para": "Da vida a los diseños arquitectónicos con nuestros avanzados servicios de visualización. Crea renderizados realistas y detallados para mostrar eficazmente tus conceptos e ideas de diseño.",
+        "link": "/services/visualization",
+        "shortpara": "Da vida a los diseños con renderizados realistas y detallados para presentaciones efectivas.",
+        "price": "$70",
+        "pricetitle": "por imagen",
+        "img": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Visualization%2FVisualization%20S3.webp?alt=media&token=cc881c7f-042e-4897-8d14-cf07ed2ce284",
+        "points": [
+          "Produce renderizados arquitectónicos realistas y detallados",
+          "Muestra conceptos de diseño de manera efectiva",
+          "Mejora las presentaciones con visuales de alta calidad"
+        ]
+      }
+    ]
+  },
+  "ChooseBenfits": {
+    "head": "¿Por qué elegir Pixel Perfects Solution?",
+    "para": "En <strong>Pixel Perfects Solution</strong>, ayudamos a los arquitectos a mostrar sus diseños con una precisión visual impresionante. Nuestros servicios, incluyendo <strong>mejora de imágenes</strong>, <strong>puesta en escena virtual</strong> y <strong>edición de fotos</strong>, garantizan que tus proyectos arquitectónicos se presenten en su mejor forma. Ya sea que estés destacando conceptos de diseño, proyectos terminados o renderizados 3D, nuestro equipo experto crea visuales que cautivan e inspiran.<br/><br/>Con un enfoque en calidad, creatividad y entregas puntuales, transformamos tus diseños en presentaciones atractivas que resuenan con clientes y partes interesadas. Confía en nosotros para resaltar el brillo de tus creaciones arquitectónicas y llevar tu portafolio a nuevas alturas.",
+    "detail": [
+      {
+        "img": "/assets/img/architects/Architects benfits/enhanced visualization.webp",
+        "label": "Visualización Mejorada",
+        "para": "Mejora tus listados con visualizaciones superiores a través de nuestros servicios de Puesta en Escena Virtual y Mejora de Imágenes, atrayendo a más compradores."
+      },
+      {
+        "img": "/assets/img/architects/Architects benfits/imroved marketing.webp",
+        "label": "Marketing Mejorado",
+        "para": "Impulsa tu marketing con edición profesional de fotos y puesta en escena virtual. Proporciona tus imágenes y nosotros entregaremos resultados excepcionales."
+      },
+      {
+        "img": "/assets/img/architects/Architects benfits/time efficency.webp",
+        "label": "Eficiencia de Costos y Tiempo",
+        "para": "Benefíciate de precios transparentes y sin tarifas ocultas. Paga solo por los servicios que necesitas con nuestras soluciones rentables."
+      },
+      {
+        "img": "/assets/img/architects/Architects benfits/client enagemnt.webp",
+        "label": "Mayor Compromiso del Cliente",
+        "para": "Mejora el compromiso del cliente ayudando a los compradores a visualizar tu propiedad como su futuro hogar, con revisiones ilimitadas para garantizar satisfacción."
+      }
+    ]
+  },
+  "FirstTime": {
+    "head": "Reserva Tu Consulta Gratis",
+    "para1": "Mejora tus listados inmobiliarios con fotos editadas profesionalmente por Pixel Perfects Solution. Eleva la presentación de tus propiedades y aumenta las ventas con nuestros servicios profesionales de edición.",
+    "buttontext": "Reservar Ahora"
+  }
+}

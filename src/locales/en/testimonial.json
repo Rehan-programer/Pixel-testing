@@ -1,0 +1,28 @@
+{
+     "TestimonialsRatingData": {
+    "heading": "Testimonials",
+      "label": "Customer Satisfaction is Our Priority",
+      "quote": "&quot;While perfection may be unattainable, the pursuit of it leads to excellence&quot; <span style='font-weight:bold'>— Vince Lombardi</span>",
+      "para": "<span style='font-weight:bold'>With over 25,000 satisfied customers, we're committed to delivering exceptional experiences.</span><br/><span>Our industry-leading Net Promoter Score (NPS) of 78 stands as a testament to our dedication to customer loyalty and satisfaction.</span>",
+      "img": "/assets/img/Testimonialsimages/performance.webp",
+      "imgname": "performance"
+  },
+    "testimonialsClientsInformation": {
+        "STATISTICS": "STATISTICS",
+        "detail": "Interesting Facts",
+        "items": [
+            {
+                "head": "25,000+",
+                "para": "Trusted customers globally"
+            },
+            {
+                "head": "750,000+",
+                "para": "Images delivered"
+            },
+            {
+                "head": "12+",
+                "para": "Countries served"
+            }
+        ]
+    }
+}

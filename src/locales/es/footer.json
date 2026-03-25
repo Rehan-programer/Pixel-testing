@@ -1,0 +1,104 @@
+{
+  "socialIcons": [
+    {
+      "name": "/assets/img/Footericon and logos/instagram.webp",
+      "link": "https://www.instagram.com/pixel.perfects.solutions",
+      "alt": "instagram"
+    },
+    {
+      "name": "/assets/img/Footericon and logos/facebook.webp",
+      "link": "https://www.facebook.com/pixel.perfects.solutions",
+      "alt": "facebook"
+    },
+    {
+      "name": "/assets/img/Footericon and logos/linekdin.webp",
+      "link": "https://www.linkedin.com/company/pixel-perfects",
+      "alt": "linkedin"
+    }
+  ],
+  "footerInformation": [
+    {
+      "heading": "Servicios",
+      "subheadings": [
+        { "name": "Escenificación Virtual", "link": "/services/virtual-staging" },
+        { "name": "Renovación Virtual", "link": "/services/virtual-renovation" },
+        { "name": "Restyling", "link": "/services/restyling" },
+        { "name": "De Día a Atardecer", "link": "/services/day-to-dusk" },
+        { "name": "Despeje Virtual", "link": "/services/virtual-declutter" },
+        { "name": "Eliminación de Objetos", "link": "/services/item-removal" },
+        { "name": "Mejora de Imágenes", "link": "/services/image-enhancement" },
+        { "name": "Visualización", "link": "/services/visualization" },
+        { "name": "Fachada Principal", "link": "/services/front-elevation" }
+      ]
+    },
+    {
+      "heading": "",
+      "subheadings": [
+        { "name": "Renders 3D 360°", "link": "/services/360-renders" },
+        { "name": "Recorrido Virtual 360°", "link": "/services/360-walkthrough" },
+        { "name": "Plano 2D", "link": "/services/2d-floor-plan" },
+        { "name": "Plano 3D", "link": "/services/3d-floor-plan" },
+        { "name": "Videos Inmobiliarios", "link": "/services/real-estate-video" },
+        { "name": "Subtítulos de Video", "link": "/services/video-captions" },
+        { "name": "Edición HDR", "link": "/services/image-enhancement" },
+        { "name": "Reforma y Ediciones Estructurales", "link": "/services/remodel" },
+        { "name": "Escenificación Virtual Comercial", "link": "/services/commercial-virtual-staging" }
+      ]
+    },
+    {
+      "heading": "Explorar",
+      "subheadings": [
+        { "name": "Servicios", "link": "/services" },
+        { "name": "Sobre Nosotros", "link": "/about-us" },
+        { "name": "Testimonios", "link": "/testimonials" },
+        { "name": "Solicitar una Cotización", "link": "/get-a-quote" },
+        { "name": "Colaboraciones", "link": "/partnerships" },
+        { "name": "Fotógrafos", "link": "/photographers" },
+        { "name": "Contacto", "link": "/contact-us" },
+        { "name": "Prueba Gratis", "link": "/free-trial" },
+        { "name": "Guía de Fotografía", "link": "/photography-guide" }
+      ]
+    },
+    {
+      "heading": "Recursos",
+      "subheadings": [
+        { "name": "Galería", "link": "/gallery" },
+        { "name": "Blog", "link": "/blogs" },
+        { "name": "Centro de Ayuda", "link": "/help" }
+      ]
+    },
+    {
+      "heading": "Industria",
+      "subheadings": [
+        { "name": "Administrador de Propiedades", "link": "/property-manager" },
+        { "name": "Arquitectos", "link": "/architects" },
+        { "name": "Constructores", "link": "/builders" },
+        { "name": "Agentes Inmobiliarios", "link": "/realtors" },
+        { "name": "Diseñadores de Interiores", "link": "/interior-designers" }
+      ]
+    },
+    {
+      "heading": "Términos y Políticas",
+      "subheadings": [
+        { "name": "Términos y Condiciones", "link": "/term-condition" },
+        { "name": "Política de Privacidad", "link": "/privacy-policy" },
+        { "name": "Política de Reembolso", "link": "/return-refund-policy" },
+        { "name": "Política de Servicios", "link": "/service-policy" }
+      ]
+    }
+  ],
+  "socialIconsMainHomePage": [
+    {
+      "icon": "Facebook",
+      "link": "https://www.facebook.com/pixel.perfects.solutions"
+    },
+    {
+      "icon": "Instagram",
+      "link": "https://www.instagram.com/pixel.perfects.solutions"
+    },
+    {
+      "icon": "LinkedIn",
+      "link": "https://www.linkedin.com/company/pixel-perfects"
+    }
+  ]
+}

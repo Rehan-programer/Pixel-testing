@@ -1,0 +1,121 @@
+[
+  {
+    "label": "Renovación Virtual",
+    "para": "Visualiza posibles transformaciones sin el gasto de renovaciones reales. Nuestro servicio de Renovación Virtual permite rediseñar elementos estructurales como paredes y pisos, brindando a los clientes la posibilidad de explorar futuros cambios con facilidad.",
+    "price": "$27",
+    "pricetitle": "por imagen",
+    "shortpara": "Visualiza transformaciones potenciales de propiedades sin alteraciones físicas.",
+    "link": "/services/virtual-renovation",
+    "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fafter%2FVirtual%20Renovation%202%20after.webp?alt=media&token=39314882-5364-4edb-aa7c-c5e7a4d189d1",
+    "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fbefore%2FVirtual%20Renovation%202%20before.webp?alt=media&token=14d97591-6153-49c0-8043-a098f75d1e3d",
+    "points": [
+      "Visualiza posibles renovaciones sin alteraciones físicas",
+      "Personaliza las renovaciones según las necesidades del cliente",
+      "Reduce los costos asociados a renovaciones reales"
+    ]
+  },
+  {
+    "label": "Escenificación Virtual Comercial",
+    "para": "Transforma espacios comerciales con nuestro servicio de Escenificación Virtual. Visualiza posibles distribuciones y diseños para mejorar el atractivo y la funcionalidad sin alteraciones físicas.",
+    "price": "$27",
+    "pricetitle": "por imagen",
+    "shortpara": "Mejora espacios comerciales con escenificación virtual, visualizando diseños sin cambios físicos.",
+    "link": "/services/commercial-virtual-staging",
+    "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Commercial%20Virtual%20Staging%2FAfter%2FCommercial%20Staging%201%20After.webp?alt=media&token=01f0a17d-1b93-4fe6-af65-177583f7b445",
+    "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Commercial%20Virtual%20Staging%2FBefore%2FCommercial%20Staging%201%20Before.webp?alt=media&token=c3df6c53-716d-4e0e-8605-0b2e3901e521",
+    "points": [
+      "Permite visualizar transformaciones de espacios",
+      "Adaptado a los requerimientos específicos del cliente",
+      "Solución rentable para mejoras en espacios"
+    ]
+  },
+  {
+    "label": "Edición HDR",
+    "para": "Mejora tus presentaciones inmobiliarias con nuestro servicio de Edición HDR. Ofrece una vista detallada y clara para ilustrar mejor la distribución espacial.",
+    "price": "$1.6",
+    "pricetitle": "por imagen",
+    "shortpara": "Mejora los planos con vistas detalladas, facilitando la comprensión de la distribución.",
+    "link": "/services/image-enhancement",
+    "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Single%20Exposure%2Fafter%2Fsingle%20exposure%202%20after.webp?alt=media&token=3d3d0adf-3771-446c-a866-16733632b539",
+    "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Single%20Exposure%2Fbefore%2Fsingle%20exposure%202%20before.webp?alt=media&token=e0fe5851-c513-4a1a-ab48-1d27cfa3e4de",
+    "points": [
+      "Representación precisa del espacio",
+      "Mejora la comprensión de la distribución",
+      "Personalizable para distintos tipos de propiedades"
+    ]
+  },
+  {
+    "label": "Visualización Arquitectónica",
+    "para": "Da vida a los diseños arquitectónicos con nuestros servicios avanzados de visualización. Crea representaciones realistas y detalladas para mostrar tus conceptos y proyectos de manera efectiva.",
+    "price": "$70",
+    "pricetitle": "por imagen",
+    "shortpara": "Convierte diseños en representaciones realistas y detalladas para presentaciones efectivas.",
+    "link": "/services/visualization",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Visualization%2FVisualization%20S3.webp?alt=media&token=cc881c7f-042e-4897-8d14-cf07ed2ce284",
+    "points": [
+      "Genera renderizados arquitectónicos realistas y detallados",
+      "Muestra los conceptos de diseño de forma efectiva",
+      "Mejora las presentaciones con visuales de alta calidad"
+    ]
+  },
+  {
+    "label": "Escenificación Virtual",
+    "para": "Mejora espacios vacíos o desordenados con nuestro servicio de Escenificación Virtual. Transforma propiedades en ambientes elegantemente amueblados, mostrando su potencial con diseños modernos y atractivos.",
+    "price": "$14",
+    "pricetitle": "por imagen",
+    "shortpara": "Convierte espacios vacíos o desordenados en ambientes amueblados para atraer compradores.",
+    "link": "/services/virtual-staging",
+    "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%206%20after.webp?alt=media&token=ddb30cbb-a672-45c2-ab73-ab979fc10461",
+    "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fbefore%2Fvirtual%20staging%206%20before.webp?alt=media&token=3b558274-4007-40ff-859d-7a0f99cca57f",
+    "points": [
+      "Eleva el atractivo de la propiedad con diseños contemporáneos",
+      "Escenificación adaptada a las preferencias del cliente",
+      "Alternativa económica frente a la escenificación física"
+    ]
+  },
+  {
+    "label": "Mejora de Imágenes",
+    "para": "Visualiza posibles transformaciones sin el gasto de renovaciones reales. Nuestro servicio de Mejora de Imágenes permite mejorar la calidad y mostrar renovaciones potenciales de manera efectiva.",
+    "price": "$27",
+    "pricetitle": "por imagen",
+    "shortpara": "Mejora imágenes para mostrar posibles renovaciones con resultados de alta calidad.",
+    "link": "/services/image-enhancement",
+    "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%202%20after.webp?alt=media&token=4090e530-2e69-4029-9a2d-f826b24530ec",
+    "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%202%20before.webp?alt=media&token=e4fcc6f7-bcc6-4083-93fa-e0e2a3ebe967",
+    "points": [
+      "Muestra posibles renovaciones sin cambios físicos",
+      "Personaliza mejoras según las necesidades del cliente",
+      "Reduce costos frente a renovaciones reales"
+    ]
+  },
+  {
+    "label": "Restyling",
+    "para": "Mejora espacios vacíos o desordenados con nuestro servicio de Restyling. Transforma propiedades en ambientes modernos y atractivos para aumentar su valor en el mercado.",
+    "price": "$23",
+    "pricetitle": "por imagen",
+    "shortpara": "Transforma espacios vacíos o desordenados en ambientes modernos y atractivos.",
+    "link": "/services/restyling",
+    "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Restyling%2FAfter%2FRestyling%202%20after.webp?alt=media&token=2283c283-7e39-408c-95b2-bfcd9a4af5f9",
+    "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Restyling%2Fbefore%2FRestyling%202%20before.webp?alt=media&token=f239a9d7-5d82-4280-909f-a9252bcd3ccb",
+    "points": [
+      "Aumenta el atractivo de la propiedad con diseños modernos",
+      "Adaptado a las preferencias del cliente",
+      "Alternativa económica a remodelaciones físicas"
+    ]
+  },
+  {
+    "label": "Ediciones Estructurales",
+    "para": "Visualiza posibles transformaciones estructurales como paredes y pisos sin necesidad de renovaciones físicas. Nuestro servicio permite explorar posibilidades futuras de manera rentable.",
+    "price": "$25",
+    "pricetitle": "por imagen",
+    "shortpara": "Visualiza transformaciones de elementos estructurales sin renovaciones físicas.",
+    "link": "/services/remodel",
+    "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Remodel%20Structural%20Edits%2Fafter%2Fremodel%20structural%20edits%202%20after.webp?alt=media&token=7f3af239-efa0-4850-984c-98db55b56090",
+    "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Remodel%20Structural%20Edits%2Fbefore%2Fremodel%20structural%20edits%202%20before.webp?alt=media&token=bf2c6bdf-38ac-449c-96fe-5f9d343cd756",
+    "points": [
+      "Muestra renovaciones potenciales sin cambios físicos",
+      "Personaliza transformaciones según necesidades del cliente",
+      "Reduce costos frente a renovaciones reales"
+    ]
+  }
+]

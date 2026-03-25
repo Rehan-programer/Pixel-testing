@@ -1,0 +1,205 @@
+{
+  "BannerLabel": "Términos y Condiciones",
+  "date": "Fecha de vigencia: [06-Nov-2024]",
+  "para1": "¡Bienvenido a Pixel Perfects Solutions! Al acceder y utilizar nuestros servicios, aceptas cumplir y estar sujeto a los siguientes Términos y Condiciones. Por favor, léelos cuidadosamente. Si no estás de acuerdo con alguna parte de estos términos, no debes utilizar nuestros servicios.",
+  "Policydata": [
+    {
+      "id": 1,
+      "heading": "1. Descripción general",
+      "detail": [
+        {
+          "para": "Pixel Perfects Solutions (“nosotros”, “nuestro”) ofrece una gama de servicios de marketing inmobiliario, incluyendo edición de fotos, amueblado virtual y mejoras de imágenes. Estos Términos y Condiciones rigen el uso de nuestro sitio web, servicios y cualquier contenido proporcionado por Pixel Perfects Solutions."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "2. Servicios proporcionados",
+      "detail": [
+        { "para": "Ofrecemos una variedad de servicios digitales de imágenes, que incluyen, entre otros:" },
+        {
+          "list": [
+            "Edición de fotos",
+            "Amueblado virtual",
+            "Mejoras de imágenes",
+            "Diseño de planos",
+            "Modificaciones visuales personalizadas para marketing inmobiliario"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "heading": "3. Responsabilidades del usuario",
+      "detail": [
+        { "para": "Al utilizar nuestros servicios, aceptas lo siguiente:" },
+        {
+          "table": [
+            {
+              "title": "Información precisa",
+              "desc": "Eres responsable de proporcionar información precisa, incluidas las instrucciones especiales para tus solicitudes de servicio. Cualquier error en el proceso de envío, incluyendo información incorrecta o incompleta, es de tu exclusiva responsabilidad."
+            },
+            {
+              "title": "Uso del contenido",
+              "desc": "Garantizas que posees o tienes permiso para usar todos los archivos que envíes para edición. No somos responsables de ninguna disputa de derechos de autor o propiedad intelectual derivada del contenido enviado."
+            },
+            {
+              "title": "Uso legal",
+              "desc": "Aceptas utilizar nuestros servicios de manera legal y no participar en ninguna actividad que viole leyes locales, estatales, nacionales o internacionales aplicables."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "heading": "4. Proceso de pedido",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Envío del pedido",
+              "desc": "Los pedidos se envían a través de nuestro sitio web o contactando a nuestro equipo de soporte. Al enviar un pedido, aceptas proporcionar toda la información y materiales necesarios para completar el servicio."
+            },
+            {
+              "title": "Confirmación del pedido",
+              "desc": "Una vez que recibamos tu pedido y toda la información requerida, revisaremos y confirmaremos el pedido. Nos reservamos el derecho de rechazar cualquier pedido que no cumpla con nuestros estándares o políticas."
+            },
+            {
+              "title": "Condiciones de pago",
+              "desc": "El pago completo debe recibirse antes de comenzar a procesar tu pedido. Todos los pagos son finales, como se describe en nuestra Política de Reembolsos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "heading": "5. Entrega y revisiones",
+      "detail": [
+        { "para": "Implementamos una serie de medidas de seguridad para proteger tu información, incluyendo:" },
+        {
+          "table": [
+            {
+              "title": "Tiempo de entrega",
+              "desc": "Nuestro objetivo es completar y entregar cada servicio dentro del plazo especificado. Pueden ocurrir retrasos debido a circunstancias imprevistas, pero te comunicaremos cualquier cambio en el cronograma."
+            },
+            {
+              "title": "Revisiones",
+              "desc": "Ofrecemos un número específico de revisiones en cada servicio. Todas las solicitudes de revisión deben realizarse dentro del período designado después de la entrega. Revisiones adicionales más allá de lo incluido pueden generar cargos extras."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "heading": "6. Política de reembolso",
+      "detail": [
+        {
+          "para": "Como se indica en nuestra Política de Reembolsos, no ofrecemos reembolsos debido a la naturaleza personalizada de nuestros servicios. Revisa nuestra Política de Reembolsos para obtener todos los detalles."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "heading": "7. Privacidad y recopilación de datos",
+      "detail": [
+        {
+          "para": "Tu privacidad es importante para nosotros. Consulta nuestra Política de Privacidad para obtener información detallada sobre cómo recopilamos, usamos y protegemos tus datos personales."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "heading": "8. Propiedad intelectual",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Propiedad del contenido editado",
+              "desc": "Tras el pago y la finalización del servicio, conservas la propiedad de los archivos editados. Sin embargo, podemos utilizar muestras no identificables del trabajo editado con fines promocionales, a menos que solicites explícitamente lo contrario."
+            },
+            {
+              "title": "Nuestro contenido",
+              "desc": "Todo el contenido de nuestro sitio web, incluidos textos, gráficos y logotipos, es propiedad de Pixel Perfects Solutions y está protegido por derechos de autor y otras leyes de propiedad intelectual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "heading": "9. Limitación de responsabilidad",
+      "detail": [
+        { "para": "Nos esforzamos por ofrecer servicios de alta calidad, pero reconoces que:" },
+        {
+          "table": [
+            {
+              "title": "Sin garantía",
+              "desc": "Tras el pago y la finalización del servicio, conservas la propiedad de los archivos editados. Sin embargo, podemos utilizar muestras no identificables del trabajo editado con fines promocionales, a menos que solicites explícitamente lo contrario."
+            },
+            {
+              "title": "Responsabilidad limitada",
+              "desc": "Todo el contenido de nuestro sitio web, incluidos textos, gráficos y logotipos, es propiedad de Pixel Perfects Solutions y está protegido por derechos de autor y otras leyes de propiedad intelectual."
+            },
+            {
+              "title": "Resultado del servicio",
+              "desc": "No somos responsables de ninguna insatisfacción o pérdida financiera derivada del uso de nuestros servicios. Aceptas utilizar nuestros servicios bajo tu propio riesgo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "heading": "10. Indemnización",
+      "detail": [
+        {
+          "para": "Aceptas indemnizar y eximir de responsabilidad a Pixel Perfects Solutions de cualquier reclamación, daños, responsabilidades o gastos derivados de tu uso de nuestros servicios, incluidos honorarios legales resultantes de cualquier violación de estos Términos y Condiciones o uso indebido de nuestros servicios."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "heading": "11. Modificación de términos",
+      "detail": [
+        {
+          "para": "Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Los cambios se publicarán en esta página, con una fecha de vigencia actualizada. Al continuar utilizando nuestros servicios, aceptas estar sujeto a dichas modificaciones."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "heading": "12. Ley aplicable",
+      "detail": [
+        {
+          "para": "Estos Términos y Condiciones se rigen e interpretan de acuerdo con las leyes de los Estados Unidos, sin tener en cuenta sus principios de conflicto de leyes."
+        }
+      ]
+    },
+    {
+  "id": 13,
+  "heading": "13. Información de contacto",
+  "detail": [
+    {
+      "para": "Para cualquier pregunta o solicitud relacionada con esta política, contáctanos:"
+    },
+    {
+      "contacts": [
+        { "type": "email", "label": "Correo electrónico", "value": "orders@pxlperfects.com" },
+        { "type": "phone", "label": "Número de contacto en EE.UU.", "value": "+1 307 243 2920" },
+        { "type": "phone", "label": "Número de contacto en Pakistán", "value": "+92 303 408 7599" }
+      ]
+    },
+    {
+      "para": "Direcciones postales:",
+      "list": [
+        "Pixel Perfects Solutions, 30 N Gould ST STE N, Sheridan, WY 82801, Estados Unidos",
+        "Oficina No. 117, Gosha-e-Ahbab, Fase 3, Multan Road, Lahore, Pakistán"
+      ]
+    }
+  ]
+}
+  ]
+}

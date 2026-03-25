@@ -1,0 +1,272 @@
+{
+  "BannerData": {
+    "head": "1 de enero de 2021 en Fotografía Inmobiliaria",
+    "label": "Fotografía Inmobiliaria:",
+    "label2": "Una Guía Integral para Mejorar tus Fotos Inmobiliarias",
+    "para": "La fotografía inmobiliaria profesional es la piedra angular del marketing inmobiliario eficaz. Según la Asociación Nacional de Agentes Inmobiliarios, el 90% de los compradores de vivienda comienzan su búsqueda en línea. Una encuesta de propertiesonline.com reveló que el 83% de los compradores consideran que la fotografía inmobiliaria profesional es extremadamente valiosa durante el proceso de toma de decisiones. Estas estadísticas destacan el papel crucial que juegan las imágenes inmobiliarias de alta calidad en la venta de propiedades.",
+    "personName": "M.Faizan Islam",
+    "personDetail": "Fundador y Director de Pixels Perfects",
+    "profilePhoto": "/assets/img/Photography guide/profile photo.webp"
+  },
+  "AdvantagePhotographyData": {
+    "head": "Ventajas y Beneficios",
+    "BenefitsPoints": [
+      {
+        "img1": "/assets/img/Photography guide/Advantage/advanatgesofrealestate.webp",
+        "label": "Las ventajas de la fotografía inmobiliaria respaldadas por estadísticas:",
+        "points": [
+          {
+            "img": "/assets/img/Photography guide/Advantage/boost visibility.webp",
+            "label": "Aumenta la visibilidad y el compromiso en los anuncios en línea",
+            "para": "Los anuncios inmobiliarios que incluyen fotografía profesional atraen significativamente más clics y consultas, generando mayor compromiso."
+          },
+          {
+            "img": "/assets/img/Photography guide/Advantage/sale.webp",
+            "label": "Acelera la venta de propiedades",
+            "para": "Las propiedades mostradas con fotos profesionales tienden a venderse más rápido, reduciendo el tiempo en el mercado y agilizando las transacciones."
+          },
+          {
+            "img": "/assets/img/Photography guide/Advantage/increase property.webp",
+            "label": "Aumenta el valor de la propiedad",
+            "para": "Las imágenes profesionales no solo mejoran el atractivo de la propiedad, sino que también pueden generar ofertas más altas, aumentando el valor de mercado."
+          },
+          {
+            "img": "/assets/img/Photography guide/Advantage/impressions.webp",
+            "label": "Garantiza una fuerte primera impresión",
+            "para": "La fotografía inmobiliaria de alta calidad asegura que tu propiedad cause una excelente primera impresión, cautivando a los compradores desde el inicio."
+          },
+          {
+            "para": "Ya seas principiante o un profesional experimentado en fotografía inmobiliaria, esta guía concisa ofrece consejos valiosos para mejorar tus habilidades y capturar imágenes de alta calidad."
+          }
+        ]
+      },
+      {
+        "img1": "/assets/img/Photography guide/Advantage/equipement.webp",
+        "label": "Equipo esencial para la fotografía inmobiliaria:",
+        "points": [
+          {
+            "img": "/assets/img/Photography guide/Advantage/full camera.webp",
+            "label": "Cámara de fotograma completo",
+            "para": "Una cámara de fotograma completo es ideal para capturar imágenes de alta resolución, permitiendo opciones de lentes versátiles y mejor calidad de imagen."
+          },
+          {
+            "img": "/assets/img/Photography guide/Advantage/study tripod.webp",
+            "label": "Trípode resistente",
+            "para": "Usar un trípode estable ayuda a mantener la nitidez de las imágenes al evitar movimientos de la cámara durante tomas de larga exposición."
+          },
+          {
+            "img": "/assets/img/Photography guide/Advantage/wide angle.webp",
+            "label": "Lente gran angular",
+            "para": "Un lente gran angular permite capturar tomas amplias, haciendo que los espacios pequeños o estrechos parezcan más grandes e invitantes."
+          },
+          {
+            "img": "/assets/img/Photography guide/Advantage/external sync.webp",
+            "label": "Flash externo sincronizado",
+            "para": "Un flash externo proporciona iluminación equilibrada, resaltando las características clave de la propiedad mientras mantiene la claridad de la imagen."
+          },
+          {
+            "para": "Tanto para principiantes como para profesionales experimentados, esta guía ofrece consejos prácticos para seleccionar el equipo adecuado y lograr resultados impresionantes."
+          }
+        ]
+      }
+    ]
+  },
+  "PhotographyTipsData": {
+    "head": "Consejos Esenciales de Fotografía para Maximizar tus Tomas",
+    "detail": [
+      {
+        "img": "/assets/img/Photography guide/Photography tips/wide shots.webp",
+        "label": "Evita usar exclusivamente tomas amplias",
+        "para": "Aunque las tomas gran angulares son cruciales, abusar de ellas puede distorsionar la apariencia de la habitación. Diversifica tus fotos con diferentes ángulos para mostrar las dimensiones de manera más auténtica."
+      },
+      {
+        "img": "/assets/img/Photography guide/Photography tips/experiment.webp",
+        "label": "Experimenta con diferentes ángulos",
+        "para": "Explora varias perspectivas moviéndote por la habitación. Captura múltiples ángulos, como desde la entrada del dormitorio, y evita recortar muebles importantes para mantener la integridad del espacio."
+      },
+      {
+        "img": "/assets/img/Photography guide/Photography tips/priority.webp",
+        "label": "Prioriza la composición",
+        "para": "Sé consciente de los elementos en tu encuadre y utilízalos para crear composiciones atractivas que resalten las mejores características de la propiedad."
+      },
+      {
+        "img": "/assets/img/Photography guide/Photography tips/vary height.webp",
+        "label": "Varía la altura de tus tomas",
+        "para": "Con un trípode, ajusta la altura de la cámara para capturar ángulos más favorecedores. Experimenta para encontrar la mejor perspectiva en cada habitación."
+      },
+      {
+        "img": "/assets/img/Photography guide/Photography tips/optimize lighting.webp",
+        "label": "Optimiza la iluminación en cada habitación",
+        "para": "Aprovecha la luz disponible y usa flash cuando sea necesario para garantizar que cada espacio esté bien iluminado."
+      },
+      {
+        "img": "/assets/img/Photography guide/Photography tips/ideal camera.webp",
+        "label": "Selecciona la configuración de cámara ideal",
+        "para": "Elegir los ajustes adecuados puede mejorar significativamente la calidad de las fotos. Una configuración correcta facilita el proceso de postproducción."
+      }
+    ]
+  },
+  "PrepTheSceneData": {
+    "head": "Prepara la Escena para la Fotografía",
+    "detail": [
+      {
+        "img": "/assets/img/Photography guide/prepsecene1.webp",
+        "head": "Interiores:",
+        "points": [
+          "Minimiza los objetos personales como juguetes, imanes del refrigerador, papeleras, fotos familiares y artículos religiosos para crear un espacio neutral.",
+          "Despeja el área eliminando papeles, latas, botellas, ropa o cualquier elemento innecesario que pueda afectar la estética general.",
+          "Reorganiza los muebles para mejorar el encuadre y el equilibrio de la toma.",
+          "Asegúrate de que los muebles y textiles estén correctamente alineados y ordenados.",
+          "Enciende todas las luces y abre las persianas para maximizar la iluminación natural y artificial.",
+          "Limpia y quita el polvo de todas las superficies para garantizar una apariencia impecable.",
+          "Limpia bien las ventanas por dentro y por fuera para eliminar manchas y marcas.",
+          "Coloca toallas limpias en los toalleros para añadir un toque elegante.",
+          "Organiza y ordena los armarios para mostrar un espacio bien cuidado.",
+          "Retira las alfombras para crear la sensación de un espacio más amplio y abierto.",
+          "Haz todas las camas cuidadosamente para que se vean limpias y acogedoras.",
+          "Ajusta y organiza las obras de arte para complementar el estilo y diseño de la habitación."
+        ]
+      },
+      {
+        "img": "/assets/img/Photography guide/prepscene2.webp",
+        "head": "Exteriores:",
+        "points": [
+          "Lava, barre y seca completamente todas las áreas pavimentadas para lograr una apariencia limpia y bien mantenida.",
+          "Asegúrate de que la piscina esté limpia y en buen estado, retirando todas las cubiertas.",
+          "Retira contenedores de basura, vehículos y equipos de jardín para mantener un espacio exterior despejado.",
+          "Corta el césped y rastrilla el jardín para presentar un paisaje ordenado.",
+          "Verifica toda la iluminación exterior y reemplaza las bombillas si es necesario para asegurar una iluminación adecuada."
+        ]
+      }
+    ]
+  },
+  "ShootSceneData": {
+    "head": "Capturando la Escena",
+    "para": "Una vez que la propiedad esté lista, sigue estos consejos para tomar excelentes fotos:",
+    "detail": [
+      "<span style='font-size:clamp(1rem, 1.3vw, 1.8rem); font-weight:bold'>Consejos para capturar fotos interiores de alta calidad:</span>",
+      "Ajusta la altura de la cámara según la habitación, por ejemplo, en cocinas a la altura del pecho.",
+      "Fotografía desde una esquina para una perspectiva amplia.",
+      "Mantén las puertas abiertas para mostrar amplitud.",
+      "Destaca accesorios clave en cocinas y baños.",
+      "<span style='font-size:clamp(1rem, 1.3vw, 1.8rem); font-weight:bold'>Consejos para capturar fotos exteriores de alta calidad:</span>",
+      "Fotografía el frente de la casa desde un ángulo elevado.",
+      "Evita disparar al mediodía por sombras fuertes.",
+      "Enciende todas las luces excepto focos directos.",
+      "Los días nublados son ideales; si es necesario, usa edición día a noche."
+    ]
+  },
+  "PhotosAreTakenData": {
+    "subtitle": "<span style='font-weight:bold'>Pixel Perfects Solutions</span> se especializa en edición HDR de fotografía inmobiliaria, garantizando imágenes con detalles mejorados, iluminación equilibrada y un acabado profesional incluso en plazos ajustados.",
+    "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%202%20after.webp?alt=media&token=4090e530-2e69-4029-9a2d-f826b24530ec",
+    "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%202%20before.webp?alt=media&token=e4fcc6f7-bcc6-4083-93fa-e0e2a3ebe967",
+    "detail": [
+      {
+        "label": "Después de tomar las fotos",
+        "para": "Una vez tomadas tus fotos HDR, algunas pueden necesitar ajustes para mostrar todo su potencial. Delegar la edición a profesionales asegura correcciones de iluminación, contraste y color para resultados vibrantes."
+      },
+      {
+        "label": "Ventajas de subcontratar la edición HDR",
+        "para": "Los servicios profesionales de edición HDR equilibran la exposición, mejoran detalles y corrigen disparidades de iluminación. Con técnicas avanzadas, logran fotos naturales y atractivas en plazos rápidos."
+      }
+    ]
+  },
+  "Benefitsdata": {
+    "detail": [
+      {
+        "img": "/assets/img/Photography guide/Phothraphyperformance/high.webp",
+        "label": "Fotografía de Alta Calidad"
+      },
+      {
+        "img": "/assets/img/Photography guide/Phothraphyperformance/cost efficient.webp",
+        "label": "Soluciones Rentables"
+      },
+      {
+        "img": "/assets/img/Photography guide/Phothraphyperformance/timely.webp",
+        "label": "Entregas Puntuales"
+      }
+    ]
+  },
+  "FirstTime": {
+    "head": "¿Nuevo en Nuestros Servicios?",
+    "para1": "Mejora tus anuncios inmobiliarios con fotos editadas profesionalmente por Pixels. Eleva la presentación de tus propiedades y aumenta tus ventas.",
+    "buttontext": "Contáctanos Hoy"
+  },
+  "FaqsData": {
+    "title": "Preguntas Frecuentes sobre Fotografía Inmobiliaria",
+    "questions": [
+      {
+        "id": 1,
+        "question": "¿Qué configuración debo usar para fotografía inmobiliaria?",
+        "answer": "La mejora de imágenes implica ajustar color, iluminación y detalles para presentar propiedades más atractivas."
+      },
+      {
+        "id": 2,
+        "question": "¿Cuál es la mejor manera de tomar fotos inmobiliarias?",
+        "answer": "Incluye técnicas como balance de blancos, nitidez, corrección de distorsión, brillo y contraste para mejorar fotos."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuánto cobran los fotógrafos inmobiliarios por hora?",
+        "answer": "Seguimos un proceso de 17 pasos que incluye reemplazo de cielo, mejora de césped y ajuste de tonos."
+      },
+      {
+        "id": 4,
+        "question": "¿Cuál es la mejor lente para fotografía inmobiliaria?",
+        "answer": "Las imágenes mejoradas generan una buena primera impresión, atraen compradores y aceleran las ventas."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué lente gran angular se recomienda?",
+        "answer": "Ofrecemos paquetes Básico, Estándar y Premium con diferentes cantidades y niveles de edición."
+      },
+      {
+        "id": 6,
+        "question": "¿Necesitas una cámara full-frame?",
+        "answer": "Sí, y también puedes solicitar ajustes personalizados como colores o iluminación."
+      },
+      {
+        "id": 7,
+        "question": "¿Cuál es el tiempo de entrega típico?",
+        "answer": "Depende del número de fotos y paquete. Siempre priorizamos entregas rápidas y de calidad."
+      },
+      {
+        "id": 8,
+        "question": "¿Cómo empiezo con sus servicios?",
+        "answer": "Solo contáctanos, elige un paquete y nuestro equipo te guiará."
+      },
+      {
+        "id": 9,
+        "question": "¿Ofrecen servicios de home staging virtual?",
+        "answer": "Sí, además de edición, ofrecemos staging virtual para mostrar el potencial de las propiedades."
+      },
+      {
+        "id": 10,
+        "question": "¿Pueden editar fotografía aérea de drones?",
+        "answer": "¡Claro! Editamos tomas aéreas, mejoramos iluminación y colores para destacar propiedades."
+      }
+    ]
+  },
+  "CeoCard": {
+    "personName": "M.Faizan Islam",
+    "personDetail": "Founder And Director of Pixels Perfects",
+    "profilePhoto": "/assets/img/Photography guide/profile photo.webp",
+    "icons": [
+      {
+        "icon": "Instagram",
+        "background": "linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4)",
+        "link": "https://www.instagram.com/pixel.perfects.solutions"
+      },
+      {
+        "icon": "Facebook",
+        "background": "linear-gradient(45deg, #1877F2, #3b5998)",
+        "link": "https://www.facebook.com/pixel.perfects.solutions"
+      },
+      {
+        "icon": "LinkedIn",
+        "background": "linear-gradient(45deg, #0077b5, #0a66c2)",
+        "link": "https://www.linkedin.com/company/pixel-perfects"
+      }
+    ]
+  }
+}

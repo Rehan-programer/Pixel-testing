@@ -1,0 +1,90 @@
+{
+  "BannerData": {
+    "head": "VIVE LA EXPERIENCIA PIXELS",
+    "para": "Lleva tus anuncios de propiedades al siguiente nivel con nuestra completa suite de herramientas de edición virtual. Desde planos precisos hasta imágenes de alta calidad, nuestras soluciones te permiten presentar tus propiedades de la mejor manera posible. Esto no solo aumenta su comercialización, sino que también te ayuda a generar confianza y credibilidad con los clientes potenciales.",
+    "btn": "PRUEBA GRATUITA",
+    "img": "/assets/img/Freetrial/freetrial.webp"
+  },
+  "PartnerData": {
+    "head": "¿Qué obtienes en nuestra prueba gratuita?",
+    "detail": [
+      {
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%204%20after.webp?alt=media&token=175fe239-9cce-4f62-81b4-58ca2bde784d",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fbefore%2Fvirtual%20staging%204%20%20before.webp?alt=media&token=f1be0866-6855-472e-b4fe-ad5eef9de6dc",
+        "label": "Escenografía Virtual",
+        "para": "Amuebla y decora digitalmente los espacios vacíos con diseños impresionantes para ayudar a los compradores a visualizar el potencial de una propiedad y aumentar su atractivo.",
+        "points": [
+          { "label": "Imágenes máximas", "detail": "1 imagen" },
+          { "label": "Tiempo de entrega", "detail": "24-48 horas" },
+          { "label": "Revisiones ilimitadas", "detail": "" }
+        ]
+      },
+      {
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/item%20removal%2Fafter%2Fitem%20removal%201%20after.webp?alt=media&token=45a7d281-327e-485a-bee0-bf0a613df452",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/item%20removal%2Fbefore%2Fitem%20removal%201%20before.webp?alt=media&token=3c93f000-0b2a-4e34-8bef-639a9e035ff4",
+        "label": "Eliminación de Objetos",
+        "para": "Elimina fácilmente objetos no deseados o desorden de tus imágenes, haciéndolas más limpias, atractivas y profesionales.",
+        "points": [
+          { "label": "Imágenes máximas", "detail": "Hasta 1 imagen" },
+          { "label": "Tiempo de entrega", "detail": "24-48 horas" },
+          { "label": "Revisiones ilimitadas", "detail": "" }
+        ]
+      },
+      {
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%2012%20after.webp?alt=media&token=1fe7d11c-fcd8-41d1-85e4-9326e7ad9035",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%2012%20before.webp?alt=media&token=65f85ecb-aec3-48d5-a9db-f5cfdda82b68",
+        "label": "Mejora de Imágenes",
+        "para": "Mejora la calidad de las imágenes aumentando los colores, el brillo y los detalles, haciéndolas más vibrantes y atractivas.",
+        "points": [
+          { "label": "Imágenes máximas", "detail": "Hasta 2 imágenes" },
+          { "label": "Tiempo de entrega", "detail": "12-24 horas" },
+          { "label": "Revisiones ilimitadas", "detail": "" }
+        ]
+      }
+    ]
+  },
+  "ChooseBenfits": {
+    "head": "Experimenta la Diferencia con una Prueba Gratuita",
+    "para": "En <strong>Pixel Perfects Solution</strong>, creemos en mostrar el valor de nuestros servicios antes de que te comprometas. Nuestra prueba gratuita te permite experimentar nuestra experiencia en <strong>mejora de imágenes</strong>, <strong>escenografía virtual</strong> y <strong>edición de fotos</strong> de primera mano. Observa cómo transformamos tus imágenes en activos de marketing cautivadores que atraen compradores y generan éxito.<br /><br />Sin cargos ocultos ni compromisos, nuestra prueba gratuita es una forma libre de riesgos de explorar la calidad excepcional, los tiempos de entrega rápidos y las soluciones personalizadas que ofrecemos. Asóciate con nosotros y descubre por qué somos la opción preferida por los profesionales inmobiliarios en todo el mundo.",
+    "detail": [
+      {
+  "img": "/assets/img/Freetrial/acheive.webp",
+          "label": "Alcanza Precios de Venta Más Altos",
+        "para": "Nuestros servicios profesionales de Escenografía Virtual y Mejora de Imágenes están diseñados para atraer a más compradores a tus anuncios, permitiéndote asegurar precios de venta más altos."
+      },
+      {
+        "img": "/assets/img/Freetrial/efforts.webp",
+        "label": "Perfección sin Esfuerzo",
+        "para": "Confía en nuestros expertos para tus necesidades de edición de fotos y escenografía virtual. Simplemente comparte tus imágenes con nosotros y nos encargaremos de todo."
+      },
+      {
+        "img": "/assets/img/Freetrial/fair price.webp",
+        "label": "Precios Transparentes",
+        "para": "Nuestros servicios tienen precios claros y directos. Pagas solo por lo que está listado en nuestro sitio, sin cargos ocultos."
+      },
+      {
+        "img": "/assets/img/Freetrial/unlimited.webp",
+        "label": "Revisiones Ilimitadas",
+        "para": "Trabajamos incansablemente para garantizar que tus compradores potenciales puedan visualizar tu anuncio como su hogar soñado, ofreciendo revisiones ilimitadas hasta que estés completamente satisfecho."
+      }
+    ]
+  },
+      "testimonialsClientsInformation": {
+    "STATISTICS": "ESTADÍSTICAS",
+    "detail": "Datos interesantes",
+    "items": [
+      {
+        "head": "25,000+",
+        "para": "Clientes de confianza en todo el mundo"
+      },
+      {
+        "head": "750,000+",
+        "para": "Imágenes entregadas"
+      },
+      {
+        "head": "12+",
+        "para": "Países atendidos"
+      }
+    ]
+  }
+}

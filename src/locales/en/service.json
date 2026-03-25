@@ -1,0 +1,42 @@
+{
+  "serviceBanner": {
+    "title": "<span>Our</span> Services",
+    "detail": "At Pixel Perfects Solutions, we specialize in transforming real estate properties through our innovative services. From virtual staging that breathes life into properties to virtual renovation that unveils untapped potential, and enhancement of property pictures for captivating visuals—we redefine how you showcase spaces.",
+    "image": "/assets/img/ServicePage/servicebackground.webp",
+  "images": [
+    {
+      "src": "/assets/img/ServicePage/bannerimage1.webp",
+      "alt": "Modern staircase interior virtual staging example - Pixel Perfects Solutions LLC",
+      "title": "Modern staircase interior transformation - Pixel Perfects Solutions LLC"
+    },
+    {
+      "src": "/assets/img/ServicePage/bannerimage2.webp",
+      "alt": "Empty living room ready for virtual staging transformation - Pixel Perfects Solutions LLC",
+      "title": "Living room virtual staging before image - Pixel Perfects Solutions LLC"
+    },
+    {
+      "src": "/assets/img/ServicePage/bannerimage3.webp",
+      "alt": "Rooftop terrace with city skyline virtual staging example - Pixel Perfects Solutions LLC",
+      "title": "Outdoor terrace virtual staging showcase - Pixel Perfects Solutions LLC"
+    }
+  ]
+  },
+   "testimonialsClientsInformation": {
+        "STATISTICS": "STATISTICS",
+        "detail": "Interesting Facts",
+        "items": [
+            {
+                "head": "25,000+",
+                "para": "Trusted customers globally"
+            },
+            {
+                "head": "750,000+",
+                "para": "Images delivered"
+            },
+            {
+                "head": "12+",
+                "para": "Countries served"
+            }
+        ]
+    }
+}

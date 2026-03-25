@@ -1,0 +1,217 @@
+{
+  "BannerLabel": "Services Policy",
+  "date": "Effective Date: [06-Nov-2024]",
+  "para1": "Pixel Perfects Solutions (“we,” “us,” “our”) is committed to delivering high-quality real estate marketing services, including but not limited to photo editing, virtual staging, and image enhancements. This Service Policy outlines the terms, processes, and conditions under which our services are provided.",
+  "Policydata": [
+    {
+      "id": 1,
+      "heading": " Services Overview",
+      "detail": [
+        {
+          "para": "Pixel Perfects Solutions offers a variety of professional image enhancement services, including:"
+        },
+        {
+          "list": [
+            "Photo Editing: Enhancements, retouching, and modifications to property photos.",
+            "Virtual Staging: Digital furnishing of vacant rooms or outdoor areas.",
+            "Image Enhancement: Day to dusk conversions, HDR adjustments, and color balancing.",
+            "Floor Plan Design: Creation of 2D and 3D floor plans.",
+            "Custom Modifications: Property restyling, item removal, and other custom edits."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": " Service Delivery",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Order Process",
+              "desc": "Orders can be placed through our website or by contacting us directly. You are required to provide all necessary files, instructions, and information related to the requested service."
+            },
+            {
+              "title": "Order Confirmation",
+              "desc": "Once an order is received, we will confirm it after reviewing the details. If additional information is required, we will reach out to ensure all details are clarified before starting."
+            },
+            {
+              "title": "Delivery Time",
+              "desc": "We aim to deliver completed work within the estimated timeframe specified during order confirmation. Delivery time may vary based on the complexity of the project, order volume, and revisions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "heading": " Pricing and Payment Terms",
+      "detail": [
+        {
+          "para": "By using our services, you agree to the following:"
+        },
+        {
+          "table": [
+            {
+              "title": "Pricing",
+              "desc": "Our prices vary depending on the service, complexity, and volume of work. For custom orders, we provide a quote upon request."
+            },
+            {
+              "title": "Payment",
+              "desc": "Full payment is required before work begins. We accept payments via secure online methods. By making a payment, you agree to the terms of our Refund Policy."
+            },
+            {
+              "title": "No Refund Policy",
+              "desc": "Due to the customized nature of our services, all sales are final, and we do not offer refunds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "heading": " Revisions Policy",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Standard Revisions",
+              "desc": "We offer a limited number of revisions as specified in the order. Revision requests must be made within [7 days] of receiving the completed work."
+            },
+            {
+              "title": "Additional Revisions",
+              "desc": "If further modifications are requested beyond the included revisions, additional charges may apply. We will inform you of any extra charges before proceeding with additional work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "heading": " Privacy and Data Security",
+      "detail": [
+        {
+          "para": "Your privacy is important to us. For detailed information on data handling, please refer to our Privacy Policy. Highlights include:"
+        },
+        {
+          "list": [
+            "Data Collection: We collect only necessary information to fulfill orders, such as your full name, contact details, and any files you submit.",
+            "Data Security: All files and personal data are securely stored, and we employ industry-standard practices to protect your information.",
+            "Data Retention: Your project files are retained for a reasonable period to facilitate future requests. Should you wish to delete your account or data, please contact us, and we will assist accordingly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "heading": " Client Responsibilities",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Accurate Submission",
+              "desc": "Clients are responsible for submitting accurate and complete information for each order. Any discrepancies in submission details may impact the quality and delivery time of the service."
+            },
+            {
+              "title": "Use Rights",
+              "desc": "You represent and warrant that you have the right to provide us with the images, videos, and other files submitted for processing. We are not liable for any copyright or legal issues related to your submitted content."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "heading": " Intellectual Property",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Ownership",
+              "desc": "Upon completion and delivery of the service, the edited work belongs to you. However, we retain the right to use non-identifiable examples of work for our portfolio unless otherwise requested by you."
+            },
+            {
+              "title": "Our Rights",
+              "desc": "All tools, methods, and materials used in providing the service remain the intellectual property of Pixel Perfects Solutions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "heading": " Limitations and Disclaimers",
+      "detail": [
+        {
+          "para": "While we strive to provide high-quality services, please be aware of the following:"
+        },
+        {
+          "table": [
+            {
+              "title": "No Guarantees",
+              "desc": "We do not guarantee specific results and are not liable for any dissatisfaction or financial loss due to our services."
+            },
+            {
+              "title": "Liability Limitation",
+              "desc": "To the fullest extent permitted by law, Pixel Perfects Solutions shall not be liable for any indirect, incidental, or consequential damages related to the use of our services."
+            },
+            {
+              "title": "Service Outcome",
+              "desc": "You acknowledge that the quality and outcome of our services depend on the information and materials provided by you. We reserve the right to reject orders that do not meet our standards or violate these terms."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "heading": " Cancellation Policy",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Cancellation Before Service Commencement",
+              "desc": "Orders may be canceled before the service begins. However, if any work has already started, the order cannot be canceled."
+            },
+            {
+              "title": "After Service Commencement",
+              "desc": "Once we have commenced the service, cancellations are not allowed, and payments are non-refundable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "heading": " Amendments to Service Policy",
+      "detail": [
+        {
+          "para": "Pixel Perfects Solutions reserves the right to modify this Service Policy at any time. Any updates will be posted on this page with an effective date. Continued use of our services following any updates constitutes acceptance of the revised policy."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "heading": " Contact Information",
+      "detail": [
+        {
+          "para": "For any questions or requests regarding this policy, please reach out to us:"
+        },
+        {
+          "contacts": [
+            { "label": "Email", "type": "email", "value": "orders@pxlperfects.com" },
+            { "label": "US Contact Number", "type": "phone", "value": "+1 307 243 2920" },
+            { "label": "PK Contact Number", "type": "phone", "value": "+92 303 408 7599" }
+          ]
+        },
+        {
+          "para": "Mailing Addresses:",
+          "list": [
+            "Pixel Perfects Solutions, 30 N Gould ST STE N, Sheridan, WY 82801, United States",
+            "Office No. 117, Gosha-e-Ahbab, Phase 3, Multan Road, Lahore, Pakistan"
+          ]
+        }
+      ]
+    }
+  ]
+}

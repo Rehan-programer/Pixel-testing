@@ -1,0 +1,273 @@
+export const MENU_DATA = [
+    {
+        "1": 1,
+        "mainHeading": "Services",
+        "subHeading": "Explore our comprehensive range of property enhancement services designed to elevate your",
+        "link": "/services",
+        "subServices": [
+            {
+                "id": 1,
+                "labelName": "Image Editing",
+                "homeDetails": "In the realm of residential real estate, we specialize in capturing the essence of homes through Virtual Staging, renovation, and enhanced property visuals. Transforming houses into inviting homes, we redefine the way prospective buyers experience residential spaces.",
+                "fields": [
+                    {
+                        "fieldName": "Image Enhancement/HDR Editing",
+                        "hoverDetail": "Enhance clarity and color vibrancy for clearer, more vivid images.",
+                        "fieldRoute": "/services/image-enhancement",
+                        "icon": "/assets/img/menuicons/HDR.webp"
+                    },
+                    {
+                        "fieldName": "Day To Dusk",
+                        "fieldRoute": "/services/day-to-dusk",
+                        "hoverDetail": "Transform daylight images to stunning dusk scenes with enhanced lighting.",
+                        "icon": "/assets/img/menuicons/day to dusk.webp"
+                    },
+                    {
+                        "fieldName": "Virtual Declutter",
+                        "fieldRoute": "/services/virtual-declutter",
+                        "icon": "/assets/img/menuicons/declutter.webp",
+                        "hoverDetail": "Remove unwanted items and furniture to create clean, spacious visuals."
+                    },
+                    {
+                        "fieldName": "Item Removal",
+                        "fieldRoute": "/services/item-removal",
+                        "icon": "/assets/img/menuicons/Item Removal.webp",
+                        "hoverDetail": "Eliminate unwanted objects to simplify and declutter images."
+                    },
+                    {
+                        "fieldName": "Other Edits",
+                        "fieldRoute": "/other-edits",
+                        "icon": "/assets/img/menuicons/Image enhacment.webp",
+                        "hoverDetail": "Refine and adjust photos for improved quality and visual appeal."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "labelName": "Virtual Staging & Renovation",
+                "homeDetails": "We provide high-quality virtual staging and renovation services that transform empty or outdated property photos into beautifully furnished and modern spaces, helping buyers visualize the true potential of the property.",
+                "fields": [
+                    {
+                        "fieldName": "Virtual Staging",
+                        "hoverDetail": "Digitally furnish and style empty rooms to showcase their potential.",
+                        "fieldRoute": "/services/virtual-staging",
+                        "icon": "/assets/img/menuicons/virtual staging.webp"
+                    },
+                    {
+                        "fieldName": "Virtual Renovation",
+                        "hoverDetail": "Showcase future renovation ideas by digitally upgrading interiors and exteriors.",
+                        "fieldRoute": "/services/virtual-renovation",
+                        "icon": "/assets/img/menuicons/virtual renovation.webp"
+                    },
+                    {
+                        "fieldName": "Restyling",
+                        "hoverDetail": "Redesign spaces with new styles, layouts, and décor to inspire buyers.",
+                        "fieldRoute": "/services/restyling",
+                        "icon": "/assets/img/menuicons/Restyling.webp"
+                    },
+                    {
+                        "fieldName": "Commercial Virtual Staging",
+                        "hoverDetail": "Stage commercial properties digitally to highlight professional spaces.",
+                        "fieldRoute": "/services/commercial-virtual-staging",
+                        "icon": "/assets/img/menuicons/Commercial Virtual Staging.webp"
+                    },
+                    {
+                        "fieldName": "Remodel / Structural Edits",
+                        "hoverDetail": "Present future remodeling plans with advanced structural visual edits.",
+                        "fieldRoute": "/services/remodel",
+                        "icon": "/assets/img/menuicons/Remodel Structural Edits.webp"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "labelName": "Renders",
+                "homeDetails": "Our rendering services add a touch of realism to architectural visions. From detailed interior renders to captivating exterior views, we craft visualizations that breathe life into concepts. Whether for real estate marketing or architectural presentations, our renders provide a compelling glimpse into the future.",
+                "fields": [
+                    {
+                        "fieldName": "Visualization",
+                        "fieldRoute": "/services/visualization",
+                        "icon": "/assets/img/menuicons/Front Elevation.webp",
+                        "hoverDetail": "Create detailed, realistic visuals to showcase designs and spaces"
+                    },
+                    {
+                        "fieldName": "Front Elevation",
+                        "fieldRoute": "/services/front-elevation",
+                        "icon": "/assets/img/menuicons/Front Elevation.webp",
+                        "hoverDetail": "Show the buildings front exterior for design clarity"
+                    },
+                    {
+                        "fieldName": "3D 360° Renders",
+                        "fieldRoute": "/services/360-renders",
+                        "icon": "/assets/img/menuicons/3D 360 Renders.webp",
+                        "hoverDetail": "Create interactive 360-degree views of spaces."
+                    },
+                    {
+                        "fieldName": "360° Walk Through",
+                        "fieldRoute": "/services/360-walkthrough",
+                        "icon": "/assets/img/menuicons/3D 360 Walkthrough.webp",
+                        "hoverDetail": "Explore spaces interactively with immersive 360-degree views."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "labelName": "Floor Plan",
+                "homeDetails": "In the realm of residential real estate, we specialize in capturing the essence of homes through Virtual Staging, renovation, and enhanced property visuals. Transforming houses into inviting homes, we redefine the way prospective buyers experience residential spaces.",
+                "fields": [
+                    {
+                        "fieldName": "2D Floor Plan",
+                        "fieldRoute": "/services/2d-floor-plan",
+                        "hoverDetail": "Provide a flat, top-down view of space layout and dimensions.",
+                        "icon": "/assets/img/menuicons/Floor Plan.webp"
+                    },
+                    {
+                        "fieldName": "3D Floor Plan",
+                        "fieldRoute": "/services/3d-floor-plan",
+                        "hoverDetail": "Offer a detailed, three-dimensional view of space layout and design.",
+                        "icon": "/assets/img/menuicons/3D Floor plan.webp"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "labelName": "Video Editing",
+                "homeDetails": "In the dynamic world of online retail, we leverage our web development expertise to create visually appealing and highly functional websites. Specializing in React.js and Next.js, we tailor online retail platforms to enhance user experiences, driving engagement and conversion. Elevate your digital storefront with our cutting-edge solutions.",
+                "fields": [
+                    {
+                        "fieldName": "Real Estate Video",
+                        "fieldRoute": "/services/real-estate-video",
+                        "hoverDetail": "Showcase properties with engaging, high-quality video tours.",
+                        "icon": "/assets/img/menuicons/Video Editing.webp"
+                    },
+                    {
+                        "fieldName": "Video Captions",
+                        "fieldRoute": "/services/video-captions",
+                        "hoverDetail": "Add text to videos for accessibility, clarity, and engagement.",
+                        "icon": "/assets/img/menuicons/Video Captions.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "labelName": "Explore",
+        "fields": [
+            {
+                "fieldName": "Services",
+                "fieldRoute": "/services",
+                "hoverDetail": "Explore our comprehensive range of property enhancement services.",
+                "icon": "/assets/img/menuicons/Services.webp"
+            },
+            {
+                "fieldName": "Testimonials",
+                "fieldRoute": "/testimonials",
+                "hoverDetail": "See what our clients have to say about our services.",
+                "icon": "/assets/img/menuicons/Testimonials.webp"
+            },
+            {
+                "fieldName": "Partnerships",
+                "fieldRoute": "/partnerships",
+                "hoverDetail": "Collaborate with us to enhance your business offerings.",
+                "icon": "/assets/img/menuicons/Partnerships.webp"
+            },
+            {
+                "fieldName": "Photographers",
+                "fieldRoute": "/photographers",
+                "hoverDetail": "Discover professional photographers to capture your properties.",
+                "icon": "/assets/img/menuicons/photographers.webp"
+            },
+            {
+                "fieldName": "Free Trial",
+                "fieldRoute": "/free-trial",
+                "hoverDetail": "Try our services with a free trial and see the difference.",
+                "icon": "/assets/img/menuicons/Trial.webp"
+            },
+            {
+                "fieldName": "Photography Guide",
+                "fieldRoute": "/photography-guide",
+                "hoverDetail": "Learn essential tips and techniques for property photography.",
+                "icon": "/assets/img/menuicons/Photography Guide.webp"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "labelName": "Resources",
+        "fields": [
+            {
+                "fieldName": "Gallery",
+                "fieldRoute": "/gallery",
+                "hoverDetail": "Browse our gallery of past projects and successful showcases.",
+                "icon": "/assets/img/menuicons/Gallery.webp"
+            },
+            {
+                "fieldName": "Blog",
+                "fieldRoute": "/blogs",
+                "hoverDetail": "Read our blog for insights, tips, and industry trends.",
+                "icon": "/assets/img/menuicons/Blog.webp"
+            },
+            {
+                "fieldName": "Property Listings",
+                "fieldRoute": "/property-listings",
+                "hoverDetail": "Browse and explore all available property listings with detailed information and images.",
+                "icon": "/assets/img/menuicons/Realtors.webp"
+            },
+            {
+                "fieldName": "Property Manager",
+                "fieldRoute": "/property-manager",
+                "hoverDetail": "Discover solutions tailored for property management needs.",
+                "icon": "/assets/img/menuicons/Property Manager.webp"
+            },
+            {
+                "fieldName": "Architects",
+                "fieldRoute": "/architects",
+                "hoverDetail": "Innovative visual solutions for architectural projects.",
+                "icon": "/assets/img/menuicons/Architects.webp"
+            },
+            {
+                "fieldName": "Builders",
+                "fieldRoute": "/builders",
+                "hoverDetail": "Services crafted to support builders in showcasing properties.",
+                "icon": "/assets/img/menuicons/Builders.webp"
+            },
+            {
+                "fieldName": "Realtors",
+                "fieldRoute": "/realtors",
+                "hoverDetail": "Enhance listings and attract buyers with our realtor-focused services.",
+                "icon": "/assets/img/menuicons/Realtors.webp"
+            },
+            {
+                "fieldName": "Interior Designers",
+                "fieldRoute": "/interior-designers",
+                "hoverDetail": "Visual tools to bring your interior design visions to life.",
+                "icon": "/assets/img/menuicons/Interior Designers.webp"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "labelName": "Info & Contact",
+        "fields": [
+            {
+                "fieldName": "About Us",
+                "fieldRoute": "/about-us",
+                "hoverDetail": "Your vision, pixel-perfect solutions.",
+                "icon": "/assets/img/menuicons/about-us.webp"
+            },
+            {
+                "fieldName": "Contact Us",
+                "fieldRoute": "/contact-us",
+                "hoverDetail": "Have questions? Contact us for assistance.",
+                "icon": "/assets/img/menuicons/Contact Us.webp"
+            },
+            {
+                "fieldName": "Get a Quote",
+                "fieldRoute": "/get-a-quote",
+                "hoverDetail": "Need a quote for your project? Get clear pricing and timelines.",
+                "icon": "/assets/img/menuicons/Contact Us.webp"
+            }
+        ]
+    }
+]

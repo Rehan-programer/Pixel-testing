@@ -1,0 +1,40 @@
+{
+  "BannerLabel": "Política de Reembolsos",
+  "paragraph": "En Pixel Perfects Solutions, nos comprometemos a proporcionar servicios de edición de fotos, puesta en escena virtual y otras mejoras de imágenes de alta calidad a nuestros clientes. Debido a la naturaleza personalizada de nuestros servicios, todas las ventas son finales y no ofrecemos reembolsos.",
+  "detail": [
+    {
+      "head": "1. No hay reembolsos",
+      "info": "Una vez que se haya realizado un pedido y el servicio haya comenzado, no ofrecemos reembolsos. Al realizar un pedido, usted acepta esta política y entiende que no recibirá un reembolso después de que el servicio haya iniciado."
+    },
+    {
+      "head": "2. Cancelación del pedido",
+      "list": [
+        {
+          "title": "Cancelación antes de que comience el servicio",
+          "desc": "Si desea cancelar su pedido, contáctenos de inmediato. Si el servicio aún no ha comenzado, podemos permitir la cancelación a nuestra discreción."
+        },
+        {
+          "title": "Después de que el servicio haya comenzado",
+          "desc": "Una vez que hayamos comenzado a trabajar en su pedido, no podrá cancelarse y no se proporcionarán reembolsos."
+        }
+      ]
+    },
+    {
+      "head": "3. Solicitudes de revisión",
+      "info": "Nos esforzamos por cumplir con las expectativas de nuestros clientes y brindamos la oportunidad de realizar revisiones para garantizar la satisfacción. Si no está satisfecho con el resultado, comuníquese dentro del período de revisión especificado y realizaremos los ajustes según nuestra política de revisiones."
+    },
+    {
+      "head": "4. Excepciones",
+      "info": "En casos excepcionales en los que se cometa un error por nuestra parte, podemos considerar rehacer el servicio u ofrecer un crédito para un servicio futuro. Esto se determina únicamente a nuestra discreción y no constituye una política de reembolso estándar."
+    },
+    {
+      "head": "5. Contáctenos",
+      "para": "Si tiene alguna pregunta o inquietud con respecto a esta política de reembolsos, comuníquese con nosotros en:",
+      "contacts": [
+        { "label": "Correo electrónico", "type": "email", "value": "orders@pxlperfects.com" },
+        { "label": "Número de contacto EE.UU.", "type": "phone", "value": "+1 307 243 2920" },
+        { "label": "Número de contacto PK", "type": "phone", "value": "+92 303 408 7599" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "BannerLabel": "Refund Policy",
+  "paragraph": "At Pixel Perfects Solutions, we are committed to providing high-quality photo editing, virtual staging, and other image enhancement services to our clients. Due to the customized nature of our services, all sales are final, and we do not offer refunds.",
+  "detail": [
+    {
+      "head": "1. No Refunds",
+      "info": "Once an order has been placed and the service has commenced, we do not offer refunds. By placing an order, you agree to this policy and understand that you will not receive a refund after the service has started."
+    },
+    {
+      "head": "2. Order Cancellation",
+      "list": [
+        {
+          "title": "Cancellation Before Service Starts",
+          "desc": "If you wish to cancel your order, please contact us immediately. If the service has not yet started, we may allow cancellation at our discretion."
+        },
+        {
+          "title": "After Service Has Started",
+          "desc": "Once we have started working on your order, it cannot be canceled, and no refunds will be provided."
+        }
+      ]
+    },
+    {
+      "head": "3. Revision Requests",
+      "info": "We strive to meet our clients' expectations and provide an opportunity for revisions to ensure satisfaction. If you are not satisfied with the result, please reach out within the specified revision period, and we will make adjustments as per our revision policy."
+    },
+    {
+      "head": "4. Exceptions",
+      "info": "In exceptional cases where an error is made on our part, we may consider redoing the service or offering a credit toward a future service. This is determined solely at our discretion and does not constitute a standard refund policy."
+    },
+    {
+      "head": "5. Contact Us",
+      "para": "If you have any questions or concerns regarding this refund policy, please reach out to us at:",
+      "contacts": [
+        { "label": "Email", "type": "email", "value": "orders@pxlperfects.com" },
+        { "label": "US Contact Number", "type": "phone", "value": "+1 307 243 2920" },
+        { "label": "PK Contact Number", "type": "phone", "value": "+92 303 408 7599" }
+      ]
+    }
+  ]
+}

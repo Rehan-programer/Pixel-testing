@@ -1,0 +1,178 @@
+{
+  "BannerData": {
+    "head": "Property Management Solutions",
+    "para": "Transform your property listings with our all-encompassing suite of virtual editing tools. From meticulously crafted floor plans to high-quality visuals, our solutions are designed to showcase your properties in the best possible light. By enhancing the marketability of your listings, we help you build trust with clients and stand out in the competitive property management industry.",
+    "btn": "Get In Touch",
+    "img": "/assets/img/propertmanger/What-is-property-management-f.jpg"
+  },
+  "PropertyService": {
+    "title": "Services For Property Management Solutions",
+    "ServiceData": [
+      {
+        "label": "Floor Plan Creation",
+        "para": "Enhance your property presentations with our 3D Floor Plan service. Offer a detailed, three-dimensional view of the layout to better illustrate spatial relationships.",
+        "price": "$35",
+        "shortpara": "Create precise 3D floor plans to better illustrate layouts for client understanding",
+        "link": "/services/3d-floor-plan",
+        "pricetitle": "per plan",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FAfter%2F3d%20Floor%20Plan%205%20After.webp?alt=media&token=27bdc9b7-b728-43f3-af49-4daee41fdd25",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FBefore%2F3d%20Floor%20Plan%205%20Before.webp?alt=media&token=45e7ed62-08e2-4841-b076-f061cc3c28b9",
+        "points": [
+          "Precise spatial representation",
+          "Enhances client understanding of the layout",
+          "Customizable for various property types"
+        ]
+      },
+      {
+        "label": "Virtual Renovation",
+        "para": "Envision potential transformations without the expense of actual renovations. Our Virtual Renovation service enables the redesign of structural elements such as walls and floors, allowing clients to explore future possibilities with ease.",
+        "price": "$27",
+        "pricetitle": "per image",
+        "shortpara": "Visualize potential transformations of properties without physical alterations.",
+        "link": "/services/virtual-renovation",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fafter%2FVirtual%20Renovation%202%20after.webp?alt=media&token=39314882-5364-4edb-aa7c-c5e7a4d189d1",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fbefore%2FVirtual%20Renovation%202%20before.webp?alt=media&token=14d97591-6153-49c0-8043-a098f75d1e3d",
+        "points": [
+          "Visualize potential renovations without physical alterations",
+          "Customize renovations to align with client needs",
+          "Reduce costs associated with actual renovations"
+        ]
+      },
+      {
+        "label": "2D Floor Plan",
+        "shortpara": "Enhance presentations with clear 2D layouts that help clients visualize spaces effectively.",
+        "para": "Enhance property presentations with our expertly crafted 2D floor plans. These detailed layouts offer clear and precise spatial representations, aiding clients and buyers in visualizing the space effectively.",
+        "price": "$15",
+        "link": "/services/2d-floor-plan",
+        "pricetitle": "per Floor Plan",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/2D%20Floor%20Plan%2FAfter%2F2D%20Floor%20Plan%202%20After.webp?alt=media&token=dbdc4a57-7991-4a5b-94c4-c7b219ff8d7b",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/2D%20Floor%20Plan%2FBefore%2F2D%20Floor%20Plan%202%20Before.webp?alt=media&token=1298703e-97ee-4402-9a56-e1807eee3212",
+        "points": [
+          "Provides clear and accurate space representation",
+          "Facilitates client and buyer understanding",
+          "Customizable for various property types"
+        ]
+      },
+      {
+        "label": "Commercial Virtual Staging",
+        "para": "Transform commercial spaces with our Virtual Staging service. Visualize potential layouts and designs to enhance appeal and functionality without physical alterations.",
+        "link": "/services/commercial-virtual-staging",
+        "shortpara": "Enhance commercial spaces with virtual staging, visualizing layouts without physical changes.",
+        "price": "$27",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Commercial%20Virtual%20Staging%2FAfter%2FCommercial%20Staging%201%20After.webp?alt=media&token=01f0a17d-1b93-4fe6-af65-177583f7b445",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Commercial%20Virtual%20Staging%2FBefore%2FCommercial%20Staging%201%20Before.webp?alt=media&token=c3df6c53-716d-4e0e-8605-0b2e3901e521",
+        "points": [
+          "Enables visualization of space transformations",
+          "Tailored to specific client requirements",
+          "Cost-effective solution for space enhancements"
+        ]
+      },
+      {
+        "label": "Virtual Staging",
+        "para": "Enhance vacant or cluttered spaces with our Virtual Staging service. Transform properties into elegantly staged environments, showcasing their potential with modern, stylish designs. Ideal for attracting prospective buyers and elevating property appeal.",
+        "link": "/services/virtual-staging",
+        "price": "$14",
+        "shortpara": "Transform vacant or cluttered spaces into stylish, staged environments to attract buyers.",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fafter%2Fvirtual%20staging%206%20after.webp?alt=media&token=ddb30cbb-a672-45c2-ab73-ab979fc10461",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Staging%2Fbefore%2Fvirtual%20staging%206%20before.webp?alt=media&token=3b558274-4007-40ff-859d-7a0f99cca57f",
+        "points": [
+          "Elevate property appeal with contemporary designs",
+          "Tailor staging to meet client preferences",
+          "Cost-efficient alternative to physical staging"
+        ]
+      },
+      {
+        "label": "Image Enhancement",
+        "shortpara": "Enhance images to showcase potential renovations or improvements with high-quality results.",
+        "para": "Envision potential transformations without the expense of actual renovations. Our Virtual Renovation service enables the redesign of structural elements such as walls and floors, allowing clients to explore future possibilities with ease.",
+        "price": "$27",
+        "link": "/services/image-enhancement",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2FAfter%2Fimage%20enhacement%202%20after.webp?alt=media&token=4090e530-2e69-4029-9a2d-f826b24530ec",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/HDR%2Fbefore%2Fimage%20enhacement%202%20before.webp?alt=media&token=e4fcc6f7-bcc6-4083-93fa-e0e2a3ebe967",
+        "points": [
+          "Visualize potential renovations without physical alterations",
+          "Customize renovations to align with client needs",
+          "Reduce costs associated with actual renovations"
+        ]
+      },
+      {
+        "label": "HDR Editing",
+        "shortpara": "Enhance property layouts with detailed 3D views, improving client understanding of spatial relationships",
+        "para": "Enhance your property presentations with our 3D Floor Plan service. Offer a detailed, three-dimensional view of the layout to better illustrate spatial relationships.",
+        "link": "/services/image-enhancement",
+        "price": "$1.6",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Single%20Exposure%2Fafter%2Fsingle%20exposure%202%20after.webp?alt=media&token=3d3d0adf-3771-446c-a866-16733632b539",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Single%20Exposure%2Fbefore%2Fsingle%20exposure%202%20before.webp?alt=media&token=e0fe5851-c513-4a1a-ab48-1d27cfa3e4de",
+        "points": [
+          "Precise spatial representation",
+          "Enhances client understanding of the layout",
+          "Customizable for various property types"
+        ]
+      },
+      {
+        "label": "Real Estate Video Editing",
+        "shortpara": "Transform raw footage into a polished marketing video that highlights the property's best features.",
+        "para": "Transform raw video footage into a refined marketing asset with our expert editing services. Craft a seamless visual narrative that showcases the property’s best features, enhancing its marketability.",
+        "price": "$50",
+        "pricetitle": "per video",
+        "video": "/Real estate Video.mp4",
+        "link": "/services/real-estate-video",
+        "points": [
+          "Professional editing for a smooth video experience",
+          "Highlight the property in the most favorable light",
+          "Create effective and engaging marketing content"
+        ]
+      },
+      {
+        "label": "Item Removal ",
+        "para": "Showcase properties from breathtaking angles with our aerial drone photography service. Capture unique perspectives that highlight the property and its surroundings, enhancing its marketing appeal.",
+        "link": "/services/item-removal",
+        "shortpara": "Capture unique perspectives of properties and their surroundings using aerial drone photography for enhanced marketing.",
+        "price": "$3",
+        "pricetitle": "per image",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/item%20removal%2Fafter%2Fitem%20removal%2010%20after.webp?alt=media&token=61cd4445-bd6a-4495-b5af-93017b038db1",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/item%20removal%2Fbefore%2Fitem%20removal%2010%20before.webp?alt=media&token=189375de-b5d3-4ebe-9536-f48db58171e1",
+        "points": [
+          "Capture distinctive angles and views",
+          "Highlight property features and surroundings",
+          "Enhance marketing materials with dynamic visuals"
+        ]
+      }
+    ]
+  },
+  "ChooseBenfits": {
+    "head": "Why Choose Pixel Perfects Solution?",
+    "para": "At <strong>Pixel Perfects Solution</strong>, we understand the unique needs of property managers in showcasing their listings effectively. Our tailored services, including <strong>virtual staging</strong>, <strong>image enhancement</strong>, and <strong>photo editing</strong>, help you present your properties in the best light. Whether it&apos;s attracting potential tenants or impressing property owners, our expert team delivers exceptional results with quick turnaround times and unmatched quality.<br/><br/>Partner with us to elevate your listings, boost engagement, and maximize occupancy rates. Let us handle the visual transformation so you can focus on managing your properties effortlessly.",
+    "detail": [
+      {
+        "img": "/assets/img/propertmanger/benfits/maximize lsiting.webp",
+        "label": "Maximize Visibility",
+        "para": "Our expert Virtual Staging and Image Enhancement services are designed to attract more buyers to your listings, helping you achieve higher sales prices efficiently."
+      },
+      {
+        "img": "/assets/img/propertmanger/benfits/personal brand.webp",
+        "label": "Strengthen Branding",
+        "para": "Leave your photo editing and virtual staging needs to our professionals. Simply provide your images, and we’ll handle the rest, ensuring high-quality results."
+      },
+      {
+        "img": "/assets/img/propertmanger/benfits/top quality.webp",
+        "label": "Drive High-Quality Leads",
+        "para": "With transparent pricing, you only pay for the services listed on our site—no hidden fees, just clear and affordable solutions."
+      },
+      {
+        "img": "/assets/img/propertmanger/benfits/attract customers.webp",
+        "label": "Appeal to Modern Buyers",
+        "para": "We are committed to helping potential buyers envision your listing as their dream home, offering unlimited revisions until you are completely satisfied."
+      }
+    ]
+  },
+  "FirstTime": {
+    "head": "Book Your Free Consultation",
+    "para1": "Enhance your real estate listings with expertly edited photos by Pixel Perfects Solution. Elevate your property presentation and boost sales with our professional editing services.",
+    "buttontext": "Book Now"
+  }
+}

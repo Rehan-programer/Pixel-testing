@@ -1,0 +1,98 @@
+{
+  "BannerData": {
+    "head": "EXPERIENCE PIXELS ADVANTAGE",
+    "para": "Elevate your property listings with our comprehensive suite of virtual editing tools. From precise floor plans to stunning visuals, our solutions ensure your properties stand out. Enhance marketability, establish trust, and engage potential clients with high-quality content that makes a lasting impression.",
+    "btn": "Get in Touch",
+    "img": "/assets/img/partnerships/partnerships.webp"
+  },
+  "Benefitsdata": {
+    "head": "What are the benefits?",
+    "detail": [
+      {
+        "img": "/assets/img/partnerships/benefits/brand.webp",
+        "label": "Brand Boost",
+        "para": "White-label services to enhance your brand with premium virtual staging and photo editing."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/customer.webp",
+        "label": "Customer Delight",
+        "para": "Impress clients with a custom design catalog and unlimited free revisions."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/profit.webp",
+        "label": "Profit Growth",
+        "para": "Increase profits with exclusive discounted pricing on all services."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/complimentaru.webp",
+        "label": "Marketing Support",
+        "para": "Get sample images and materials to promote our services easily."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/userfriedndly.webp",
+        "label": "Easy Ordering",
+        "para": "Simplified order forms for a faster, more efficient workflow."
+      },
+      {
+        "img": "/assets/img/partnerships/benefits/seasmless.webp",
+        "label": "Fast Delivery",
+        "para": "Enjoy priority processing for quicker and smoother delivery."
+      }
+    ]
+  },
+  "PartnerData": {
+    "head": "Who should become a partner?",
+    "detail": [
+      {
+        "img": "/assets/img/partnerships/partner/homestaging.webp",
+        "label": "Home Staging Companies",
+        "para": "In an era where physical home staging can be challenging, a partnership with Styldod provides you with access to a comprehensive suite of virtual solutions. Offer your clients advanced, contactless staging services to enhance their property presentations."
+      },
+      {
+        "img": "/assets/img/partnerships/partner/photography.webp",
+        "label": "Photography Companies",
+        "para": "Streamline the editing process for your listing photography with Styldod. We offer expert photo enhancement services and provide recommendations for adjustments, ensuring that your images meet the highest standards."
+      },
+      {
+        "img": "/assets/img/partnerships/partner/broker.webp",
+        "label": "Brokerage Companies",
+        "para": "Maintain a consistent photography standard across all your listings with Styldod. Our automated image enhancement solutions offer quick, cost-effective, and high-quality results, helping you deliver exceptional property presentations."
+      }
+    ]
+  },
+  "PartnerFillData": [
+    {
+      "img": "/assets/img/partnerships/partner/fillthedetail.webp",
+      "head": "Fill the details",
+      "para": "Fill up an easy form and upload your logo and professional photos. This will help us brand your page well."
+    },
+    {
+      "img": "/assets/img/partnerships/partner/scheduleacall.webp",
+      "head": "Schedule a call",
+      "para": "Simply put in whatever pricing you wish your clients to see on your service page."
+    },
+    {
+      "img": "/assets/img/partnerships/partner/finalise.webp",
+      "head": "Finalise  Partnerships",
+      "para": "We create a webpage for your new service offerings your clients can order from this page. Orders hit our system for delivery."
+    }
+  ],
+     "testimonialsClientsInformation": {
+        "STATISTICS": "STATISTICS",
+        "detail": "Interesting Facts",
+        "items": [
+            {
+                "head": "25,000+",
+                "para": "Trusted customers globally"
+            },
+            {
+                "head": "750,000+",
+                "para": "Images delivered"
+            },
+            {
+                "head": "12+",
+                "para": "Countries served"
+            }
+        ]
+    }
+}

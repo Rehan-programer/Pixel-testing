@@ -1,0 +1,123 @@
+{
+    "label": "Other Edits",
+    "para": "Hey there, home-selling heroes! At Pixel Perfects, we totally get that stellar listing pics are THE game-changer in the house hustle. That's why we're here to jazz up your snaps, clear the clutter, and stage those rooms like a boss! And guess what? We do it fast, easy, and without breaking the bank! Let's make magic happen – one pic at a time, free of cost!",
+    "keypoint": [
+        "Aerial Editing",
+        "Portrait Retouching",
+        "Grass Landscaping",
+        "Property Outline",
+        "Remove Pool Covers",
+        "Snow Removing",
+        "Vehicle Removing",
+        "Add Water In Pool",
+        "Blue Sky Replacement",
+        "Wires Removing",
+        "TV Screen Replacement",
+        "Add Fireplace Flame"
+    ],
+    "button": "Explore Services",
+    "BannerData": [
+        {
+            "id": 1,
+            "project_title": "Aerial Editing",
+            "price": "Starting at only $2",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Ariel%20editing%2FAfter%2FAerial%20editing%201%20After.webp?alt=media&token=70bea726-a3a9-4e84-a60c-9fbe50df1af0",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Ariel%20editing%2FBefore%2FAerial%20editing%201%20Before.webp?alt=media&token=8d899464-6c0c-40dd-8269-f8ad4b276be8"
+        },
+        {
+            "id": 2,
+            "project_title": "Portrait Retouching",
+            "price": "Starting at only $20",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fbefore%2Fgrass%20landscaping%201%20before.webp?alt=media&token=4e48d041-de9e-472e-ba97-168c164aea7a"
+        },
+        {
+            "id": 3,
+            "project_title": "Grass Landscaping",
+            "price": "Starting at only $5",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fbefore%2Fgrass%20landscaping%201%20before.webp?alt=media&token=4e48d041-de9e-472e-ba97-168c164aea7a"
+        },
+        {
+            "id": 4,
+            "project_title": "Property Outline",
+            "price": "Starting at only $5",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fbefore%2Fgrass%20landscaping%201%20before.webp?alt=media&token=4e48d041-de9e-472e-ba97-168c164aea7a"
+        },
+        {
+            "id": 5,
+            "project_title": "Remove Pools Cover",
+            "price": "Starting at only $10",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/remove%20pool%20covers%2Fafter%2Fremove%20pool%20covers%201%20after.webp?alt=media&token=edd08260-d789-4b11-9565-556197cc7371",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/remove%20pool%20covers%2Fbefore%2Fremove%20pool%20covers%201%20before.webp?alt=media&token=fec49950-456c-4abd-975c-d006355d5452"
+        },
+        {
+            "id": 6,
+            "project_title": "Snow Removing",
+            "price": "Starting at only $10",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fbefore%2Fgrass%20landscaping%201%20before.webp?alt=media&token=4e48d041-de9e-472e-ba97-168c164aea7a"
+        },
+        {
+            "id": 7,
+            "project_title": "Vehicle Removing",
+            "price": "Starting at only $10",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fbefore%2Fgrass%20landscaping%201%20before.webp?alt=media&token=4e48d041-de9e-472e-ba97-168c164aea7a"
+        },
+        {
+            "id": 8,
+            "project_title": "Add Water In Pool",
+            "price": "Starting at only $10",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fbefore%2Fgrass%20landscaping%201%20before.webp?alt=media&token=4e48d041-de9e-472e-ba97-168c164aea7a"
+        },
+        {
+            "id": 9,
+            "project_title": "Blue Sky Replacement",
+            "price": "Starting at only $5",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/sky%20replace%2Fafter%2Fsky%20replace%202%20after.webp?alt=media&token=4530e9b1-3478-4b85-9b1f-03934bde2d02",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/sky%20replace%2Fbefore%2Fsky%20replace%202%20before.webp?alt=media&token=2013e775-c45a-4dd6-96bc-49af77ba99b2"
+        },
+        {
+            "id": 10,
+            "project_title": "Wires Removing",
+            "price": "Starting at only $4",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fbefore%2Fgrass%20landscaping%201%20before.webp?alt=media&token=4e48d041-de9e-472e-ba97-168c164aea7a"
+        },
+        {
+            "id": 11,
+            "project_title": "TV Screen Replacemnt",
+            "price": "Starting at only $5",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fafter%2Fgrass%20landscaping%201%20after.webp?alt=media&token=7a94120d-dcf6-44a3-b2cd-b2c60f2d64d8",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Grass%20Landscaping%2Fbefore%2Fgrass%20landscaping%201%20before.webp?alt=media&token=4e48d041-de9e-472e-ba97-168c164aea7a"
+        },
+        {
+            "id": 12,
+            "project_title": "Add Fireplace Flame",
+            "price": "Starting at only $5",
+            "Afterimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Fire%20Replace%2FAfter%2Ffireplace%201%20after.webp?alt=media&token=996ed6d7-09c6-4287-be15-01a491532341",
+            "Beforeimg": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Fire%20Replace%2FBefore%2Ffireplace%201%20before.webp?alt=media&token=6b115367-7111-4b1e-9900-b80ea74b0fa8"
+        }
+    ],
+    "testimonialsClientsInformation": {
+        "STATISTICS": "STATISTICS",
+        "detail": "Interesting Facts",
+        "items": [
+            {
+                "head": "25,000+",
+                "para": "Trusted customers globally"
+            },
+            {
+                "head": "750,000+",
+                "para": "Images delivered"
+            },
+            {
+                "head": "12+",
+                "para": "Countries served"
+            }
+        ]
+    }
+}

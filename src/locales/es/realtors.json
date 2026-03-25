@@ -1,0 +1,148 @@
+{
+  "BannerData": {
+    "head": "AGENTES INMOBILIARIOS",
+    "para": "Sus listados de propiedades inmobiliarias merecen más que solo fotos básicas para captar la atención de posibles clientes. En Pixel Perfect Solutions, nos especializamos en satisfacer las diversas necesidades de marketing de los agentes inmobiliarios al ofrecer fotografía de listados, videografía y servicios de medios visuales excepcionales. Nuestro contenido visual de alta calidad le ayuda a presentar sus propiedades de la manera más atractiva, asegurando que se destaquen en un mercado competitivo y dejen una impresión duradera en los compradores potenciales.",
+    "btn": "Contáctanos",
+    "img": "/assets/img/architects/architects.webp"
+  },
+  "PropertyService": {
+    "title": "Servicios Para Agentes Inmobiliarios",
+    "ServiceData": [
+      {
+        "label": "Plano de Piso 2D",
+        "shortpara": "Mejore las presentaciones con planos 2D claros que ayuden a los clientes a visualizar los espacios de manera efectiva.",
+        "para": "Mejore la presentación de propiedades con nuestros planos de piso 2D elaborados por expertos. Estos diseños detallados ofrecen representaciones espaciales claras y precisas, ayudando a clientes y compradores a visualizar el espacio de manera efectiva.",
+        "price": "$15",
+        "link": "/services/2d-floor-plan",
+        "pricetitle": "por plano",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/2D%20Floor%20Plan%2FAfter%2F2D%20Floor%20Plan%202%20After.webp?alt=media&token=dbdc4a57-7991-4a5b-94c4-c7b219ff8d7b",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/2D%20Floor%20Plan%2FBefore%2F2D%20Floor%20Plan%202%20Before.webp?alt=media&token=1298703e-97ee-4402-9a56-e1807eee3212",
+        "points": [
+          "Proporciona una representación clara y precisa del espacio",
+          "Facilita la comprensión del cliente y comprador",
+          "Personalizable para varios tipos de propiedades"
+        ]
+      },
+      {
+        "label": "Edición HDR",
+        "shortpara": "Mejore los diseños de propiedades con vistas 3D detalladas, mejorando la comprensión espacial de los clientes.",
+        "para": "Mejore sus presentaciones de propiedades con nuestro servicio de Planos 3D. Ofrezca una vista detallada y tridimensional del diseño para ilustrar mejor las relaciones espaciales.",
+        "link": "/services/image-enhancement",
+        "price": "$1.6",
+        "pricetitle": "por imagen",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Single%20Exposure%2Fafter%2Fsingle%20exposure%202%20after.webp?alt=media&token=3d3d0adf-3771-446c-a866-16733632b539",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Single%20Exposure%2Fbefore%2Fsingle%20exposure%202%20before.webp?alt=media&token=e0fe5851-c513-4a1a-ab48-1d27cfa3e4de",
+        "points": [
+          "Representación espacial precisa",
+          "Mejora la comprensión del diseño por parte del cliente",
+          "Personalizable para diferentes tipos de propiedades"
+        ]
+      },
+      {
+        "label": "Renovación Virtual",
+        "para": "Visualice posibles transformaciones sin el gasto de renovaciones reales. Nuestro servicio de Renovación Virtual permite rediseñar elementos estructurales como paredes y pisos, brindando a los clientes la oportunidad de explorar futuras posibilidades con facilidad.",
+        "price": "$27",
+        "pricetitle": "por imagen",
+        "shortpara": "Visualice transformaciones potenciales de propiedades sin alteraciones físicas.",
+        "link": "/services/virtual-renovation",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fafter%2FVirtual%20Renovation%202%20after.webp?alt=media&token=39314882-5364-4edb-aa7c-c5e7a4d189d1",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Virtual%20Renovation%2Fbefore%2FVirtual%20Renovation%202%20before.webp?alt=media&token=14d97591-6153-49c0-8043-a098f75d1e3d",
+        "points": [
+          "Visualice renovaciones potenciales sin cambios físicos",
+          "Personalice las renovaciones según las necesidades del cliente",
+          "Reduzca los costos asociados con renovaciones reales"
+        ]
+      },
+      {
+        "label": "Eliminación de Objetos",
+        "para": "Muestre propiedades desde ángulos impresionantes con nuestro servicio de fotografía aérea con drones. Capture perspectivas únicas que resalten la propiedad y sus alrededores, mejorando su atractivo en el mercado.",
+        "link": "/services/item-removal",
+        "shortpara": "Capture perspectivas únicas de propiedades y sus alrededores utilizando fotografía aérea para un marketing mejorado.",
+        "price": "$3",
+        "pricetitle": "por imagen",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/item%20removal%2Fafter%2Fitem%20removal%2010%20after.webp?alt=media&token=61cd4445-bd6a-4495-b5af-93017b038db1",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/item%20removal%2Fbefore%2Fitem%20removal%2010%20before.webp?alt=media&token=189375de-b5d3-4ebe-9536-f48db58171e1",
+        "points": [
+          "Capture ángulos y vistas distintivas",
+          "Resalte las características de la propiedad y sus alrededores",
+          "Mejore el material de marketing con imágenes dinámicas"
+        ]
+      },
+      {
+        "label": "Edición de Video Inmobiliario",
+        "shortpara": "Transforme grabaciones en bruto en un video de marketing pulido que resalte las mejores características de la propiedad.",
+        "para": "Transforme grabaciones de video sin editar en un activo de marketing refinado con nuestros servicios de edición profesional. Cree una narrativa visual fluida que muestre lo mejor de la propiedad, mejorando su atractivo en el mercado.",
+        "price": "$50",
+        "pricetitle": "por video",
+        "video": "/Real estate Video.mp4",
+        "link": "/services/real-estate-video",
+        "points": [
+          "Edición profesional para una experiencia de video fluida",
+          "Resalte la propiedad de la manera más favorable",
+          "Cree contenido de marketing atractivo y efectivo"
+        ]
+      },
+      {
+        "label": "Restyling",
+        "para": "Mejore los espacios vacíos o desordenados con nuestro servicio de Restyling. Transforme propiedades en ambientes elegantemente decorados, mostrando su potencial con diseños modernos y atractivos. Ideal para atraer compradores y aumentar el atractivo de la propiedad.",
+        "link": "/services/restyling",
+        "shortpara": "Transforme espacios vacíos o desordenados en ambientes decorados y modernos para atraer compradores.",
+        "price": "$23",
+        "pricetitle": "por imagen",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Restyling%2FAfter%2FRestyling%202%20after.webp?alt=media&token=2283c283-7e39-408c-95b2-bfcd9a4af5f9",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/Restyling%2Fbefore%2FRestyling%202%20before.webp?alt=media&token=f239a9d7-5d82-4280-909f-a9252bcd3ccb",
+        "points": [
+          "Eleve el atractivo de la propiedad con diseños contemporáneos",
+          "Adapte la decoración a las preferencias del cliente",
+          "Alternativa rentable al home staging físico"
+        ]
+      },
+      {
+        "label": "Plano de Piso 3D",
+        "para": "Mejore la presentación de propiedades con nuestro servicio de Planos de Piso 3D. Ofrezca una vista tridimensional y detallada del diseño para ilustrar mejor las relaciones espaciales.",
+        "shortpara": "Proporcione una vista 3D detallada para ilustrar las relaciones espaciales y mejorar la comprensión del cliente.",
+        "link": "/services/3d-floor-plan",
+        "price": "$35",
+        "pricetitle": "por plano",
+        "leftImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FAfter%2F3d%20Floor%20Plan%203%20After.webp?alt=media&token=5665633a-d26b-481d-a867-fbd85f71f1d9",
+        "rightImage": "https://firebasestorage.googleapis.com/v0/b/pixel-perfects-new.appspot.com/o/3D%20Floor%20plan%2FBefore%2F3d%20Floor%20Plan%203%20Before.webp?alt=media&token=a082b83d-1947-4f4c-9505-9b0d60930a24",
+        "points": [
+          "Representación espacial precisa",
+          "Mejora la comprensión del cliente sobre el diseño",
+          "Personalizable para varios tipos de propiedades"
+        ]
+      }
+    ]
+  },
+  "ChooseBenfits": {
+    "head": "¿Por Qué Elegir Pixel Perfects Solution?",
+    "para": "En Pixel Perfects Solution, nos especializamos en transformar visuales inmobiliarios en activos de marketing cautivadores. Nuestros servicios expertos, incluyendo mejora de imágenes y puesta en escena virtual, ayudan a que sus listados destaquen y atraigan más compradores. Con un enfoque en calidad, tiempos de entrega rápidos y soluciones personalizadas, aseguramos que sus propiedades luzcan lo mejor posible y se vendan más rápido. Asóciese con nosotros para obtener resultados innovadores y de alta calidad que impulsen su éxito.",
+    "detail": [
+      {
+        "img": "/assets/img/Realtors/Realtors Benefits Data/maximize listings.webp",
+        "label": "Maximizar Listados",
+        "para": "Atraiga más compradores con puesta en escena virtual experta y mejora de imágenes, aumentando la visibilidad."
+      },
+      {
+        "img": "/assets/img/Realtors/Realtors Benefits Data/boost branding.webp",
+        "label": "Impulsar la Marca",
+        "para": "Mejore su marca personal con ediciones de alta calidad que hagan que sus listados destaquen."
+      },
+      {
+        "img": "/assets/img/Realtors/Realtors Benefits Data/high quality.webp",
+        "label": "Leads de Alta Calidad",
+        "para": "Genere clientes potenciales más calificados con precios transparentes y servicios profesionales."
+      },
+      {
+        "img": "/assets/img/Realtors/Realtors Benefits Data/enage buyers.webp",
+        "label": "Involucrar a los Compradores",
+        "para": "Ayude a los compradores a visualizar sus propiedades con ediciones personalizadas y revisiones ilimitadas."
+      }
+    ]
+  },
+  "FirstTime": {
+    "head": "Reserve Su Consulta Gratis",
+    "para1": "Mejore sus listados inmobiliarios con fotos editadas profesionalmente por Pixel Perfects Solution. Eleve la presentación de sus propiedades y aumente las ventas con nuestros servicios de edición profesional.",
+    "buttontext": "Reservar Ahora"
+  }
+}

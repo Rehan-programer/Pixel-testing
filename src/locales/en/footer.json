@@ -1,0 +1,104 @@
+{
+  "socialIcons": [
+    {
+      "name": "/assets/img/Footericon and logos/instagram.webp",
+      "link": "https://www.instagram.com/pixel.perfects.solutions",
+      "alt": "instagram"
+    },
+    {
+      "name": "/assets/img/Footericon and logos/facebook.webp",
+      "link": "https://www.facebook.com/pixel.perfects.solutions",
+      "alt": "facebook"
+    },
+    {
+      "name": "/assets/img/Footericon and logos/linekdin.webp",
+      "link": "https://www.linkedin.com/company/pixel-perfects",
+      "alt": "linekdin"
+    }
+  ],
+  "footerInformation": [
+    {
+      "heading": "Services",
+      "subheadings": [
+        { "name": "Virtual Staging", "link": "/services/virtual-staging" },
+        { "name": "Virtual Renovation", "link": "/services/virtual-renovation" },
+        { "name": "Restyling", "link": "/services/restyling" },
+        { "name": "Day to Dusk", "link": "/services/day-to-dusk" },
+        { "name": "Virtual Declutter", "link": "/services/virtual-declutter" },
+        { "name": "Item Removal", "link": "/services/item-removal" },
+        { "name": "Image Enhancement", "link": "/services/image-enhancement" },
+        { "name": "Visualization", "link": "/services/visualization" },
+        { "name": "Front Elevation", "link": "/services/front-elevation" }
+      ]
+    },
+    {
+      "heading": "",
+      "subheadings": [
+        { "name": "3D 360° Renders", "link": "/services/360-renders" },
+        { "name": "360° Walk Through", "link": "/services/360-walkthrough" },
+        { "name": "2D Floor Plan", "link": "/services/2d-floor-plan" },
+        { "name": "3D Floor Plan", "link": "/services/3d-floor-plan" },
+        { "name": "Real Estate Videos", "link": "/services/real-estate-video" },
+        { "name": "Video Captions", "link": "/services/video-captions" },
+        { "name": "HDR Editing", "link": "/services/image-enhancement" },
+        { "name": "remodel Structural Edits", "link": "/services/remodel" },
+        { "name": "Commercial Virtual Staging", "link": "/services/commercial-virtual-staging" }
+      ]
+    },
+    {
+      "heading": "Explore",
+      "subheadings": [
+        { "name": "Services", "link": "/services" },
+        { "name": "About-Us", "link": "/about-us" },
+        { "name": "Testimonials", "link": "/testimonials" },
+        { "name": "Request A Quote", "link": "/get-a-quote" },
+        { "name": "Partnerships", "link": "/partnerships" },
+        { "name": "Photographers", "link": "/photographers" },
+        { "name": "Contact", "link": "/contact-us" },
+        { "name": "Free Trial", "link": "/free-trial" },
+        { "name": "Photography Guide", "link": "/photography-guide" }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "subheadings": [
+        { "name": "Gallery", "link": "/gallery" },
+        { "name": "Blog", "link": "/blogs" },
+        { "name": "Help Center", "link": "/help" }
+      ]
+    },
+    {
+      "heading": "Industry",
+      "subheadings": [
+        { "name": "Property Manager", "link": "/property-manager" },
+        { "name": "Architects", "link": "/architects" },
+        { "name": "Builders", "link": "/builders" },
+        { "name": "Realtors", "link": "/realtors" },
+        { "name": "Interior Designers", "link": "/interior-designers" }
+      ]
+    },
+    {
+      "heading": "Terms & Policies",
+      "subheadings": [
+        { "name": "Terms & Condition", "link": "/term-condition" },
+        { "name": "Privacy Policy", "link": "/privacy-policy" },
+        { "name": "Refund Policy", "link": "/return-refund-policy" },
+        { "name": "Services Policy", "link": "/service-policy" }
+      ]
+    }
+  ],
+  "socialIconsMainHomePage": [
+    {
+      "icon": "Facebook",
+      "link": "https://www.facebook.com/pixel.perfects.solutions"
+    },
+    {
+      "icon": "Instagram",
+      "link": "https://www.instagram.com/pixel.perfects.solutions"
+    },
+    {
+      "icon": "LinkedIn",
+      "link": "https://www.linkedin.com/company/pixel-perfects"
+    }
+  ]
+}

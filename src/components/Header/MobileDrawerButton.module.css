@@ -1,0 +1,278 @@
+.hamburglar {
+    transform: scale(.45);
+    position: relative;
+    display: block;
+    width: 68px;margin-right: -1rem;
+    height: 68px;
+    cursor: pointer;
+}
+
+.animate-path,
+.burger-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 68px;
+    height: 68px
+}
+
+.path-rotation {
+    height: 34px;
+    width: 34px;
+    margin: 34px 34px 0 0;
+    transform: rotate(0);
+    transform-origin: 100% 0
+}
+
+.path-rotation:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 34px;
+    margin: 0 4px 0 0;
+    background: 0 0
+}
+
+.hamburglar.is-open .path {
+    animation: .5s linear forwards dash-in
+}
+
+.hamburglar.is-closed .path {
+    animation: .5s linear forwards dash-out
+}
+
+.path {
+    stroke-dasharray: 240;
+    stroke-dashoffset: 240;
+    stroke-linejoin: round
+}
+
+@keyframes dash-in {
+
+    0%,
+    40% {
+        stroke-dashoffset: 240
+    }
+
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes dash-out {
+    0% {
+        stroke-dashoffset: 0
+    }
+
+    100%,
+    40% {
+        stroke-dashoffset: 240
+    }
+}
+
+.burger-icon {
+    position: absolute;
+    padding: 20px 16px
+}
+
+.burger-container {
+    position: relative;
+    height: 28px;
+    width: 36px
+}
+
+.burger-bun-bot,
+.burger-bun-top,
+.burger-filling {
+    position: absolute;
+    display: block;
+    height: 4px;
+    width: 36px;
+    border-radius: 2px;
+    background: #292a76
+}
+
+.burger-bun-top {
+    top: 0;
+    transform-origin: 34px 2px
+}
+
+.burger-bun-bot {
+    bottom: 0;
+    transform-origin: 34px 2px
+}
+
+.burger-filling {
+    top: 12px
+}
+
+.svg-ring {
+    width: 68px;
+    height: 68px
+}
+
+.hamburglar.is-open .burger-bun-top {
+    animation: .5s linear forwards bun-top-out
+}
+
+.hamburglar.is-closed .burger-bun-top {
+    animation: .5s linear forwards bun-top-in
+}
+
+.hamburglar.is-open .burger-bun-bot {
+    animation: .5s linear forwards bun-bot-out
+}
+
+.hamburglar.is-closed .burger-bun-bot {
+    animation: .5s linear forwards bun-bot-in
+}
+
+@keyframes bun-top-out {
+    0% {
+        left: 0;
+        top: 0;
+        transform: rotate(0)
+    }
+
+    20% {
+        left: 0;
+        top: 0;
+        transform: rotate(15deg)
+    }
+
+    80% {
+        left: -5px;
+        top: 0;
+        transform: rotate(-60deg)
+    }
+
+    100% {
+        left: -5px;
+        top: 1px;
+        transform: rotate(-45deg)
+    }
+}
+
+@keyframes bun-bot-out {
+    0% {
+        left: 0;
+        transform: rotate(0)
+    }
+
+    20% {
+        left: 0;
+        transform: rotate(-15deg)
+    }
+
+    80% {
+        left: -5px;
+        transform: rotate(60deg)
+    }
+
+    100% {
+        left: -5px;
+        transform: rotate(45deg)
+    }
+}
+
+@keyframes bun-top-in {
+    0% {
+        left: -5px;
+        bot: 0;
+        transform: rotate(-45deg)
+    }
+
+    20% {
+        left: -5px;
+        bot: 0;
+        transform: rotate(-60deg)
+    }
+
+    80% {
+        left: 0;
+        bot: 0;
+        transform: rotate(15deg)
+    }
+
+    100% {
+        left: 0;
+        bot: 1px;
+        transform: rotate(0)
+    }
+}
+
+@keyframes bun-bot-in {
+    0% {
+        left: -5px;
+        transform: rotate(45deg)
+    }
+
+    20% {
+        left: -5px;
+        bot: 0;
+        transform: rotate(60deg)
+    }
+
+    80% {
+        left: 0;
+        bot: 0;
+        transform: rotate(-15deg)
+    }
+
+    100% {
+        left: 0;
+        transform: rotate(0)
+    }
+}
+
+.hamburglar.is-open .burger-filling {
+    animation: .5s linear forwards burger-fill-out
+}
+
+.hamburglar.is-closed .burger-filling {
+    animation: .5s linear forwards burger-fill-in
+}
+
+@keyframes burger-fill-in {
+    0% {
+        width: 0;
+        left: 36px
+    }
+
+    40% {
+        width: 0;
+        left: 40px
+    }
+
+    80% {
+        width: 36px;
+        left: -6px
+    }
+
+    100% {
+        width: 36px;
+        left: 0
+    }
+}
+
+@keyframes burger-fill-out {
+    0% {
+        width: 36px;
+        left: 0
+    }
+
+    40% {
+        width: 36px;
+        left: -6px
+    }
+
+    80% {
+        width: 0;
+        left: 40px
+    }
+
+    100% {
+        width: 0;
+        left: 36px
+    }
+}

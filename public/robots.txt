@@ -1,0 +1,14 @@
+User-agent: nameOfBot
+Disallow: /admin/
+Disallow: /login/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /profile/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /search/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.pxlperfects.com/sitemap.xml

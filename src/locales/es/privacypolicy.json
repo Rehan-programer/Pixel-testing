@@ -1,0 +1,184 @@
+{
+  "BannerLabel": "Política de Privacidad",
+  "paragraph": "Si tiene alguna pregunta o queja sobre esta Política de Privacidad, o desea ejercer sus derechos de exclusión voluntaria o acceder/corregir datos aplicables a usted, por favor contáctenos.",
+  "date": "Fecha de entrada en vigor: [06-Nov-2024]",
+  "para1": "Pixel Perfects Solutions (“nosotros” o “nuestro”) se compromete a proteger la privacidad de nuestros clientes (“usted” o “su”) y a garantizar que sus datos personales se manejen de manera responsable. Esta Política de Privacidad describe qué información recopilamos, cómo la usamos y sus derechos sobre sus datos. Al utilizar nuestros servicios, usted acepta los términos de esta Política de Privacidad.",
+  "Policydata": [
+    {
+      "id": 1,
+      "heading": "1. Información que Usted Proporciona",
+      "detail": [
+        {
+          "para": "Recopilamos información directamente de usted cuando utiliza nuestros servicios, completa formularios, envía archivos o se comunica con nuestro equipo."
+        },
+        {
+          "subheading": "a) Información Personal",
+          "list": [
+            "Nombre completo",
+            "Dirección de correo electrónico",
+            "Número de contacto",
+            "País, estado y ciudad de residencia"
+          ],
+          "purpose": "Identificarlo, comunicar actualizaciones del servicio, enviar confirmaciones de pedidos y brindar soporte al cliente."
+        },
+        {
+          "subheading": "b) Archivos Relacionados con el Servicio",
+          "list": [
+            "Imágenes y videos subidos",
+            "Enlaces de archivos",
+            "Materiales o referencias de proyectos proporcionados por usted"
+          ],
+          "purpose": "Ejecutar servicios como diseño de productos, desarrollo de aplicaciones, UI/UX y consultoría digital."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "2. Cómo Usamos su Información",
+      "detail": [
+        { "para": "Usamos la información recopilada para los siguientes fines:" },
+        {
+          "list": [
+            "Prestación de Servicios: Cumplir y entregar los servicios solicitados, como edición de imágenes y puesta en escena virtual.",
+            "Atención al Cliente: Comunicarnos con usted sobre sus pedidos y responder consultas.",
+            "Historial de Pedidos: Mantener un historial que nos permita recuperar y proporcionar archivos anteriores si lo solicita.",
+            "Mejora de Servicios: Analizar tendencias de uso y mejorar nuestros servicios."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "heading": "3. Retención y Eliminación de Datos",
+      "detail": [
+        {
+          "table": [
+            {
+              "title": "Período de Retención",
+              "desc": "Conservamos los datos personales y archivos el tiempo necesario para cumplir con el propósito para el cual se recopilaron, o según lo requiera la ley."
+            },
+            {
+              "title": "Eliminación Controlada por el Usuario",
+              "desc": "Tiene derecho a eliminar sus pedidos en cualquier momento. Incluso después de la eliminación, conservamos de forma segura un archivo de sus datos para permitir su recuperación si lo solicita."
+            },
+            {
+              "title": "Eliminación de Perfil",
+              "desc": "Si elimina su perfil, almacenaremos de forma segura sus archivos y datos asociados para referencia futura, en caso de que necesite recuperarlos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "heading": "4. Compartición de Información",
+      "detail": [
+        {
+          "para": "No compartimos, vendemos ni distribuimos su información personal o archivos a terceros. Sus datos solo son accesibles al personal autorizado de nuestra empresa que los requiera para completar los servicios solicitados."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "heading": "5. Seguridad de su Información",
+      "detail": [
+        { "para": "Implementamos diversas medidas de seguridad para proteger su información, incluyendo:" },
+        {
+          "table": [
+            {
+              "title": "Cifrado",
+              "desc": "Todos los datos transferidos entre usted y nuestro sitio web están encriptados mediante SSL (Secure Sockets Layer)."
+            },
+            {
+              "title": "Control de Acceso",
+              "desc": "Solo el personal esencial tiene acceso a sus datos, con procesos de autenticación seguros."
+            },
+            {
+              "title": "Seguridad en el Almacenamiento de Datos",
+              "desc": "Los archivos y datos personales se almacenan en bases de datos seguras con acceso restringido."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "heading": "6. Derechos de los Usuarios sobre sus Datos",
+      "detail": [
+        { "para": "Respetamos sus derechos sobre sus datos y ofrecemos las siguientes opciones:" },
+        {
+          "subheading": "a) Derecho de Acceso y Modificación",
+          "para": "Puede contactarnos para actualizar o corregir su información personal. Realizaremos las actualizaciones necesarias para garantizar precisión."
+        },
+        {
+          "subheading": "b) Derecho de Eliminación",
+          "para": "Tiene derecho a eliminar sus pedidos o perfil en cualquier momento. Aunque se eliminarán de acceso activo, conservamos de forma segura una copia de respaldo para permitir su recuperación si lo solicita."
+        },
+        {
+          "subheading": "c) Derecho de Recuperación de Datos",
+          "para": "Incluso después de eliminar su perfil o pedidos, puede solicitarnos recuperar sus datos. Verificaremos su identidad antes de proporcionar acceso a los archivos archivados."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "heading": "7. Política de Cookies",
+      "detail": [
+        {
+          "para": "Nuestro sitio web puede utilizar cookies para mejorar la experiencia del usuario y analizar patrones de uso. Las cookies son pequeños archivos almacenados en su dispositivo que ayudan a mejorar la funcionalidad del sitio. Puede deshabilitar cookies en la configuración de su navegador, aunque esto puede afectar su experiencia."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "heading": "8. Transferencias Internacionales",
+      "detail": [
+        {
+          "para": "Como proveedor internacional de servicios, sus datos pueden ser accedidos desde diferentes ubicaciones para cumplir con su pedido. Sin embargo, garantizamos que todo procesamiento cumpla con las regulaciones de privacidad aplicables, independientemente de la ubicación geográfica."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "heading": "9. Cumplimiento con Obligaciones Legales",
+      "detail": [
+        {
+          "para": "Podemos divulgar su información si la ley lo requiere, en respuesta a solicitudes legales de autoridades públicas o para cumplir con obligaciones legales aplicables."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "heading": "10. Cambios a esta Política de Privacidad",
+      "detail": [
+        {
+          "para": "Podemos actualizar esta Política de Privacidad ocasionalmente para reflejar cambios en nuestras prácticas o leyes aplicables. Cuando la actualicemos, publicaremos la versión revisada con la fecha de entrada en vigor."
+        }
+      ]
+    },
+  {
+  "id": 11,
+  "heading": "11. Contáctenos",
+  "detail": [
+    {
+      "para": "Para cualquier pregunta o solicitud sobre esta política, contáctenos:"
+    },
+    {
+      "contacts": [
+        { "type": "email", "label": "Correo electrónico", "value": "orders@pxlperfects.com" },
+        { "type": "phone", "label": "Número de contacto EE. UU.", "value": "+1 307 243 2920" },
+        { "type": "phone", "label": "Número de contacto PK", "value": "+92 303 408 7599" }
+      ]
+    },
+    {
+      "para": "Direcciones postales:",
+      "list": [
+        "Pixel Perfects Solutions, 30 N Gould ST STE N, Sheridan, WY 82801, Estados Unidos",
+        "Oficina No. 117, Gosha-e-Ahbab, Fase 3, Multan Road, Lahore, Pakistán"
+      ]
+    }
+  ]
+}
+
+  ]
+}

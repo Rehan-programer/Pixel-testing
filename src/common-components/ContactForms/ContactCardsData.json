@@ -1,0 +1,21 @@
+[
+    {
+      "country": "USA",
+      "company": "Registered Office",
+      "address": "30 N, Gould St, Sheridan, Wyoming",
+      "phone": "+1 (307) 243-2920"
+    },
+    {
+      "country": "Spain",
+      "company": "International Business Representative",
+      "address": "Barcelona",
+      "phone": "+34 632 200 838"
+    },
+    {
+      "country": "Pakistan",
+      "company": "Head Office",
+      "address": "Office no 547, Faisal Town, Block B, Lahore",
+      "phone": "+92 303 4087599",
+      "link": "https://maps.app.goo.gl/1ZeCjYxDAMeu7yYH7"
+    }
+]

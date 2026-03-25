@@ -1,0 +1,28 @@
+{
+     "TestimonialsRatingData": {
+    "heading": "Testimonios",
+    "label": "La satisfacción del cliente es nuestra prioridad",
+    "quote": "&quot;Aunque la perfección pueda ser inalcanzable, la búsqueda de ella conduce a la excelencia&quot; <span style='font-weight:bold'>— Vince Lombardi</span>",
+    "para": "<span style='font-weight:bold'>Con más de 25,000 clientes satisfechos, estamos comprometidos a brindar experiencias excepcionales.</span><br/><span>Nuestro índice de recomendación neta (NPS) líder en la industria de 78 es un testimonio de nuestra dedicación a la lealtad y satisfacción del cliente.</span>",
+    "img": "/assets/img/Testimonialsimages/performance.webp",
+    "imgname": "rendimiento"
+  },
+        "testimonialsClientsInformation": {
+    "STATISTICS": "ESTADÍSTICAS",
+    "detail": "Datos interesantes",
+    "items": [
+      {
+        "head": "25,000+",
+        "para": "Clientes de confianza en todo el mundo"
+      },
+      {
+        "head": "750,000+",
+        "para": "Imágenes entregadas"
+      },
+      {
+        "head": "12+",
+        "para": "Países atendidos"
+      }
+    ]
+  }
+}
