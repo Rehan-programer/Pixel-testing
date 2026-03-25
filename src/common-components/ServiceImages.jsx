@@ -1,25 +1,34 @@
 "use client";
 
+import React, { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import ImageComparing from "./ImageComparing";
 import SEOImage from "./SeoImage/SeoImage";
 
 /**
- * ✅ Firebase Loader for Next.js Image
- * Automatically resizes images based on requested width
+ * Firebase Loader for Next.js Image
+ * Automatically picks the closest pre-generated width
  * Converts to WebP for modern browsers
  */
 const firebaseLoader = ({ src, width, quality }) => {
   if (!src) return "";
+
   const q = quality || 70;
-  const w = width || 800;
-  // Using format=webp for modern browsers
-  // alt=media is required by Firebase Storage
-  return `${src}?alt=media&w=${w}&q=${q}&format=webp`;
+
+  // Pre-generated widths in Firebase Storage
+  const breakpoints = [400, 800, 1200, 1600, 2400];
+
+  // Pick the closest available width
+  const nearestWidth = breakpoints.reduce(
+    (prev, curr) => (Math.abs(curr - width) < Math.abs(prev - width) ? curr : prev),
+    breakpoints[0]
+  );
+
+  return `${src}?alt=media&w=${nearestWidth}&q=${q}&format=webp`;
 };
 
 /**
- * Helper to pick first item if array or just return value
+ * Helper: pick first element if array, else return value
  */
 const pick = (val) => (Array.isArray(val) ? val[0] || null : val);
 
@@ -37,6 +46,22 @@ const getFileNameFromFirebaseURL = (url) => {
 };
 
 const ServiceImages = ({ data, subservice, photographer, lang }) => {
+  const containerRef = useRef(null);
+  const [containerWidth, setContainerWidth] = useState(800); // default width
+
+  // Dynamically detect container width
+  useEffect(() => {
+    const handleResize = () => {
+      if (containerRef.current) {
+        setContainerWidth(containerRef.current.offsetWidth);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   // Pick images / video
   const single = pick(data?.singleImage) || pick(data?.img);
   const beforeImage = pick(data?.leftImage) || pick(data?.beforeImage) || pick(data?.Beforeimg);
@@ -52,11 +77,11 @@ const ServiceImages = ({ data, subservice, photographer, lang }) => {
   const SingleFileName = getFileNameFromFirebaseURL(single);
 
   // Default responsive sizes
-  const imageSizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px";
+  const imageSizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px";
 
   return (
     <>
-      {/* ✅ BEFORE / AFTER COMPARISON */}
+      {/* BEFORE / AFTER COMPARISON */}
       {beforeImage && afterImage ? (
         <ImageComparing
           afterImageTag={data?.AfterimgAlt || AfterfileName}
@@ -67,10 +92,13 @@ const ServiceImages = ({ data, subservice, photographer, lang }) => {
           lang={lang}
         />
       ) : imageSrc ? (
-        <div className="relative w-full h-[16rem] md:h-[29rem] lg:h-[clamp(18.5rem,27vw,33rem)] 2xl:h-[34rem]">
-          {/* ✅ OPTIMIZED IMAGE */}
+        <div
+          ref={containerRef}
+          className="relative w-full h-[16rem] md:h-[29rem] lg:h-[clamp(18.5rem,27vw,33rem)] 2xl:h-[34rem]"
+        >
+          {/* OPTIMIZED IMAGE */}
           <SEOImage
-            loader={firebaseLoader}
+            loader={(props) => firebaseLoader({ ...props, width: containerWidth })}
             src={imageSrc}
             branding={true}
             alt={AlterNativeTags || SingleFileName}
@@ -84,10 +112,10 @@ const ServiceImages = ({ data, subservice, photographer, lang }) => {
             className="object-cover cursor-default"
           />
 
-          {/* ✅ NOSCRIPT FALLBACK with optimized image */}
+          {/* NOSCRIPT FALLBACK */}
           <noscript>
             <img
-              src={`${imageSrc}?alt=media&w=800&q=70&format=webp`}
+              src={`${imageSrc}?alt=media&w=400&q=70&format=webp`} // smallest fallback
               title={`${AlterNativeTags || SingleFileName || "Services"}-Pixel-Perfects-Solution-LLC`}
               alt={`${AlterNativeTags || SingleFileName || "Services"}-Pixel-Perfects-Solution-LLC`}
               className="relative w-full h-[16rem] md:h-[29rem] lg:h-[clamp(18.5rem,27vw,33rem)] 2xl:h-[34rem] object-cover"
@@ -95,7 +123,7 @@ const ServiceImages = ({ data, subservice, photographer, lang }) => {
           </noscript>
         </div>
       ) : videoUrl ? (
-        // ✅ VIDEO FALLBACK
+        // VIDEO FALLBACK
         <div className="bg-black cursor-default block">
           <video
             src={videoUrl}
