@@ -306,4 +306,3 @@ export default async function FaqSection({ lang }) {
     />
   );
 }
-// f
