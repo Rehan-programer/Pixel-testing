@@ -28,16 +28,16 @@ export default async function Home() {
   const cookieStore = await cookies();
   const lang = cookieStore.get("lang")?.value || "en";
   const homePageData = getTranslations(lang, "homePageBanner");
-  const mainServices = await findAllService(lang);
-const subServices = await findAllSubServices(lang);
+//   const mainServices = await findAllService(lang);
+// const subServices = await findAllSubServices(lang);
 
-const initialMainServices = mainServices?.slice(0, 4);
+// const initialMainServices = mainServices?.slice(0, 4);
 
-const firstMainId = initialMainServices?.[0]?.id;
+// const firstMainId = initialMainServices?.[0]?.id;
 
-const initialSubServices = subServices
-  ?.filter((item) => item.mainServiceId === firstMainId)
-  .slice(0, 4);
+// const initialSubServices = subServices
+//   ?.filter((item) => item.mainServiceId === firstMainId)
+//   .slice(0, 4);
   return (
     <>
       <SchemaInjector page={"mainhome"} />
@@ -50,12 +50,14 @@ const initialSubServices = subServices
       <OurServices
   data={homePageData?.OurServices}
   lang={lang}
-  initialMainServices={initialMainServices}
-  initialSubServices={initialSubServices}
+  // initialMainServices={initialMainServices}
+  // initialSubServices={initialSubServices}
 />
       <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
       <WhyNeed data={homePageData.WhyNeed} />
-      <Industries lang={lang} mainServices={mainServices} subServices={subServices} />
+      <Industries lang={lang}
+      //  mainServices={initialMainServices} subServices={initialSubServices}
+        />
       <Vision data={homePageData.visionData} />
       <ServicePricing lang={lang} data={homePageData.ServicePricingData} />
       <Testimonials lang={lang} />

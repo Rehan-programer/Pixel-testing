@@ -1,8 +1,19 @@
 import SectionHeader from "@/common-components/SectionHeader";
 import React from "react";
 import CSRTabService from "./CSROurServices";
+import { findAllService } from "@/_api/mainservice";
+import { findAllSubServices } from "@/_api/subServices";
 
-export default async function OurServices({ data, lang, initialMainServices, initialSubServices }) {
+export default async function OurServices({ data, lang, }) {
+  const mainServices = await findAllService(lang);
+  const subServices = await findAllSubServices(lang);
+
+
+  const firstMainId = mainServices?.[0]?.id;
+
+  const initialSubServices = subServices
+    ?.filter((item) => item.mainServiceId === firstMainId)
+    .slice(0, 4);
 
 
   return (
@@ -21,11 +32,11 @@ export default async function OurServices({ data, lang, initialMainServices, ini
             width={"lg:w-[70%]"}
           />
         </div>
-        <CSRTabService
-          lang={lang}
-          initialMainServices={initialMainServices}
-          initialSubServices={initialSubServices}
-        />
+       <CSRTabService
+        lang={lang}
+        initialMainServices={mainServices.slice(0,4)}
+        initialSubServices={initialSubServices}
+      />
       </div>
     </section>
   );
