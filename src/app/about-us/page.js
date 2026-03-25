@@ -14,6 +14,7 @@ import React from "react";
 export async function generateMetadata() {
   return await generateSEOMetadata("about");
 }
+// 
 
 export default async function About() {
   const cookieStore = await cookies();
