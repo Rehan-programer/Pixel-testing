@@ -2,8 +2,8 @@
 import React from "react";
 import ReactCompareImage from "react-compare-image";
 
-// ✅ Canvas se compress — 13MB → ~150KB WebP
-async function compressImage(src, maxWidth = 800, quality = 0.7) {
+// ✅ Canvas se Firebase image compress karta hai — 13MB → ~150KB WebP
+async function compressImage(src, maxWidth = 900, quality = 0.75) {
   return new Promise((resolve) => {
     const img = new window.Image();
     img.crossOrigin = "anonymous";
@@ -21,7 +21,7 @@ async function compressImage(src, maxWidth = 800, quality = 0.7) {
         quality
       );
     };
-    img.onerror = () => resolve(src);
+    img.onerror = () => resolve(src); // CORS fail ho toh original use karo
     img.src = src;
   });
 }
@@ -31,44 +31,20 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
   const rightLabel = lang === "es" ? "Antes" : "Before";
 
   const [loaded, setLoaded] = React.useState(false);
-  const [inView, setInView] = React.useState(false); // ✅ Viewport mein aane par hi load karo
   const [compressedAfter, setCompressedAfter] = React.useState(null);
   const [compressedBefore, setCompressedBefore] = React.useState(null);
   const blobRefs = React.useRef({ after: null, before: null });
-  const containerRef = React.useRef(null);
 
-  // ✅ Intersection Observer — sirf tab load karo jab user scroll kar ke aaye
   React.useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          setInView(true);
-          observer.disconnect(); // ek baar kafi hai
-        }
-      },
-      { rootMargin: "200px" } // 200px pehle se load shuru karo
-    );
-    if (containerRef.current) observer.observe(containerRef.current);
-    return () => observer.disconnect();
-  }, []);
-
-  // ✅ Sirf tab compress karo jab viewport mein aaye
-  React.useEffect(() => {
-    if (!inView || !afterImage || !beforeImage) return;
-
     setLoaded(false);
     setCompressedAfter(null);
     setCompressedBefore(null);
 
-    // Mobile par chhoti size, desktop par badi
-    const isMobile = window.innerWidth < 768;
-    const targetWidth = isMobile ? 600 : 900;
-    const targetQuality = isMobile ? 0.65 : 0.75;
-
     Promise.all([
-      compressImage(afterImage, targetWidth, targetQuality),
-      compressImage(beforeImage, targetWidth, targetQuality),
+      compressImage(afterImage, 900, 0.75),
+      compressImage(beforeImage, 900, 0.75),
     ]).then(([after, before]) => {
+      // Purane blob URLs memory free karo
       if (blobRefs.current.after?.startsWith("blob:")) URL.revokeObjectURL(blobRefs.current.after);
       if (blobRefs.current.before?.startsWith("blob:")) URL.revokeObjectURL(blobRefs.current.before);
       blobRefs.current = { after, before };
@@ -81,10 +57,10 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
       if (blobRefs.current.after?.startsWith("blob:")) URL.revokeObjectURL(blobRefs.current.after);
       if (blobRefs.current.before?.startsWith("blob:")) URL.revokeObjectURL(blobRefs.current.before);
     };
-  }, [inView, beforeImage, afterImage]);
+  }, [beforeImage, afterImage]);
 
   return (
-    <div ref={containerRef} className="no-swipe cursor-e-resize rounded-[10px] w-full h-full">
+    <div className="no-swipe cursor-e-resize rounded-[10px] w-full h-full">
 
       <noscript>
         <style>{`.js-compare-widget { display: none !important; }`}</style>
@@ -134,17 +110,40 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
             style={{ width: "50%", objectFit: "cover", display: "block" }}
             className="h-[20rem] md:h-[26rem] lg:h-[37vh] xl:h-[60vh]"
           />
-          <div style={{ position: "absolute", left: "50%", top: 0, width: "2px", height: "100%", background: "white", transform: "translateX(-50%)" }} />
-          <div style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%, -50%)", width: "50px", height: "50px", border: "2px solid white", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,0.4)", boxShadow: "0 2px 8px rgba(0,0,0,0.4)" }}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <div style={{
+            position: "absolute", left: "50%", top: 0,
+            width: "2px", height: "100%", background: "white",
+            transform: "translateX(-50%)"
+          }} />
+          <div style={{
+            position: "absolute", left: "50%", top: "50%",
+            transform: "translate(-50%, -50%)",
+            width: "50px", height: "50px",
+            border: "2px solid white", borderRadius: "50%",
+            display: "flex", alignItems: "center", justifyContent: "center",
+            background: "rgba(0,0,0,0.4)",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.4)"
+          }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+              fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="m9 7-5 5 5 5" />
               <path d="m15 7 5 5-5 5" />
             </svg>
           </div>
-          <span style={{ position: "absolute", left: "1rem", top: "50%", transform: "translateY(-50%)", background: "rgba(0,0,0,0.6)", color: "white", padding: "4px 12px", fontSize: "0.875rem", borderRadius: "4px" }}>
+          <span style={{
+            position: "absolute", left: "1rem", top: "50%",
+            transform: "translateY(-50%)",
+            background: "rgba(0,0,0,0.6)", color: "white",
+            padding: "4px 12px", fontSize: "0.875rem", borderRadius: "4px"
+          }}>
             {lang === "es" ? "Después 24 horas" : "After 24 hours"}
           </span>
-          <span style={{ position: "absolute", right: "1rem", top: "50%", transform: "translateY(-50%)", background: "rgba(0,0,0,0.6)", color: "white", padding: "4px 12px", fontSize: "0.875rem", borderRadius: "4px" }}>
+          <span style={{
+            position: "absolute", right: "1rem", top: "50%",
+            transform: "translateY(-50%)",
+            background: "rgba(0,0,0,0.6)", color: "white",
+            padding: "4px 12px", fontSize: "0.875rem", borderRadius: "4px"
+          }}>
             {lang === "es" ? "Antes" : "Before"}
           </span>
         </div>
