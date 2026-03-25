@@ -34,7 +34,7 @@ export default async function Home() {
     <>
         <SchemaInjector page={"mainhome"} />
       <HomePageBanner data={homePageData} heading="home banner" lang={lang} />
-      <DashBoardPortal data={homePageData?.PortalData} />
+      {/* <DashBoardPortal data={homePageData?.PortalData} /> */}
       <div className="container-global p-[0]">
         <OurClients data={homePageData?.OurClients} />
         <Launching data={homePageData?.LaunchingData} />
