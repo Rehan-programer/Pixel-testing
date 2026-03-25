@@ -30,10 +30,10 @@ export default async function PartnerShip() {
       <Banner lang={lang} data={partnerPageData.BannerData} />
       <Benefits lang={lang} data={partnerPageData.Benefitsdata} />
       <Partner lang={lang} data={partnerPageData.PartnerData} />
-      {/* <TestimonialsClients
+      <TestimonialsClients
         lang={lang}
         data={partnerPageData.testimonialsClientsInformation}
-      /> */}
+      />
       {/* <DataDetails lang={lang} data={partnerPageData.PartnerFillData} /> */}
 
       {/* <ServiceGrid lang={lang} data={partnershipsData?.fields || []} /> */}
