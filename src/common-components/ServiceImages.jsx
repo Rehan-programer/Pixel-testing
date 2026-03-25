@@ -5,42 +5,54 @@ import ImageComparing from "./ImageComparing";
 import SEOImage from "./SeoImage/SeoImage";
 
 /**
- * Firebase Loader for Next.js Image
- * Automatically resizes images on the fly
+ * ✅ Firebase Loader for Next.js Image
+ * Automatically resizes images based on requested width
+ * Converts to WebP for modern browsers
  */
 const firebaseLoader = ({ src, width, quality }) => {
   if (!src) return "";
-  // Add width, quality, and convert to WebP if possible
-  return `${src}?alt=media&w=${width || 800}&q=${quality || 70}&format=webp`;
+  const q = quality || 70;
+  const w = width || 800;
+  // Using format=webp for modern browsers
+  // alt=media is required by Firebase Storage
+  return `${src}?alt=media&w=${w}&q=${q}&format=webp`;
+};
+
+/**
+ * Helper to pick first item if array or just return value
+ */
+const pick = (val) => (Array.isArray(val) ? val[0] || null : val);
+
+/**
+ * Extract filename from Firebase URL
+ */
+const getFileNameFromFirebaseURL = (url) => {
+  try {
+    const decoded = decodeURIComponent(url);
+    const fileName = decoded.split("/o/")[1].split("?")[0].split("/").pop();
+    return fileName.replace(/\.[^/.]+$/, "");
+  } catch {
+    return "";
+  }
 };
 
 const ServiceImages = ({ data, subservice, photographer, lang }) => {
-  // Helper: pick first element if array, else return value
-  const pick = (val) => (Array.isArray(val) ? (val.length > 0 ? val[0] : null) : val);
-
+  // Pick images / video
   const single = pick(data?.singleImage) || pick(data?.img);
-  const videoUrl = pick(data?.videoUrl) || pick(data?.video);
-
   const beforeImage = pick(data?.leftImage) || pick(data?.beforeImage) || pick(data?.Beforeimg);
   const afterImage = pick(data?.rightImage) || pick(data?.afterImage) || pick(data?.Afterimg);
+  const videoUrl = pick(data?.videoUrl) || pick(data?.video);
 
   const imageSrc = !subservice ? single : single || afterImage;
   const AlterNativeTags = data?.project_title || data?.subName;
 
-  // Extract filename without extension
-  const getFileNameFromFirebaseURL = (url) => {
-    try {
-      const decoded = decodeURIComponent(url);
-      const fileName = decoded.split("/o/")[1].split("?")[0].split("/").pop();
-      return fileName.replace(/\.[^/.]+$/, "");
-    } catch {
-      return "";
-    }
-  };
-
+  // File names for alt tags
   const AfterfileName = getFileNameFromFirebaseURL(afterImage);
   const BeforeFileName = getFileNameFromFirebaseURL(beforeImage);
   const SingleFileName = getFileNameFromFirebaseURL(single);
+
+  // Default responsive sizes
+  const imageSizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px";
 
   return (
     <>
@@ -67,18 +79,18 @@ const ServiceImages = ({ data, subservice, photographer, lang }) => {
             blurDataURL="/blur-placeholder.png"
             loading="lazy"
             quality={70}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+            sizes={imageSizes}
             decoding="async"
             className="object-cover cursor-default"
           />
 
-          {/* ✅ NOSCRIPT FALLBACK */}
+          {/* ✅ NOSCRIPT FALLBACK with optimized image */}
           <noscript>
             <img
-              src={imageSrc}
+              src={`${imageSrc}?alt=media&w=800&q=70&format=webp`}
               title={`${AlterNativeTags || SingleFileName || "Services"}-Pixel-Perfects-Solution-LLC`}
               alt={`${AlterNativeTags || SingleFileName || "Services"}-Pixel-Perfects-Solution-LLC`}
-              className="relative w-full h-[16rem] md:h-[29rem] lg:h-[clamp(18.5rem,27vw,33rem)] 2xl:h-[34rem]"
+              className="relative w-full h-[16rem] md:h-[29rem] lg:h-[clamp(18.5rem,27vw,33rem)] 2xl:h-[34rem] object-cover"
             />
           </noscript>
         </div>
