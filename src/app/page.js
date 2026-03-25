@@ -44,10 +44,10 @@ export default async function Home() {
       <WhyNeed data={homePageData.WhyNeed} />
       <Industries lang={lang}  mainServices={mainServices} subServices={subServices}/>
       <Vision data={homePageData.visionData} />
-      <ServicePricing lang={lang} data={homePageData.ServicePricingData} />
+      {/* <ServicePricing lang={lang} data={homePageData.ServicePricingData} />
       <Testimonials lang={lang} />
       <ContactUsFormCard lang={lang} />
-      <ContactCards />
+      <ContactCards /> */}
 
     </>
   );
