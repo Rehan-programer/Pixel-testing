@@ -34,7 +34,7 @@ export default async function PartnerShip() {
         lang={lang}
         data={partnerPageData.testimonialsClientsInformation}
       />
-      {/* <DataDetails lang={lang} data={partnerPageData.PartnerFillData} /> */}
+      <DataDetails lang={lang} data={partnerPageData.PartnerFillData} />
 
       {/* <ServiceGrid lang={lang} data={partnershipsData?.fields || []} /> */}
       <ContactUsFormCard id="signin-component" lang={lang}  />
