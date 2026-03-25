@@ -1,32 +1,42 @@
 import { findAllService } from "@/_api/mainservice";
 import { findAllSubServices } from "@/_api/subServices";
 import { useQuery } from "@tanstack/react-query";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
-export function useServicesHooks(lang) {
-  // ✅ Ab yeh client side fetch karega — __NEXT_DATA__ mein nahi jayega
-  const {
-    data: subService = [],
-    isLoading: subLoading,
-  } = useQuery({
-    queryKey: ["get-all-subservice", lang],
-    queryFn: () => findAllSubServices(lang),
-    enabled: !!lang,
-  });
+export function useServicesHooks(
+  lang,
+  initialMainServices = [],
+  initialSubServices = []
+) {
 
+  // 🔥 Main Services
   const {
-    data: MainService = [],
+    data: MainService = initialMainServices,
     isLoading: mainLoading,
   } = useQuery({
     queryKey: ["get-all-MainServices", lang],
     queryFn: () => findAllService(lang),
     enabled: !!lang,
+    initialData: initialMainServices,
   });
 
-  // ✅ Real loading state — fake timer hata diya
-  const isLoading = subLoading || mainLoading;
+  // 🔥 Sub Services
+  const {
+    data: subService = initialSubServices,
+    isLoading: subLoading,
+  } = useQuery({
+    queryKey: ["get-all-subservice", lang],
+    queryFn: () => findAllSubServices(lang),
+    enabled: !!lang,
+    initialData: initialSubServices,
+  });
 
-  const [selectedCategory, setSelectedCategory] = useState();
+  const isLoading = mainLoading || subLoading;
+
+  // 🔥 Selected Category
+  const [selectedCategory, setSelectedCategory] = useState(
+    initialMainServices?.[0]?.id
+  );
 
   useEffect(() => {
     if (MainService.length > 0 && !selectedCategory) {
@@ -36,12 +46,19 @@ export function useServicesHooks(lang) {
 
   const handleSelectChange = (value) => setSelectedCategory(value);
 
-  const selectedMainService = MainService.find((item) => item.id === selectedCategory) || {};
-  const selectedLabel = selectedMainService.name || "";
-  const filteredServices = subService?.filter(
-    (service) => service.mainServiceId === selectedCategory
-  ) || [];
+  // 🔥 Selected Main Service
+  const selectedMainService =
+    MainService.find((item) => item.id === selectedCategory) || {};
 
+  const selectedLabel = selectedMainService.name || "";
+
+  // 🔥 Filtered Services
+  const filteredServices =
+    subService?.filter(
+      (service) => service.mainServiceId === selectedCategory
+    ) || [];
+
+  // 🔥 Mobile Dropdown
   const [open, setOpen] = useState(false);
   const ref = useRef();
 
@@ -49,6 +66,7 @@ export function useServicesHooks(lang) {
     const handler = (e) => {
       if (ref.current && !ref.current.contains(e.target)) setOpen(false);
     };
+
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
   }, []);

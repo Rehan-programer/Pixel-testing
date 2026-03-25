@@ -2,9 +2,9 @@ import SectionHeader from "@/common-components/SectionHeader";
 import React from "react";
 import CSRTabService from "./CSROurServices";
 
-export default async function OurServices  ({ data,lang,mainServices,subServices }) {
+export default async function OurServices({ data, lang, initialMainServices, initialSubServices }) {
 
-   
+
   return (
     <section
       className="overflow-hidden "
@@ -21,8 +21,11 @@ export default async function OurServices  ({ data,lang,mainServices,subServices
             width={"lg:w-[70%]"}
           />
         </div>
-        <CSRTabService     initialMainServices={mainServices}
-      initialSubServices={subServices} lang={lang}/>
+        <CSRTabService
+          lang={lang}
+          initialMainServices={initialMainServices}
+          initialSubServices={initialSubServices}
+        />
       </div>
     </section>
   );
