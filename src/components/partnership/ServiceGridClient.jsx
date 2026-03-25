@@ -221,6 +221,7 @@ export default function ServiceCardClient({ service, mobile }) {
                 width={500}
                 height={400}
                 className="w-full h-64 object-cover"
+                quality={70}
               />
             ) : service.video ? (
               <video
@@ -281,6 +282,7 @@ export default function ServiceCardClient({ service, mobile }) {
               width={500}
               height={400}
               className="w-full h-[15rem] object-cover"
+              quality={70}
             />
           ) : service.video ? (
             <video

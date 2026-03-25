@@ -22,6 +22,7 @@ const SEOImage = ({
       {...props}
       alt={finalAlt}
       title={finalTitle}
+      
     />
   );
 };
