@@ -18,26 +18,18 @@ import { findAllService } from "@/_api/mainservice";
 import { findAllSubServices } from "@/_api/subServices";
 import SchemaInjector from "@/lib/Schema/SchemaInjector";
 import { generateSEOMetadata } from "@/lib/SeoConfig/GenerateSeoMetadata";
-import { Suspense } from "react";
 
 
 export async function generateMetadata() {
   return await generateSEOMetadata("home");
 }
-// Skeleton components
-function ServicesSkeleton() {
-  return <div className="h-96 w-full animate-pulse bg-gray-100 rounded-lg" />;
-}
 
-function IndustriesSkeleton() {
-  return <div className="h-96 w-full animate-pulse bg-gray-100 rounded-lg" />;
-}
 export default async function Home() {
   const cookieStore = await cookies();
   const lang = cookieStore.get("lang")?.value || "en";
   const homePageData = getTranslations(lang, "homePageBanner");
-        const mainServices = await findAllService(lang);
-    const subServices = await findAllSubServices(lang);
+    //     const mainServices = await findAllService(lang);
+    // const subServices = await findAllSubServices(lang);
   return (
     <>
         <SchemaInjector page={"mainhome"} />
@@ -48,15 +40,10 @@ export default async function Home() {
         <Launching data={homePageData?.LaunchingData} />
       </div>
       {/* <OurServices data={homePageData?.OurServices} lang={lang} mainServices={mainServices} subServices={subServices}/> */}
-        <Suspense fallback={<ServicesSkeleton />}>
-        <OurServices data={homePageData?.OurServices} lang={lang} mainServices={mainServices} subServices={subServices}/> 
-      </Suspense>
+      <OurServices data={homePageData?.OurServices} lang={lang} />
       <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
       <WhyNeed data={homePageData.WhyNeed} />
       {/* <Industries lang={lang}  mainServices={mainServices} subServices={subServices}/> */}
-         <Suspense fallback={<IndustriesSkeleton />}>
-        <Industries  lang={lang}  mainServices={mainServices} subServices={subServices}/> 
-      </Suspense>
       <Vision data={homePageData.visionData} />
       <ServicePricing lang={lang} data={homePageData.ServicePricingData} />
       <Testimonials lang={lang} />
