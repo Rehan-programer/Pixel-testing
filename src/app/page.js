@@ -40,14 +40,14 @@ export default async function Home() {
         <Launching data={homePageData?.LaunchingData} />
       </div>
       <OurServices data={homePageData?.OurServices} lang={lang} mainServices={mainServices} subServices={subServices}/>
-      {/* <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
+      <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
       <WhyNeed data={homePageData.WhyNeed} />
       <Industries lang={lang}  mainServices={mainServices} subServices={subServices}/>
-      <Vision data={homePageData.visionData} />
-      <ServicePricing lang={lang} data={homePageData.ServicePricingData} />
-      <Testimonials lang={lang} />
-      <ContactUsFormCard lang={lang} />
-      <ContactCards /> */}
+      {/* <Vision data={homePageData.visionData} /> */}
+      {/* <ServicePricing lang={lang} data={homePageData.ServicePricingData} /> */}
+      {/* <Testimonials lang={lang} /> */}
+      {/* <ContactUsFormCard lang={lang} /> */}
+      {/* <ContactCards /> */}
 
     </>
   );
