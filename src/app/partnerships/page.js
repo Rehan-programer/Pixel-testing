@@ -28,8 +28,8 @@ export default async function PartnerShip() {
     <>
      <SchemaInjector page={"partnerships"} />
       <Banner lang={lang} data={partnerPageData.BannerData} />
-      {/* <Benefits lang={lang} data={partnerPageData.Benefitsdata} /> */}
-      {/* <Partner lang={lang} data={partnerPageData.PartnerData} /> */}
+      <Benefits lang={lang} data={partnerPageData.Benefitsdata} />
+      <Partner lang={lang} data={partnerPageData.PartnerData} />
       {/* <TestimonialsClients
         lang={lang}
         data={partnerPageData.testimonialsClientsInformation}
