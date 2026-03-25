@@ -32,16 +32,16 @@ export default async function Home() {
     const subServices = await findAllSubServices(lang);
   return (
     <>
-        {/* <SchemaInjector page={"mainhome"} />
+        <SchemaInjector page={"mainhome"} />
       <HomePageBanner data={homePageData} heading="home banner" lang={lang} />
       <DashBoardPortal data={homePageData?.PortalData} />
       <div className="container-global p-[0]">
         <OurClients data={homePageData?.OurClients} />
         <Launching data={homePageData?.LaunchingData} />
       </div>
-      <OurServices data={homePageData?.OurServices} lang={lang} mainServices={mainServices} subServices={subServices}/> */}
-      <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
-      {/* <WhyNeed data={homePageData.WhyNeed} />
+      <OurServices data={homePageData?.OurServices} lang={lang} mainServices={mainServices} subServices={subServices}/>
+      {/* <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
+      <WhyNeed data={homePageData.WhyNeed} />
       <Industries lang={lang}  mainServices={mainServices} subServices={subServices}/>
       <Vision data={homePageData.visionData} />
       <ServicePricing lang={lang} data={homePageData.ServicePricingData} />
