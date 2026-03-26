@@ -10,7 +10,7 @@ export default function OpenForm() {
 
   return (
     <>
-      <button onClick={openForm}>Contact Us</button>
+      {/* <button onClick={openForm}>Contact Us</button> */}
 
       <Script
         src="https://tally.so/widgets/embed.js"
