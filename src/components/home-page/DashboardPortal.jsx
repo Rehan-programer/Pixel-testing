@@ -209,8 +209,8 @@ const DashBoardPortal = ({ data }) => {
                 width={800}
                 height={500}
                 priority={displayStep === 0}
-                quality={100}
-                unoptimized
+                quality={60}
+                // unoptimized
                 placeholder="empty"
                 onLoad={() => setImageLoaded(true)}
                 className="w-full h-full object-contain rounded-2xl drop-shadow-xl"
