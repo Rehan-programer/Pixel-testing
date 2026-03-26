@@ -106,14 +106,14 @@
      "id":"01",
     "title": "Selecciona tu servicio",
     "description": "Explora nuestra gama personalizada de servicios de marketing inmobiliario — desde la decoración virtual hasta la mejora fotográfica. Elige el servicio que mejor se adapte a las necesidades de tu anuncio y comienza a transformar las imágenes de tu propiedad al instante.",
-    "image": "/assets/img/selectService.jpg"
+    "image": "/assets/img/selectService.webp"
   },
   {
      "id":"02",
 
     "title": "Agrega detalles del proyecto",
     "description": "Carga fácilmente las imágenes de tu propiedad y proporciona instrucciones específicas. Ya sea que desees añadir estilos de mobiliario, tipos de habitaciones o seleccionar servicios adicionales, nuestro formulario inteligente de proyectos lo hace simple e intuitivo.",
-    "image": "/assets/img/addprojectdetails.jpg"
+    "image": "/assets/img/addprojectdetails.webp"
   },
   {
      "id":"03",

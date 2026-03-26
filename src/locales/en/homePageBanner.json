@@ -105,13 +105,13 @@
   {  "id":"01",
     "title": "Select Your Service",
     "description": "Browse through our tailored range of real estate marketing services — from virtual staging to photo enhancement. Pick the service that best suits your listing’s needs and start transforming your property visuals instantly.",
-    "image": "/assets/img/selectService.jpg"
+    "image": "/assets/img/selectService.webp"
   },
   {
      "id":"02",
     "title": "Add Project Details",
     "description": "Easily upload your property images and provide specific instructions. Whether it’s adding furniture style preferences, room types, or selecting add-on services — our smart project form makes it simple and intuitive.",
-    "image": "/assets/img/addprojectdetails.jpg"
+    "image": "/assets/img/addprojectdetails.webp"
   },
   { "id":"03",
     "title": "Get It Delivered",
