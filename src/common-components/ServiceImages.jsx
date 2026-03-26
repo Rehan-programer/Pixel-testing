@@ -1,30 +1,27 @@
 "use client";
 
-import React, { useRef, useState, useEffect } from "react";
-import Image from "next/image";
+import React from "react";
 import ImageComparing from "./ImageComparing";
 import SEOImage from "./SeoImage/SeoImage";
 
 /**
- * Firebase Loader for Next.js Image
- * Automatically picks the closest pre-generated width
- * Converts to WebP for modern browsers
+ * Smart Loader:
+ * - Firebase URLs  → ?alt=media only (Next.js handles AVIF/WebP conversion)
+ * - Local /assets/ → src as-is (Next.js optimizes automatically)
  */
-const firebaseLoader = ({ src, width, quality }) => {
+const smartLoader = ({ src, width, quality }) => {
   if (!src) return "";
 
-  const q = quality || 70;
+  const q = quality || 60;
 
-  // Pre-generated widths in Firebase Storage
-  const breakpoints = [400, 800, 1200, 1600, 2400];
+  // Local image — Next.js built-in optimization kaam karega
+  if (src.startsWith("/") || src.startsWith("./")) {
+    return `/_next/image?url=${encodeURIComponent(src)}&w=${width}&q=${q}`;
+  }
 
-  // Pick the closest available width
-  const nearestWidth = breakpoints.reduce(
-    (prev, curr) => (Math.abs(curr - width) < Math.abs(prev - width) ? curr : prev),
-    breakpoints[0]
-  );
-
-  return `${src}?alt=media&w=${nearestWidth}&q=${q}&format=webp`;
+  // Firebase URL — sirf ?alt=media, baaki Next.js handle karega
+  const baseSrc = src.split("?")[0];
+  return `${baseSrc}?alt=media`;
 };
 
 /**
@@ -33,39 +30,26 @@ const firebaseLoader = ({ src, width, quality }) => {
 const pick = (val) => (Array.isArray(val) ? val[0] || null : val);
 
 /**
- * Extract filename from Firebase URL
+ * Extract filename from Firebase URL (for alt tags)
  */
 const getFileNameFromFirebaseURL = (url) => {
+  if (!url) return "";
   try {
     const decoded = decodeURIComponent(url);
-    const fileName = decoded.split("/o/")[1].split("?")[0].split("/").pop();
-    return fileName.replace(/\.[^/.]+$/, "");
+    const fileName = decoded.split("/o/")[1]?.split("?")[0]?.split("/").pop();
+    return fileName ? fileName.replace(/\.[^/.]+$/, "") : "";
   } catch {
     return "";
   }
 };
 
-const ServiceImages = ({ data, subservice, photographer, lang }) => {
-  const containerRef = useRef(null);
-  const [containerWidth, setContainerWidth] = useState(800); // default width
-
-  // Dynamically detect container width
-  useEffect(() => {
-    const handleResize = () => {
-      if (containerRef.current) {
-        setContainerWidth(containerRef.current.offsetWidth);
-      }
-    };
-
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
+const ServiceImages = ({ data, subservice, lang }) => {
   // Pick images / video
   const single = pick(data?.singleImage) || pick(data?.img);
-  const beforeImage = pick(data?.leftImage) || pick(data?.beforeImage) || pick(data?.Beforeimg);
-  const afterImage = pick(data?.rightImage) || pick(data?.afterImage) || pick(data?.Afterimg);
+  const beforeImage =
+    pick(data?.leftImage) || pick(data?.beforeImage) || pick(data?.Beforeimg);
+  const afterImage =
+    pick(data?.rightImage) || pick(data?.afterImage) || pick(data?.Afterimg);
   const videoUrl = pick(data?.videoUrl) || pick(data?.video);
 
   const imageSrc = !subservice ? single : single || afterImage;
@@ -76,8 +60,9 @@ const ServiceImages = ({ data, subservice, photographer, lang }) => {
   const BeforeFileName = getFileNameFromFirebaseURL(beforeImage);
   const SingleFileName = getFileNameFromFirebaseURL(single);
 
-  // Default responsive sizes
-  const imageSizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px";
+  // Responsive sizes — actual display size ke mutabiq
+  const imageSizes =
+    "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px";
 
   return (
     <>
@@ -92,33 +77,36 @@ const ServiceImages = ({ data, subservice, photographer, lang }) => {
           lang={lang}
         />
       ) : imageSrc ? (
-        <div
-          ref={containerRef}
-          className="relative w-full h-[16rem] md:h-[29rem] lg:h-[clamp(18.5rem,27vw,33rem)] 2xl:h-[34rem]"
-        >
-          {/* OPTIMIZED IMAGE */}
+        <div className="relative w-full h-[16rem] md:h-[29rem] lg:h-[clamp(18.5rem,27vw,33rem)] 2xl:h-[34rem]">
           <SEOImage
-            loader={(props) => firebaseLoader({ ...props, width: containerWidth })}
+            loader={smartLoader}
             src={imageSrc}
             branding={true}
             alt={AlterNativeTags || SingleFileName}
             fill
             placeholder="blur"
             blurDataURL="/blur-placeholder.png"
-            loading="lazy"
-            quality={70}
+            priority={false}   // ✅ Hero banner nahi — lazy load theek hai
+            quality={60}       // ✅ 60 = best size/quality balance
             sizes={imageSizes}
-            decoding="async"
             className="object-cover cursor-default"
           />
 
-          {/* NOSCRIPT FALLBACK */}
+          {/* NOSCRIPT FALLBACK — JS disabled browsers ke liye */}
           <noscript>
             <img
-              src={`${imageSrc}?alt=media&w=400&q=70&format=webp`} // smallest fallback
-              title={`${AlterNativeTags || SingleFileName || "Services"}-Pixel-Perfects-Solution-LLC`}
-              alt={`${AlterNativeTags || SingleFileName || "Services"}-Pixel-Perfects-Solution-LLC`}
-              className="relative w-full h-[16rem] md:h-[29rem] lg:h-[clamp(18.5rem,27vw,33rem)] 2xl:h-[34rem] object-cover"
+              src={
+                imageSrc.startsWith("/")
+                  ? imageSrc
+                  : `${imageSrc.split("?")[0]}?alt=media`
+              }
+              title={`${
+                AlterNativeTags || SingleFileName || "Services"
+              }-Pixel-Perfects-Solution-LLC`}
+              alt={`${
+                AlterNativeTags || SingleFileName || "Services"
+              }-Pixel-Perfects-Solution-LLC`}
+              className="absolute inset-0 w-full h-full object-cover"
             />
           </noscript>
         </div>
