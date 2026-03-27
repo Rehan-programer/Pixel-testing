@@ -203,18 +203,18 @@ const DashBoardPortal = ({ data }) => {
               }}
             >
               <Image
-                key={current.image}
-                alt={current.title}
-                src={current.image}
-                width={800}
-                height={500}
-                priority={displayStep === 0}
-                quality={60}
-                // unoptimized
-                placeholder="empty"
-                onLoad={() => setImageLoaded(true)}
-                className="w-full h-full object-contain rounded-2xl drop-shadow-xl"
-              />
+  key={current.image}
+  alt={current.title}
+  src={current.image}
+  width={800}
+  height={500}
+  priority={displayStep === 0}
+  quality={60}
+  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 617px"
+  placeholder="empty"
+  onLoad={() => setImageLoaded(true)}
+  className="w-full h-full object-contain rounded-2xl drop-shadow-xl"
+/>
             </div>
 
             {!imageLoaded && (

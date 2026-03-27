@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 import Image from "next/image";
 import SEOImage from "@/common-components/SeoImage/SeoImage";
 
-const MarqueeClients = ({ clients ,issubservice}) => {
+const MarqueeClients = ({ clients, issubservice }) => {
   return (
     <>
       {/* Normal JS version */}
@@ -25,10 +25,13 @@ const MarqueeClients = ({ clients ,issubservice}) => {
               alt={client.logoUrl}
               title={client.logoUrl}
               width={100}
-              height={60} branding={true}
+              height={60}
+              branding={true}
               className="w-[clamp(3rem,5vw,6rem)] h-auto object-contain"
               loading="lazy"
               decoding="async"
+              quality={50}
+              sizes="(max-width:768px) 48px, (max-width:1200px) 72px, 96px"
             />
           </div>
         ))}
@@ -36,7 +39,7 @@ const MarqueeClients = ({ clients ,issubservice}) => {
       {/* NOSCRIPT fallback */}
       <noscript>
         <div class="flex flex-wrap justify-center gap-3">
-          {clients.slice(0,issubservice?3:6)?.map((client, index) => (
+          {clients.slice(0, issubservice ? 3 : 6)?.map((client, index) => (
             <div
               key={index}
               className="flex items-center justify-center bg-white
