@@ -43,7 +43,7 @@ const ClientCard = ({ data, lang }) => {
       "
     >
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center ">
-          <div className="md:w-1/2 text-center md:text-left">
+          <div className="md:w-1/2 text-center md:text-left pr-4">
             <h2>{t.trustedTitle}</h2>
 
             <p className=" my-[1rem] lg:my-[2%]">{t.trustedDesc}</p>

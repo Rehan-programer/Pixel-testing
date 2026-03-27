@@ -36,15 +36,15 @@ export default async function Home() {
         <OurClients data={homePageData?.OurClients} />
         <Launching data={homePageData?.LaunchingData} />
       </div>
-      {/* <OurServices
+      <OurServices
   data={homePageData?.OurServices}
   lang={lang}
 
 /> */}
       <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
       <WhyNeed data={homePageData.WhyNeed} />
-      {/* <Industries lang={lang}
-        /> */}
+      <Industries lang={lang}
+        />
       <Vision data={homePageData.visionData} />
       <ServicePricing lang={lang} data={homePageData.ServicePricingData} />
       <Testimonials lang={lang} />

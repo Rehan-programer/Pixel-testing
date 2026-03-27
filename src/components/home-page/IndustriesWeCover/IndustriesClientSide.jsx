@@ -300,11 +300,12 @@ const IndustriesClientSide = ({ lang, initialMainServices, initialSubServices })
         <div className="flex-1 flex flex-col" style={{ overflow: "hidden" }}>
 
           {/* Image / Video */}
-          <div ref={imgWrapRef} style={{
-            position: "relative", width: "100%", height: "280px",
-            flexShrink: 0, overflow: "hidden", transition: "opacity 0.35s ease",
-            background: "linear-gradient(135deg, #0f1035 0%, #1a2a6c 50%, #292a76 100%)",
-          }}>
+          <div
+  ref={imgWrapRef}
+  className={`relative w-full flex-shrink-0 overflow-hidden transition-opacity duration-300 ease-in-out 
+  bg-gradient-to-br from-[#0f1035] via-[#1a2a6c] to-[#292a76] 
+  ${filteredServices?.length > 6 ? "h-[280px]" : "h-[400px]"}`}
+>
             {imgSrc && <MediaContent src={imgSrc} alt={selectedMainService?.name} />}
             <div style={{
               position: "absolute", bottom: 0, left: 0, right: 0, height: "80px",

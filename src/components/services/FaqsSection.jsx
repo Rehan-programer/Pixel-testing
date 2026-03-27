@@ -290,19 +290,14 @@ export default async function FaqSection({ lang }) {
   const mainServices = await findAllService(lang);
   const subServices = await findAllSubServices(lang);
 
+  // Sirf main services slice karo, sub-services SARI bhejo
   const initialMainServices = mainServices?.slice(0, 5);
-
-  const firstMainId = initialMainServices?.[0]?.id;
-
-  const initialSubServices = subServices
-    ?.filter((item) => item.mainServiceId === firstMainId)
-    .slice(0, 6);
 
   return (
     <FaqsClientSection
       lang={lang}
       initialMainServices={initialMainServices}
-      initialSubServices={initialSubServices}
+      initialSubServices={subServices} // ✅ Sare sub-services bhejo
     />
   );
 }
