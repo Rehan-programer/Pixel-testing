@@ -7,7 +7,6 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
 
-  // ✅ googleapis server only
   serverExternalPackages: ["googleapis"],
 
   images: {
