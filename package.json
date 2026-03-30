@@ -39,15 +39,15 @@
     "eslint-config-next": "15.5.4",
     "tailwindcss": "^4"
   },
-  "browserslist": {
-    "production": [
-      "chrome >= 110",
-      "edge >= 110",
-      "firefox >= 110",
-      "safari >= 15"
-    ],
-    "development": [
-      "last 1 chrome version"
-    ]
-  }
+ "browserslist": {
+  "production": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Edge versions",
+    "last 2 Safari versions"
+  ],
+  "development": [
+    "last 1 Chrome version"
+  ]
+}
 }
