@@ -149,6 +149,7 @@ const DashBoardPortal = ({ data }) => {
               key={`content-${animKey}`}
               className={`flex flex-col justify-center p-8 md:p-12 lg:w-[45%] ${contentClass}`}
             >
+<<<<<<< HEAD
               <span className="inline-flex items-center gap-2 self-start mb-5 px-3 py-1 rounded-full bg-[#00cfaa]/10 border border-[#00cfaa]/20">
                 <span className="w-2 h-2 rounded-full bg-[#00cfaa] animate-pulse" />
                 <span className="text-[#00cfaa] font-bold text-xs tracking-widest uppercase">
@@ -194,6 +195,21 @@ const DashBoardPortal = ({ data }) => {
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </Link>
+=======
+              <Image
+  key={current.image}
+  alt={current.title}
+  src={current.image}
+  width={800}
+  height={500}
+  priority={displayStep === 0}
+  quality={60}
+  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 617px"
+  placeholder="empty"
+  onLoad={() => setImageLoaded(true)}
+  className="w-full h-full object-contain rounded-2xl drop-shadow-xl"
+/>
+>>>>>>> 37f735f9ab245aa32b3b0c499046f26f7b59e06d
             </div>
 
             {/* Right — image */}
