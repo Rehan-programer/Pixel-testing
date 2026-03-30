@@ -1,4 +1,5 @@
-import { google } from "googleapis";
+import "server-only";
+const { google } = await import("googleapis");
 
 export async function POST(req) {
   try {

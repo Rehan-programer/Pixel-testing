@@ -7,6 +7,9 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
 
+  // ✅ googleapis server only
+  serverExternalPackages: ["googleapis"],
+
   images: {
     formats: ["image/avif", "image/webp"],
     deviceSizes: [320, 640, 768, 1024, 1280, 1600, 1920],
@@ -14,31 +17,17 @@ const nextConfig = {
     minimumCacheTTL: 60 * 60 * 24 * 30,
 
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "lh3.googleusercontent.com",
-      },
-      {
-        protocol: "https",
-        hostname: "firebasestorage.googleapis.com",
-      },
-      {
-        protocol: "https",
-        hostname: "dotera.co",
-      },
-      {
-        protocol: "https",
-        hostname: "pxlperfects.com",
-      },
-      {
-        protocol: "https",
-        hostname: "flagsapi.com",
-      },
+      { protocol: "https", hostname: "lh3.googleusercontent.com" },
+      { protocol: "https", hostname: "firebasestorage.googleapis.com" },
+      { protocol: "https", hostname: "dotera.co" },
+      { protocol: "https", hostname: "pxlperfects.com" },
+      { protocol: "https", hostname: "flagsapi.com" },
     ],
   },
 
   experimental: {
     optimizeCss: true,
+    esmExternals: true,   // ✅ added
     optimizePackageImports: [
       "@mui/material",
       "@mui/icons-material",
@@ -51,17 +40,11 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === "production",
   },
 
-  // ✅ Modern browsers target (reduce legacy JS)
-  transpilePackages: [],
-
-  // ✅ Headers optimization
   async headers() {
     return [
       {
         source: "/(.*)",
         headers: [
-
-          // Preconnect
           {
             key: "Link",
             value: "<https://fonts.googleapis.com>; rel=preconnect",
@@ -78,14 +61,10 @@ const nextConfig = {
             key: "Link",
             value: "<https://www.googletagmanager.com>; rel=preconnect",
           },
-
-          // ✅ Cache headers
           {
             key: "Cache-Control",
             value: "public, max-age=31536000, immutable",
           },
-
-          // ✅ Security headers
           {
             key: "X-Content-Type-Options",
             value: "nosniff",
