@@ -20,14 +20,14 @@ const Scripts = () => {
         `}
       </Script>
 
-      {/* Trustpilot */}
+      {/* Trustpilot (Lazy) */}
       <Script
         src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
 
-      {/* Segment */}
-      <Script id="segment-script" strategy="afterInteractive">
+      {/* Segment (Lazy) */}
+      <Script id="segment-script" strategy="lazyOnload">
         {`
           !function(){
             var analytics = window.analytics = window.analytics || [];
@@ -48,15 +48,13 @@ const Scripts = () => {
                 }
               };
               for (var i = 0; i < analytics.methods.length; i++) {
-                var key = analytics.methods[i];
-                analytics[key] = analytics.factory(key);
+                analytics[analytics.methods[i]] = analytics.factory(analytics.methods[i]);
               }
-              analytics.load = function(key, options){
+              analytics.load = function(key){
                 var script = document.createElement("script");
                 script.async = true;
                 script.src = "https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";
                 document.head.appendChild(script);
-                analytics._loadOptions = options;
               };
               analytics.load("5uU0DeaTBSFulRzQuLdNhIevh9c0yBuF");
               analytics.page();
@@ -65,34 +63,33 @@ const Scripts = () => {
         `}
       </Script>
 
-      {/* Tawk.to Live Chat */}
-  
-<Script id="tawkto-chat" strategy="lazyOnload">
-  {`
-    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-    (function() {
-      var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/6627d6b3a0c6737bd12f6ce8/1hs5ptbgt';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  `}
-</Script>
+      {/* Tawk.to */}
+      <Script id="tawkto-chat" strategy="lazyOnload">
+        {`
+          var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+          (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6627d6b3a0c6737bd12f6ce8/1hs5ptbgt';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+          })();
+        `}
+      </Script>
+
       {/* Cloudflare Turnstile */}
       <Script
         src="https://challenges.cloudflare.com/turnstile/v0/api.js"
         strategy="lazyOnload"
       />
 
-      {/* Google Ads */}
+      {/* Google Ads (Lazy) */}
       <Script
-        async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9465101493236719"
+        strategy="lazyOnload"
         crossOrigin="anonymous"
-        strategy="afterInteractive"
       />
 
       {/* Organization Schema */}
