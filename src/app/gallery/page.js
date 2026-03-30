@@ -64,9 +64,18 @@ export default async function Gallery() {
 
       {/* Google Ads (lazy load, only on pages with ads) */}
       <Script
+        id="google-ads"
+        strategy="afterInteractive" // loads after main content
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9465101493236719"
-        strategy="lazyOnload"
         crossOrigin="anonymous"
+        onLoad={() => {
+          try {
+            // Only push ads after script loads
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+          } catch (e) {
+            console.error("Google Ads failed to load:", e);
+          }
+        }}
       />
     </>
   );

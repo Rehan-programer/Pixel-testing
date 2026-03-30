@@ -50,7 +50,7 @@ const ServiceImages = ({ data, subservice, lang }) => {
     pick(data?.leftImage) || pick(data?.beforeImage) || pick(data?.Beforeimg);
   const afterImage =
     pick(data?.rightImage) || pick(data?.afterImage) || pick(data?.Afterimg);
-  const videoUrl = pick(data?.videoUrl) || pick(data?.video);
+  const videoUrl = pick(data?.videoUrl) || pick(data?.video) || pick(data?.videoFile);
 
   const imageSrc = !subservice ? single : single || afterImage;
   const AlterNativeTags = data?.project_title || data?.subName;

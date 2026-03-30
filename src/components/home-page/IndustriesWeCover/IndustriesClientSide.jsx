@@ -138,7 +138,7 @@ const IndustriesClientSide = ({ lang, initialMainServices, initialSubServices })
   const imgWrapRef = useRef(null);
 
   const firstSub = filteredServices?.[0];
-  const backendMedia = firstSub?.videoUrl || firstSub?.afterImage || firstSub?.beforeImage || firstSub?.thumbnailImage || null;
+  const backendMedia = firstSub?.videoUrl || firstSub?.videoFile || firstSub?.afterImage || firstSub?.beforeImage || firstSub?.thumbnailImage || null;
   const imgSrc = selectedMainService?.name === "Video Editing"
     ? backendMedia
     : TAB_IMAGES[selectedMainService?.name] || null;

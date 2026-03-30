@@ -70,6 +70,7 @@ export default function BeforeAfterClient({
             (item.singleImage || item.img) === undefined &&
             !item.video &&
             !item.videoUrl &&
+            !item.videoFile &&
             !item.leftImage &&
             !item.beforeImage
         ) return false;

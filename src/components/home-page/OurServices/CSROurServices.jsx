@@ -75,6 +75,7 @@ export default function CSRTabService({
               (item.singleImage || item.img) === undefined &&
               !item.video &&
               !item.videoUrl &&
+              !item.videoFile &&
               !item.leftImage &&
               !item.beforeImage
             ) {
