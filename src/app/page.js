@@ -40,7 +40,7 @@ export default async function Home() {
   data={homePageData?.OurServices}
   lang={lang}
 
-/> */}
+/>
       <WhatAreTheBenefits data={homePageData.Benefits} lang={lang} />
       <WhyNeed data={homePageData.WhyNeed} />
       <Industries lang={lang}
