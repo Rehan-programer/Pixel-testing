@@ -33,20 +33,21 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@next/bundle-analyzer": "^16.2.1",
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "tailwindcss": "^4"
   },
   "browserslist": {
-  "production": [
-    "chrome >= 110",
-    "edge >= 110",
-    "firefox >= 110",
-    "safari >= 15"
-  ],
-  "development": [
-    "last 1 chrome version"
-  ]
-}
+    "production": [
+      "chrome >= 110",
+      "edge >= 110",
+      "firefox >= 110",
+      "safari >= 15"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
 }

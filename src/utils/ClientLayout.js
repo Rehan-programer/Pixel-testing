@@ -2,15 +2,35 @@
 import dynamic from "next/dynamic";
 import { CurrencyContext, useRootLayout } from "./useRootLayout";
 import { ModalProvider } from "@/common-components/providers/ModalContext";
-import Footer from "@/components/Footer/Footer";
 import Navbar from "@/common-components/Header/CoderwireHeader";
-import TrustPilot from "@/common-components/TrustPilot";
-import ScrollBar from "@/common-components/ScrollBar";
-import Scripts from "@/lib/Scripts/Scripts";
-import MobileHeader, { CoderwireMobileHeader } from "@/common-components/Header/MobileHeader/CoderwireMobileHeader";
+
+// ✅ Yeh sab lazy load karo
+const Footer = dynamic(() => import("@/components/Footer/Footer"));
+
+const TrustPilot = dynamic(() => import("@/common-components/TrustPilot"), {
+  ssr: false,
+});
+
+const ScrollBar = dynamic(() => import("@/common-components/ScrollBar"), {
+  ssr: false,
+});
+
 const ScrollToTop = dynamic(() => import("@/common-components/ScrollTOTop"), {
   ssr: false,
 });
+
+const CoderwireMobileHeader = dynamic(
+  () =>
+    import("@/common-components/Header/MobileHeader/CoderwireMobileHeader").then(
+      (mod) => mod.CoderwireMobileHeader
+    ),
+  { ssr: false }
+);
+
+const Scripts = dynamic(() => import("@/lib/Scripts/Scripts"), {
+  ssr: false,
+});
+
 export default function ClientWrapper({ children, lang }) {
   const { currency, currencies, handleCurrencyChange, convertPrice, pathname } =
     useRootLayout();
@@ -40,17 +60,20 @@ export default function ClientWrapper({ children, lang }) {
     >
       <ModalProvider>
         <div
-          className={` ${
+          className={`${
             pathnames.includes(pathname)
               ? "mb-0"
-              : " md:mb-[5rem] lg:mb-[3.5%] mb-[3rem]"
+              : "md:mb-[5rem] lg:mb-[3.5%] mb-[3rem]"
           }`}
         >
+          {/* ✅ Desktop navbar - SSR rakhو taake layout shift na ho */}
           <div className="w-full hidden xl:block fixed top-0 left-0 z-[4500] shadow-md">
             <Navbar lang={lang} />
           </div>
-          <div className=" w-full block xl:hidden fixed top-0 left-0 z-[4500]  ">
-            <CoderwireMobileHeader lang={lang}/>
+
+          {/* ✅ Mobile navbar - lazy load */}
+          <div className="w-full block xl:hidden fixed top-0 left-0 z-[4500]">
+            <CoderwireMobileHeader lang={lang} />
           </div>
         </div>
 
@@ -59,8 +82,9 @@ export default function ClientWrapper({ children, lang }) {
         <Footer lang={lang} />
         <TrustPilot />
       </ModalProvider>
+
       <ScrollToTop />
-      <Scripts defer />
+      <Scripts />  {/* ✅ already ssr:false hai dynamic mein */}
     </CurrencyContext.Provider>
   );
 }

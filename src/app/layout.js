@@ -4,13 +4,11 @@ import { LanguageProvider } from "@/lib/LanguageContext";
 import ClientWrapper from "@/utils/ClientLayout";
 import { cookies } from "next/headers";
 import { getTranslations } from "@/lib/i18nLoader";
-import React from "react";
 import ReactQueryProvider from "../common-components/providers/ReactQueryProvider";
 import { ModalProvider } from "../common-components/providers/ModalContext";
 import ContactModel from "@/common-components/ContactModel";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
-// ✅ Font setup
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
@@ -20,7 +18,6 @@ const inter = Inter({
 });
 
 export const metadata = {
-
   title: "Pixel Perfects Solutions",
   description:
     "High-performance Tailwind + Next.js 14 application optimized for SEO and Core Web Vitals.",
@@ -30,23 +27,19 @@ export default async function RootLayout({ children }) {
   const cookieStore = await cookies();
   const lang = cookieStore.get("lang")?.value || "en";
   const globalData = getTranslations(lang, "global");
-
-  // 🌍 Your language list
   const languages = ["en", "es", "fr"];
 
   return (
     <html
       lang={lang}
-      translate="no" // 🚫 Prevent Google Translate bar
+      translate="no"
       className={`${inter.variable} font-sans scroll-smooth`}
       suppressHydrationWarning
     >
       <head>
-        {/* 🚫 Prevent Chrome translation */}
         <meta name="google" content="notranslate" />
         <meta httpEquiv="Content-Language" content={lang} />
 
-        {/* 🌍 SEO hreflang tags */}
         {languages.map((l) => (
           <link
             key={l}
@@ -61,7 +54,6 @@ export default async function RootLayout({ children }) {
           hrefLang="x-default"
         />
 
-        {/* ✅ Performance preconnects */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link rel="preconnect" href="https://firebasestorage.googleapis.com" />
@@ -73,13 +65,13 @@ export default async function RootLayout({ children }) {
           <ReactQueryProvider>
             <ModalProvider>
               <ContactModel />
-              <Analytics/>
               <LanguageProvider>
-                {React.cloneElement(children, { lang, globalData })}
+                {children}
               </LanguageProvider>
             </ModalProvider>
           </ReactQueryProvider>
         </ClientWrapper>
+        <Analytics />
       </body>
     </html>
   );
