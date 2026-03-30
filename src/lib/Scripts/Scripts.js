@@ -8,7 +8,6 @@ const Scripts = () => {
         src="https://www.googletagmanager.com/gtag/js?id=G-NYDKZ1TY7P"
         strategy="afterInteractive"
       />
-
       <Script id="gtag-init" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -17,49 +16,6 @@ const Scripts = () => {
           gtag('config', 'G-NYDKZ1TY7P', {
             page_path: window.location.pathname,
           });
-        `}
-      </Script>
-
-      {/* Trustpilot (Lazy) */}
-      <Script
-        src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
-        strategy="lazyOnload"
-      />
-
-      {/* Segment (Lazy) */}
-      <Script id="segment-script" strategy="lazyOnload">
-        {`
-          !function(){
-            var analytics = window.analytics = window.analytics || [];
-            if (!analytics.initialize)
-            if (analytics.invoked) console.error("Segment snippet included twice.");
-            else {
-              analytics.invoked = true;
-              analytics.methods = ["trackSubmit","trackClick","trackLink","trackForm",
-              "pageview","identify","reset","group","track","ready","alias","debug",
-              "page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware",
-              "setAnonymousId","addDestinationMiddleware","register"];
-              analytics.factory = function(method){
-                return function(){
-                  var args = Array.prototype.slice.call(arguments);
-                  args.unshift(method);
-                  analytics.push(args);
-                  return analytics;
-                }
-              };
-              for (var i = 0; i < analytics.methods.length; i++) {
-                analytics[analytics.methods[i]] = analytics.factory(analytics.methods[i]);
-              }
-              analytics.load = function(key){
-                var script = document.createElement("script");
-                script.async = true;
-                script.src = "https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";
-                document.head.appendChild(script);
-              };
-              analytics.load("5uU0DeaTBSFulRzQuLdNhIevh9c0yBuF");
-              analytics.page();
-            }
-          }();
         `}
       </Script>
 
@@ -83,13 +39,6 @@ const Scripts = () => {
       <Script
         src="https://challenges.cloudflare.com/turnstile/v0/api.js"
         strategy="lazyOnload"
-      />
-
-      {/* Google Ads (Lazy) */}
-      <Script
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9465101493236719"
-        strategy="lazyOnload"
-        crossOrigin="anonymous"
       />
 
       {/* Organization Schema */}

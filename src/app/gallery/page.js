@@ -7,72 +7,67 @@ import { findAllGallery } from "@/_api/gallery";
 import Link from "next/link";
 import SchemaInjector from "@/lib/Schema/SchemaInjector";
 import { generateSEOMetadata } from "@/lib/SeoConfig/GenerateSeoMetadata";
-
+import Script from "next/script";
 
 export async function generateMetadata() {
   return await generateSEOMetadata("gallery");
 }
 
-
 export default async function Gallery() {
-
   const cookieStore = await cookies();
   const lang = cookieStore.get("lang")?.value || "en";
 
   const data = getTranslations(lang, "gallery");
   const gallerydata = await findAllGallery(lang);
-
   const hasGallery = gallerydata && gallerydata.length > 0;
 
   return (
     <>
-     <SchemaInjector page={"gallery"} />
+      {/* Schema for SEO */}
+      <SchemaInjector page={"gallery"} />
+
+      {/* Banner */}
       <AboutBanner lang={lang} data={data?.BannerData} />
 
+      {/* Gallery Images */}
       {hasGallery ? (
-
         <Images data={gallerydata} />
-
       ) : (
-
-        // ⭐ ENGAGING EMPTY STATE
         <div className="container-global mx-auto py-20 text-center">
-
           <div className="max-w-[600px] mx-auto">
-
             <h2 className="text-3xl font-bold text-[#292a76] mb-4">
               New Designs Coming Soon 🚀
             </h2>
-
             <p className="text-gray-600 mb-8">
               We are currently preparing stunning virtual staging designs for this category.
               Check back soon or explore our services to transform your space today.
             </p>
-
             <div className="flex gap-4 justify-center">
-
-              <Link title="Explore Services"
+              <Link
+                title="Explore Services"
                 href="/services"
                 className="bg-[#00cfaa] text-white px-6 py-3 rounded-md font-semibold hover:scale-105 transition"
               >
                 Explore Services
               </Link>
-
-              <Link title="Request Custom Design"
+              <Link
+                title="Request Custom Design"
                 href="/contact-us"
                 className="border border-[#292a76] text-[#292a76] px-6 py-3 rounded-md font-semibold hover:bg-[#292a76] hover:text-white transition"
               >
                 Request Custom Design
               </Link>
-
             </div>
-
           </div>
-
         </div>
-
       )}
 
+      {/* Google Ads (lazy load, only on pages with ads) */}
+      <Script
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9465101493236719"
+        strategy="lazyOnload"
+        crossOrigin="anonymous"
+      />
     </>
   );
 }

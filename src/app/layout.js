@@ -8,6 +8,7 @@ import ReactQueryProvider from "../common-components/providers/ReactQueryProvide
 import { ModalProvider } from "../common-components/providers/ModalContext";
 import ContactModel from "@/common-components/ContactModel";
 import { Analytics } from "@vercel/analytics/next";
+import Scripts from "../common-components/Scripts/Scripts"; // <-- optimized global scripts
 
 const inter = Inter({
   subsets: ["latin"],
@@ -48,11 +49,7 @@ export default async function RootLayout({ children }) {
             hrefLang={l}
           />
         ))}
-        <link
-          rel="alternate"
-          href="https://www.pxlperfects.com/"
-          hrefLang="x-default"
-        />
+        <link rel="alternate" href="https://www.pxlperfects.com/" hrefLang="x-default" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
@@ -65,12 +62,15 @@ export default async function RootLayout({ children }) {
           <ReactQueryProvider>
             <ModalProvider>
               <ContactModel />
-              <LanguageProvider>
-                {children}
-              </LanguageProvider>
+              <LanguageProvider>{children}</LanguageProvider>
             </ModalProvider>
           </ReactQueryProvider>
         </ClientWrapper>
+
+        {/* Global scripts */}
+        <Scripts />
+
+        {/* Vercel Analytics */}
         <Analytics />
       </body>
     </html>
