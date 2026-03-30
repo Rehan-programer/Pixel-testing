@@ -49,7 +49,7 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
       onClick={onContainerClick}
     >
 
-      {/* ✅ RIGHT image — Before (puri width, background mein) */}
+      {/* RIGHT image — Before */}
       <div className="absolute inset-0">
         <Image
           src={beforeImage}
@@ -57,12 +57,12 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
           title={`${beforeImageTag}-Pixel Perfects Solution-LLC`}
           fill
           style={{ objectFit: "cover" }}
-          sizes="100vw"
-          priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        // ❌ priority hata diya — yeh background mein hai
         />
       </div>
 
-      {/* ✅ LEFT image — After (clip hoti hai slider position pe) */}
+      {/* LEFT image — After */}
       <div
         className="absolute inset-0 overflow-hidden"
         style={{ width: `${sliderPos}%` }}
@@ -73,8 +73,8 @@ const ImageComparing = ({ beforeImageTag, afterImageTag, beforeImage, afterImage
           title={`${afterImageTag}-Pixel Perfects Solution-LLC`}
           fill
           style={{ objectFit: "cover" }}
-          sizes="100vw"
-          priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority  // ✅ Sirf yeh wali — jo pehle dikhti hai
         />
       </div>
 
