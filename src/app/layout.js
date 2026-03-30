@@ -8,7 +8,7 @@ import ReactQueryProvider from "../common-components/providers/ReactQueryProvide
 import { ModalProvider } from "../common-components/providers/ModalContext";
 import ContactModel from "@/common-components/ContactModel";
 import { Analytics } from "@vercel/analytics/next";
-import Scripts from "../common-components/Scripts/Scripts"; // <-- optimized global scripts
+import Scripts from "../lib/Scripts/Scripts"; // <-- optimized global scripts
 
 const inter = Inter({
   subsets: ["latin"],
